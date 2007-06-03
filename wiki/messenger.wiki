@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Add your content here.
+The Kopete messenger protocol plugin is aimed for MSNP15 implementation.
 
 
 = Details =
