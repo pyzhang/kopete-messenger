@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+  <S:Header>
+    <psf:pp xmlns:psf="http://schemas.microsoft.com/Passport/SoapServices/SOAPFault">
+      <psf:serverVersion>1</psf:serverVersion>
+      <psf:PUID>00067FFE9D9B9004</psf:PUID>
+      <psf:configVersion>3.100.2199.0</psf:configVersion>
+      <psf:uiVersion>3.0.869.0</psf:uiVersion>
+      <psf:authstate>0x48803</psf:authstate>
+      <psf:reqstatus>0x0</psf:reqstatus>
+      <psf:serverInfo Path="Live1" RollingUpgradeState="ExclusiveNew" LocVersion="0" ServerTime="2007-06-07T17:23:28Z">BAYPPLOG2A05 2007.04.23.14.59.31</psf:serverInfo>
+      <psf:cookies/>
+      <psf:browserCookies>
+        <psf:browserCookie Name="MH" URL="http://www.msn.com">MH=; path=/; domain=.msn.com; expires=Wed, 30-Dec-2037 16:00:00 GMT</psf:browserCookie>
+        <psf:browserCookie Name="MHW" URL="http://www.msn.com">MHW=; path=/; domain=.msn.com; expires=Thu, 30-Oct-1980 16:00:00 GMT</psf:browserCookie>
+        <psf:browserCookie Name="MH" URL="http://www.live.com">MH=; path=/; domain=.live.com; expires=Wed, 30-Dec-2037 16:00:00 GMT</psf:browserCookie>
+        <psf:browserCookie Name="MHW" URL="http://www.live.com">MHW=; path=/; domain=.live.com; expires=Thu, 30-Oct-1980 16:00:00 GMT</psf:browserCookie>
+      </psf:browserCookies>
+      <psf:credProperties>
+        <psf:credProperty Name="MainBrandID"></psf:credProperty>
+        <psf:credProperty Name="BrandIDList"></psf:credProperty>
+        <psf:credProperty Name="IsWinLiveUser">true</psf:credProperty>
+        <psf:credProperty Name="CID">0c04e30c44987020</psf:credProperty>
+      </psf:credProperties>
+      <psf:extProperties></psf:extProperties>
+      <psf:response/>
+    </psf:pp>
+  </S:Header>
+  <S:Body>
+    <wst:RequestSecurityTokenResponseCollection xmlns:S="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wst="http://schemas.xmlsoap.org/ws/2004/04/trust" xmlns:wsse="http://schemas.xmlsoap.org/ws/2003/06/secext" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:saml="urn:oasis:names:tc:SAML:1.0:assertion" xmlns:wsp="http://schemas.xmlsoap.org/ws/2002/12/policy" xmlns:psf="http://schemas.microsoft.com/Passport/SoapServices/SOAPFault">
+      <wst:RequestSecurityTokenResponse>
+        <wst:TokenType>urn:passport:legacy</wst:TokenType>
+        <wsp:AppliesTo xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing">
+          <wsa:EndpointReference>
+            <wsa:Address>http://Passport.NET/tb</wsa:Address>
+          </wsa:EndpointReference>
+        </wsp:AppliesTo>
+        <wst:LifeTime>
+          <wsu:Created>2007-06-07T17:23:28Z</wsu:Created>
+          <wsu:Expires>2007-06-08T17:23:28Z</wsu:Expires>
+        </wst:LifeTime>
+        <wst:RequestedSecurityToken>
+          <EncryptedData xmlns="http://www.w3.org/2001/04/xmlenc#" Id="BinaryDAToken0" Type="http://www.w3.org/2001/04/xmlenc#Element">
+            <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"></EncryptionMethod>
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+              <ds:KeyName>http://Passport.NET/STS</ds:KeyName>
+            </ds:KeyInfo>
+            <CipherData>
+              <CipherValue>AWAA+ieCgV+Gn/nxrHrUXXHvJI1ev/agMd3a5o4LWevvyton2QkLmGnbMRJIK92cGaJ8Z61IhF3P+hWHGqCiArMBYhferCPXCRxfRaqz6kHEefXDwREg2+rdE5vAasinw/Df1za9zvEKmmhsCpY7pt/MGT9eIKKbi/dr9OWGzCfVSz6oqqRWZywcudjH3KWOERYXwQSApzh9Ztpua2ox1R14bvf9Vrbka99g3PMqeF+uGnULWE6c9RgZbTB54F8crxV1/JQSZaknkT1Bl0gO4OLWMkvoz1cioGcCxnFu9xThV02P3dCgZnFMYgziXBXor7VKscotwv/1cSZq1Cj/V428DMNvLmh3fFNbjwTcfdmzGrijYg7usYoGf/sVKomlvCbKO8Q6hbUfoLWlbUMzHhDR1bBRkSxogTjZN7yZciw05+Jp+CfLAAdmev94nlwhZ7OqD+k=</CipherValue>
+            </CipherData>
+          </EncryptedData>
+        </wst:RequestedSecurityToken>
+        <wst:RequestedTokenReference>
+          <wsse:KeyIdentifier ValueType="urn:passport"></wsse:KeyIdentifier>
+          <wsse:Reference URI="#BinaryDAToken0"></wsse:Reference>
+        </wst:RequestedTokenReference>
+        <wst:RequestedProofToken>
+          <wst:BinarySecret>xHYnT1dwF1hp6mlVhI1Hf2xW6x8lGCZx</wst:BinarySecret>
+        </wst:RequestedProofToken>
+      </wst:RequestSecurityTokenResponse>
+      <wst:RequestSecurityTokenResponse>
+        <wst:TokenType>urn:passport:compact</wst:TokenType>
+        <wsp:AppliesTo xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing">
+          <wsa:EndpointReference>
+            <wsa:Address>messengerclear.live.com</wsa:Address>
+          </wsa:EndpointReference>
+        </wsp:AppliesTo>
+        <wst:LifeTime>
+          <wsu:Created>2007-06-07T17:23:28Z</wsu:Created>
+          <wsu:Expires>2007-06-08T01:23:28Z</wsu:Expires>
+        </wst:LifeTime>
+        <wst:RequestedSecurityToken>
+          <wsse:BinarySecurityToken Id="Compact1">t=EwBQAswbAQAUs1/VcBU2sH7mwYy3BysWZ71CRDGAAGbJNT4sQ4gizz54h2Ls9hOz9fkwSlCo1hMmfnu6JuFEGL8fBMF8xYW4/2+qCHsVul7/fim7UzXW3o5Jt1Jv/6brQQ77+l+vuZXZVZM/GwizrYDZSG6m+Q2GN4Zl0TfkX8uijQZVwJxJNYV9PeKLTJTo4TMH4v9YFIerAm8+9zEOA2YAAAjqJSlWDiOoIKABcJvKiwqg3egtXdiTFpCoN8UCXFfU/8ykfMFu1O+it1Kha9eZkQrG74k5MeWe8bLWhx+ye4Jy0E3AjToAIorRqmkERoCGH38q7H1o04qJ7kDpPRs6fRRPteTpBAst8z6jMFKu7j7GO2PxQm3NUXQksKmB2adkQMrgPkgyr1SvjdnvTf2yFZNxpatIMqMtSIFB4LOyIohFjhPrp11HAhrLJ67GPzTBn0Bg7dzfDYRKCqIDk3+E7+/VTxodvUo++dpWWDbrwVUQC2ILv7yAnTlvbH8XepZ6tCZH4/lFI0VULnVyLp8YquMsLICHyvAC//txSVD4b3m6TQNkfgkKJglHiucFROcV461WrwUXxSDBml47azyp3dX71IyP6B4hfVPx09hcXtjXM2vEJcPvafDX8LQCmbONT4gn15JCGWnH7D7TuKiCgkwuRMfMmSDrdnfnnWj0PKVoVE1gzC7P59PToz4G/zJGht87R3+bSGCviY6kN3h2dAc2njqNimvwaQhFDvKnswAw6nj3OvGRfePG4vQycuSNgQwGXyiKQIXcjxGwAQ==&amp;p=</wsse:BinarySecurityToken>
+        </wst:RequestedSecurityToken>
+        <wst:RequestedTokenReference>
+          <wsse:KeyIdentifier ValueType="urn:passport:compact"></wsse:KeyIdentifier>
+          <wsse:Reference URI="#Compact1"></wsse:Reference>
+        </wst:RequestedTokenReference>
+        <wst:RequestedProofToken>
+          <wst:BinarySecret>QKP0jQSNoAhHtMBCOKvh8q54zzgu+lNE</wst:BinarySecret>
+        </wst:RequestedProofToken>
+      </wst:RequestSecurityTokenResponse>
+      <wst:RequestSecurityTokenResponse>
+        <wst:TokenType>urn:passport:legacy</wst:TokenType>
+        <wsp:AppliesTo xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing">
+          <wsa:EndpointReference>
+            <wsa:Address>messenger.msn.com</wsa:Address>
+          </wsa:EndpointReference>
+        </wsp:AppliesTo>
+        <wst:LifeTime>
+          <wsu:Created>2007-06-07T17:23:28Z</wsu:Created>
+          <wsu:Expires>2007-06-07T17:31:48Z</wsu:Expires>
+        </wst:LifeTime>
+        <wst:RequestedSecurityToken>
+          <wsse:BinarySecurityToken Id="PPToken2">t=93Q1p8LWYEres8N3*juJdQ9z712EAb0kkeRLYe0kF5JfrIso5iH7vT!XLSEWu*7Nb1wzPgO8oh2A2QsKmgdmzjdjE6Vn4QezU1tRMFPnITFMkjz1JTc2ZlUUC5VfG2j1ff&amp;p=9pYUK2zqeGmJk61M734tUwBoTGeGKj!8scj4ZZEFd9MqfYYc!arj8Z5Dqxoa3c1cFtEc!6kLVWTKAACXDFbgoSVEThTL9TknVyL0YWchUGhav0wXqd!!6fQxBCj4Ovrz3Ya!TzjQusrPjfNiSJFhn1d5qhvv3LPWOveiZEa7MLu3leZZyVXqnvBI!s3BrqoRCZ</wsse:BinarySecurityToken>
+        </wst:RequestedSecurityToken>
+        <wst:RequestedTokenReference>
+          <wsse:KeyIdentifier ValueType="urn:passport"></wsse:KeyIdentifier>
+          <wsse:Reference URI="#PPToken2"></wsse:Reference>
+        </wst:RequestedTokenReference>
+      </wst:RequestSecurityTokenResponse>
+      <wst:RequestSecurityTokenResponse>
+        <wst:TokenType>urn:passport:compact</wst:TokenType>
+        <wsp:AppliesTo xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing">
+          <wsa:EndpointReference>
+            <wsa:Address>contacts.msn.com</wsa:Address>
+          </wsa:EndpointReference>
+        </wsp:AppliesTo>
+        <wst:LifeTime>
+          <wsu:Created>2007-06-07T17:23:28Z</wsu:Created>
+          <wsu:Expires>2007-06-08T01:23:28Z</wsu:Expires>
+        </wst:LifeTime>
+        <wst:RequestedSecurityToken>
+          <wsse:BinarySecurityToken Id="Compact3">t=EwDIAcBdAAAU7/9PdvvYJ23zPPtor/FYp6zOOb+AADdyfmtG1Zfw3oZDJ9HJgwJPGj+T5TmFHq9dgM6yVb1dt0MjtExekAvS4CgCSaVHQ7T54IcDAR5ywVZBLHGfQGV2+5SdsxSLAno+pekdJhrGwZIl9ChG77ZHrSsuc4vlh+FWIHDHb4o2yf2oUvd2n+txQppFBRaA+xpGI5mbQnJ1A2YAAAjKdNXlOwo7fRgBKHz4aHLM5JRT7iju6yI0WbtlsFAcdXoFk4zPcfLzZ2+CNqUlIjgZNJ9zHMLGl5CCEa4phV1IvhLaCzx2/s+R0tgxNgJXwRc9rdfNDn7ifioWCoB1tr8z6yVaWWvT3mI5lMVXBLHWsh0shO2sJkSNl6QAYyFTDgdeve3X0/x9fzBIbKWqokupYqhFJErUhg7bS7ftdtVNz5+CPaVpDjE/6VP/7xy1Fjisq1vnRgtHalqQgSWhPotUXU0Ucs9y4WInAWDblStrWNSonD6tEsoo8VmwnC35af+r4iBLL/X5g2tA8Bll+5n4fGnwD5vJaRKy9ncg3YF3nr8NmsVjkZ7eYp1DW6NrH4qpSeM40eaz5ymYyR24fZyKezAB&amp;p=</wsse:BinarySecurityToken>
+        </wst:RequestedSecurityToken>
+        <wst:RequestedTokenReference>
+          <wsse:KeyIdentifier ValueType="urn:passport:compact"></wsse:KeyIdentifier>
+          <wsse:Reference URI="#Compact3"></wsse:Reference>
+        </wst:RequestedTokenReference>
+      </wst:RequestSecurityTokenResponse>
+      <wst:RequestSecurityTokenResponse>
+        <wst:TokenType>urn:passport:compact</wst:TokenType>
+        <wsp:AppliesTo xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing">
+          <wsa:EndpointReference>
+            <wsa:Address>messengersecure.live.com</wsa:Address>
+          </wsa:EndpointReference>
+        </wsp:AppliesTo>
+        <wst:LifeTime>
+          <wsu:Created>2007-06-07T17:23:28Z</wsu:Created>
+          <wsu:Expires>2007-06-08T17:23:28Z</wsu:Expires>
+        </wst:LifeTime>
+        <wst:RequestedSecurityToken>
+          <wsse:BinarySecurityToken Id="Compact4">t=EwDIATIiAQAUno9QpucDnNi8T5syqJTstzjjm3WAAKQVXO0cjoE0SSwxQuQ1/h0ltGH3wqejtyMSeYCisoZOqx3YGvKzeiM9M6g6axLtnvq2jBdz5i5SRQKWDilqLJ9wU1s/gD91I8KTlTWORFikEF3pULY9xBqxpsqlrEZSEErUliBqvTM+utk/AaOZsuwUBhJA6Fm6V7EVmqVM76JRA2YAAAj2oF+JAy5lyhgBw/kllv7StjhHpYlfPlgDIqDi70Od2zfiPfiFRS4K/0rARt5YTJn1BggMRLLNOI/vyChRNWiQL+heufucjLWjXjqFkq7Bwpc+VhfpCIMHEmJOYqhc8OfjIBdS7E60cLZRAd3MgxGx5oxm+oFh4o1Sdnwp5yBbYb3nhVaBbQhT7EmQYg6aCej15wYPXyViDoLcxWXXJHs9DH9gxWN1r3BPLd20lmAwuzzl4xrPrVrt1KMTYJxeUyWnRb9XjhCOBnwv6Kka9WxsI+JxPGgptStUJ/UI1bsMZJYb8p0WJ59QbB8V1oiqRavZxBwAVUJdYAi5Da/Y7jmkHIwhE8OmdPJNONHqBPvdoO1nN7jgiuQ/5qu5AS56kukeUzAB&amp;p=</wsse:BinarySecurityToken>
+        </wst:RequestedSecurityToken>
+        <wst:RequestedTokenReference>
+          <wsse:KeyIdentifier ValueType="urn:passport:compact"></wsse:KeyIdentifier>
+          <wsse:Reference URI="#Compact4"></wsse:Reference>
+        </wst:RequestedTokenReference>
+      </wst:RequestSecurityTokenResponse>
+      <wst:RequestSecurityTokenResponse>
+        <wst:TokenType>urn:passport:compact</wst:TokenType>
+        <wsp:AppliesTo xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing">
+          <wsa:EndpointReference>
+            <wsa:Address>spaces.live.com</wsa:Address>
+          </wsa:EndpointReference>
+        </wsp:AppliesTo>
+        <wst:LifeTime>
+          <wsu:Created>2007-06-07T17:23:28Z</wsu:Created>
+          <wsu:Expires>2007-06-08T01:23:28Z</wsu:Expires>
+        </wst:LifeTime>
+        <wst:RequestedSecurityToken>
+          <wsse:BinarySecurityToken Id="Compact5">t=EwDIARAnAAAURATre1Nkcu71L953y0QRAvwyKdOAAL/efaTynwP+NLlPOhhw0YWFTzXz8VIAgt5m5+23v2gELZWZ5reDi4OF2z47ecjYo2neTmTua6W9tdXSeSWSfJ2hXSbhLlnk7NLIPV+eqUlFf5hile2GzA9ZwlqtEBNujNWH3H0k0i19ADnrEkzncUqtsVvO8Gio9H/s+C2ZvfmNA2YAAAjHcS43kdkJShgBB/zw9oddgXJvI5/kMhYA+Kuu1HHXYadMyFYpzshfr4xAXlZR5AIihI5T9GXs+mSuMMg0l4jmWBQD7tJbg8dqKH3/zBO/a7kK14FPHJ+uu+qrhpJpKgi1NZjqpmnPzC0+J2jYaZ8y8VHOP3tuUdgubHwASz8maKTdZyNX0zOh7NbwpFfxQbj4vlwPJ8a7pOdi8q6jk4ndZad/i44nZ7Q07iZdyTG1AzvcQ0wSHwZHDACXkJXmRDB/EG+kbdG5zrrU/pzZ0ku0UfWjoLRK+XM66uWA45rhvummR/v1VUeXT5ZAX3bLOhLNJyf26syOm7HyobSqB70ifxCwS9mvRClcb6smD4XzDr9FEDUy0rC4fynG/9HMtsxEZTAB&amp;p=</wsse:BinarySecurityToken>
+        </wst:RequestedSecurityToken>
+        <wst:RequestedTokenReference>
+          <wsse:KeyIdentifier ValueType="urn:passport:compact"></wsse:KeyIdentifier>
+          <wsse:Reference URI="#Compact5"></wsse:Reference>
+        </wst:RequestedTokenReference>
+      </wst:RequestSecurityTokenResponse>
+      <wst:RequestSecurityTokenResponse>
+        <wst:TokenType>urn:passport:compact</wst:TokenType>
+        <wsp:AppliesTo xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing">
+          <wsa:EndpointReference>
+            <wsa:Address>storage.msn.com</wsa:Address>
+          </wsa:EndpointReference>
+        </wsp:AppliesTo>
+        <wst:LifeTime>
+          <wsu:Created>2007-06-07T17:23:28Z</wsu:Created>
+          <wsu:Expires>2007-06-08T01:23:28Z</wsu:Expires>
+        </wst:LifeTime>
+        <wst:RequestedSecurityToken>
+          <wsse:BinarySecurityToken Id="Compact6">t=EwDIAW+jAAAU7/9PdvvYJ23zPPtor/FYp6zOOb+AAIDNp2UYQHDBX+aLYW9R4Udb5FhQNqtAOVbZHbpDI0l2WUa0skHlJ83Ys7gxHDQnj3pSZoKJSvaRC5XvfdO8yc/fY0296CEEqItLVI3VWxbpQ8D0AKRub2s6WIHSLVc2jt0Zk91a07+Km7vh5e5ElHLfv86TemZPMGeg2Gd3RFoNA2YAAAiJUiNXEivs0RgBCw1/LBzcVRt5+AjqjDQ54OfNCahzEptRE5bPiTkyNWFYAoPOcjy5wuPL3J3E3vtmJ4kpI73NGxURWX4HBn39kqftKA5IMzNs/6OzIifKsODUfX6MIH4CwSaac+Ng6LOoO0EKR+5Hd0xKnqJW61CHNZaRV6OVO/COg5VkNmtUvqTFhglKj96FFHNZvRlyElt6lLFqQ5/NM9qj/aCwjda2SNJWOb8sn5ShlS41xL4Gappbv4NFatPazZVBDSkebaIJloYW9Gn4nRkhrJIRzR0vGRNHQUyqQHlYfMmlHhFhI3+JGbwQxBcvZY5JGD28mMgqMTAXbkQeuzobmsyEpQE0cPNo4PvGYnJYcxM+bo5kJsjcyFQW8RuzCjAB&amp;p=</wsse:BinarySecurityToken>
+        </wst:RequestedSecurityToken>
+        <wst:RequestedTokenReference>
+          <wsse:KeyIdentifier ValueType="urn:passport:compact"></wsse:KeyIdentifier>
+          <wsse:Reference URI="#Compact6"></wsse:Reference>
+        </wst:RequestedTokenReference>
+      </wst:RequestSecurityTokenResponse>
+    </wst:RequestSecurityTokenResponseCollection>
+  </S:Body>
+</S:Envelope>
