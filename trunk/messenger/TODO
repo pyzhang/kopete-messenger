@@ -1,0 +1,57 @@
+1. Design and add Contact UI
+	Windows Live ID Register website:https://accountservices.passport.net/reg.srf
+ * status: done
+2.Design the contact account class and implemnt it.
+	* need to implement a class for contact info
+
+=================================================
+backup codes
+	QMap<QString, int> sortedMap( reverseMap( messengerProtocol->countries() ) );
+	QMapIterator<QString, int> it( sortedMap );
+
+	while ( it.hasNext() )
+	{
+		it.next();
+		m_genInfoWidget->mobileCountryComboBox->addItem( it.key(), it.value() );
+	}
+
+	//Birthday Months
+	QMap<QString, int> sortedMap( reverseMap( messengerProtocol->months() ) );
+	QMapIterator<QString, int> it( sortedMap );
+
+	while ( it.hasNext() )
+	{
+		it.next();
+		m_genInfoWidget->birthdayMonthComboBox->addItem( it.key(), it.value() );
+	}
+
+	//Birthday Days
+	QMap<QString, int> sortedMap( reverseMap( messengerProtocol->days() ) );
+	QMapIterator<QString, int> it( sortedMap );
+
+	while ( it.hasNext() )
+	{
+		it.next();
+		m_genInfoWidget->birthdayDayComboBox->addItem( it.key(), it.value() );
+	}
+
+	//Anniversary Months
+	QMap<QString, int> sortedMap( reverseMap( messengerProtocol->months() ) );
+	QMapIterator<QString, int> it( sortedMap );
+
+	while ( it.hasNext() )
+	{
+		it.next();
+		m_genInfoWidget->anniversaryMonthComboBox ->addItem( it.key(), it.value() );
+	}
+
+	//Anniversary Days
+	QMap<QString, int> sortedMap( reverseMap( messengerProtocol->days() ) );
+	QMapIterator<QString, int> it( sortedMap );
+
+	while ( it.hasNext() )
+	{
+		it.next();
+		m_genInfoWidget->anniversaryDayComboBox->addItem( it.key(), it.value() );
+	}
+
