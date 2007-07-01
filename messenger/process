@@ -1,0 +1,69 @@
+VER
+	<<VER 1 MSNP15 MSNP14 MSNP13 CVR0
+	>>VER 1 MSNP15 MSNP14 MSNP13 CVR0
+CVR
+	<<CVR 2 0x0409 winnt 5.1 i386 MSNMSGR 8.1.0178 msmsgs pyzhang8@hotmail.com
+	>>CVR 2 8.1.0178 8.1.0178 8.0.0787 http://msgr.dlservice.microsoft.com/download/1/A/4/1A4FEB1A-18E0-423A-B898-F697402E4F7F/Install_Messenger.exe http://get.live.com
+USR
+	<<USR 3 SSO I pyzhang8@hotmail.com
+	>>XFR 3 NS 207.46.110.26:1863 U D
+
+Reconnect to XFR's NS server
+VER
+	<<VER 10 MSNP15 MSNP14 MSNP13 CVR0
+	>>VER 10 MSNP15 MSNP14 MSNP13 CVR0
+	<<CVR 11 0x0409 winnt 5.1 i386 MSNMSGR 8.1.0178 msmsgs pyzhang8@hotmail.com
+	>>CVR 11 8.1.0178 8.1.0178 8.0.0787 http://msgr.dlservice.microsoft.com/download/1/A/4/1A4FEB1A-18E0-423A-B898-F697402E4F7F/Install_Messenger.exe http://get.live.com
+	<<USR 12 SSO I pyzhang8@hotmail.com
+	>>USR 12 SSO S MBI_KEY_OLD zLMoZn3vgCOoXpSCo4v7cvcynFCJOUKHJHGg2Py2oGZCy7++RMheYwHy5jxFaguX
+
+<<USR 13 SSO S t=EwBQAswbAQAUs1/VcBU2sH7mwYy3BysWZ71CRDGAAJNFmE0TrHWxMkO15G1f79Ipw1x6tJLx3DVTJDg0ss3UxWDZh9IzlOqe7/4jBnq+VhCkopTP4e+XCEKkN3Ai91urxdIz9J1/swpojN2LuLLlWrFBNi4jRmW1xqT6vpwU09IHgVGOjWg+4Xv1G6iQOsAPayRM31DRv0NBXH/nSkJmA2YAAAivNj4QYvMUzqABbxIaB3r+DCjVyWlq5xwi/tl4/Km2ix+OQU5j7mGnfJf3ihBayve9y+W89CqKDHSq+ms7lm2OnkPFZM+4CXaycBDSnpVR/YAvPjTo5dnBaIt7O8riD/jWaAZUtnTpbIERX5RQckbN673LffshqkaiDGm2/ndVizeDakxqYhDTO50DdgGxLYgIcsdgM100yUbL+nrKvZeHs0rL4a1hKqjwrc4+TeF78az1MCIVb9AHWjnlvS/1sES5Q6FWx7e36nVThPCWdFcjH6AWiROrDcuQtPp1GHkl8SspHpoOuwqixWiJuJ8gIW6OGuzK0NSzaJBH6ZJVBU0z064dzz/v0dRRDLUhcADFFcFr0ZqoaYsZ/Z6q9N1nc7HhYSDmmcf0PhwU5PmomlDsXX3tH5eASu6PkT0KQycrdXXmHTyIpQiKytyYnTlrRkYAikWyd3bMpTWQcRq6eohmHJFl5+nmVa+KEPgNaZETOTH4lH5LSWcPv2AJ6kTEpKOlAW+aXLjkLbjhzfgs5oT58DTPaBAmqvCXiZGg7/Zt78IaxW7p4xNMjguwAQ==&p= HAAAAAEAAAADZgAABIAAAAgAAAAUAAAASAAAAJUTXUUmq4mUVyE6kBfHzk760n/sosa3duDb6sUe9NtrGDtTL7siZHgantSkKOM9UKEYzePsziy0ietDWmwfnkFHHI2FuDr4GicLIufyXaZY7h8y4HnMdODYwQ8bbKyX7HHlHzw=
+>>USR 13 OK kopetesoc@hotmail.com 1 0
+
+<<BLP 14 BL
+>>BLP 14 BL
+<<ADL 15 94
+>>ADL 15 OK
+<ml l="1"><d n="hotmail.com"><c n="pyzhang8" l="3" t="1"/><c n="spleak" l="3" t="1"/></d></ml>
+<<PRP 16 MFN soc
+>>PRP 16 MFN soc
+<<CHG 17 NLN 1984741420 %3Cmsnobj%20Creator%3D%22kopetesoc%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22WliJzSCj1p0%2B9%2BBOKoKSC%2FcHKMk%3D%22%20Size%3D%2224040%22%20Location%3D%220%22%20Friendly%3D%22cVwwV%2BqBTIhmjwAA%22%2F%3E
+>>CHG 17 NLN 1984741420 %3Cmsnobj%20Creator%3D%22kopetesoc%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22WliJzSCj1p0%2B9%2BBOKoKSC%2FcHKMk%3D%22%20Size%3D%2224040%22%20Location%3D%220%22%20Friendly%3D%22cVwwV%2BqBTIhmjwAA%22%2F%3E
+<<UUX 18 80
+<Data><PSM></PSM><CurrentMedia></CurrentMedia><MachineGuid></MachineGuid></Data><
+>>UUX 18 0
+<<CHG 20 NLN 1985789996 %3Cmsnobj%20Creator%3D%22kopetesoc%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22WliJzSCj1p0%2B9%2BBOKoKSC%2FcHKMk%3D%>>22%20Size%3D%2224040%22%20Location%3D%220%22%20Friendly%3D%22cVwwV%2BqBTIhmjwAA%22%2F%3E
+CHG 20 NLN 1985789996 %3Cmsnobj%20Creator%3D%22kopetesoc%40hotmail.com%22%20Type%3D%223%22%20SHA1D%3D%22WliJzSCj1p0%2B9%2BBOKoKSC%2FcHKMk%3D%22%20Size%3D%2224040%22%20Location%3D%220%22%20Friendly%3D%22cVwwV%2BqBTIhmjwAA%22%2F%3E
+<<UUX 22 118
+<Data><PSM></PSM><CurrentMedia></CurrentMedia><MachineGuid>{D7889DAB-655F-4FEC-97C8-65FDAF2D29C8}</MachineGuid></Data>
+=====================================================================
+=						Login OK									=
+=====================================================================
+
+<<UUN 23 pyzhang8@hotmail.com 3 596
+INVITE MSNMSGR:pyzhang8@hotmail.com MSNSLP/1.0
+To: <msnmsgr:pyzhang8@hotmail.com>
+From: <msnmsgr:kopetesoc@hotmail.com>
+Via: MSNSLP/1.0/TLP ;branch={D8DCC33E-EB17-4D29-BD3B-BE5BDF33C0F8}
+CSeq: 0 
+Call-ID: {F13B5C79-0126-458F-A29D-747C79C56530}
+Max-Forwards: 0
+Content-Type: application/x-msnmsgr-transreqbody
+Content-Length: 257
+
+Bridges: TRUDPv1 TCPv1 SBBridge TURNv1
+NetID: -805155374
+Conn-Type: Direct-Connect
+TCP-Conn-Type: Direct-Connect
+UPnPNat: false
+ICF: false
+Hashed-Nonce: {218BE769-C40B-60A1-6DF1-4388C60AFB37}
+SessionID: 0
+SChannelState: 0
+Capabilities-Flags: 1
+
+>>CHL 0 21057182822052024563
+<<QRY 25 PROD0114ES4Z%Q5W 32
+6d38dd15a1c8bbce8953409d88700349
+>>QRY 25
+

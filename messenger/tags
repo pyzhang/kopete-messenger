@@ -1,0 +1,1231 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+AWY	messengerprotocol.h	/^	const Kopete::OnlineStatus AWY;  \/\/away$/;"	m	class:MessengerProtocol
+AllowList	libpapillon/include/Papillon/papillon_enums.h	/^			AllowList = 2, \/\/\/<Contacts allowed to see your presence.$/;"	e	enum:Papillon::ContactListEnums::Type
+Anniversary	messengercontactinfo.h	/^	MessengerInfoValue<QDate> Anniversary;$/;"	m	class:MessengerGeneralUserInfo
+AutoDelete	libpapillon/include/Papillon/task.h	/^		AutoDelete \/\/\/<Auto delete the task after completion.$/;"	e	enum:Papillon::Task::GoParameter
+Available	libpapillon/include/Papillon/Http/httpcoreprotocol.h	/^		Available,$/;"	e	enum:Papillon::HttpCoreProtocol::State
+Available	libpapillon/include/Papillon/messengercoreprotocol.h	/^		Available,$/;"	e	enum:Papillon::MessengerCoreProtocol::State
+Away	libpapillon/include/Papillon/papillon_enums.h	/^			Away, \/\/\/<Correspond to AWY$/;"	e	enum:Papillon::Presence::Status
+BRB	messengerprotocol.h	/^	const Kopete::OnlineStatus BRB;  \/\/be right back$/;"	m	class:MessengerProtocol
+BSY	messengerprotocol.h	/^	const Kopete::OnlineStatus BSY;  \/\/busy$/;"	m	class:MessengerProtocol
+BeRightBack	libpapillon/include/Papillon/papillon_enums.h	/^			BeRightBack, \/\/\/<Correspond to BRB$/;"	e	enum:Papillon::Presence::Status
+BlockList	libpapillon/include/Papillon/papillon_enums.h	/^			BlockList = 4, \/\/\/<Contacts not allowed to see your presence.$/;"	e	enum:Papillon::ContactListEnums::Type
+BusinessCity	messengercontactinfo.h	/^	MessengerInfoValue<QString> BusinessCity;$/;"	m	class:MessengerLocationUserInfo
+BusinessCountry	messengercontactinfo.h	/^	MessengerInfoValue<QString> BusinessCountry;$/;"	m	class:MessengerLocationUserInfo
+BusinessName	messengercontactinfo.h	/^	MessengerInfoValue<QString> BusinessName;$/;"	m	class:MessengerLocationUserInfo
+BusinessPostalCode	messengercontactinfo.h	/^	MessengerInfoValue<QString> BusinessPostalCode;$/;"	m	class:MessengerLocationUserInfo
+BusinessState	messengercontactinfo.h	/^	MessengerInfoValue<QString> BusinessState;$/;"	m	class:MessengerLocationUserInfo
+BusinessStreet	messengercontactinfo.h	/^	MessengerInfoValue<QString> BusinessStreet;$/;"	m	class:MessengerLocationUserInfo
+Busy	libpapillon/include/Papillon/papillon_enums.h	/^			Busy, \/\/\/<Correspond to BSY$/;"	e	enum:Papillon::Presence::Status
+ByteStream	libpapillon/base/bytestream.cpp	/^ByteStream::ByteStream(QObject *parent)$/;"	f	class:Papillon::ByteStream
+ByteStream	libpapillon/include/Papillon/Base/bytestream.h	/^class PAPILLON_EXPORT ByteStream : public QObject$/;"	c	namespace:Papillon
+CHALLENGETEST_H	libpapillon/tests/challengetest.h	16;"	d
+CNT	messengerprotocol.h	/^	const Kopete::OnlineStatus CNT;  \/\/connecting (internal)$/;"	m	class:MessengerProtocol
+CONNECTIONTEST_H	libpapillon/tests/connection_test.h	16;"	d
+CONNECTOR_TEST_H	libpapillon/tests/connector_test.h	16;"	d
+COREPROTOCOL_TEST_H	libpapillon/tests/coreprotocol_test.h	16;"	d
+CS_BYTESTREAM_H	libpapillon/include/Papillon/Base/bytestream.h	22;"	d
+ChallengeTask	libpapillon/include/Papillon/Tasks/challengetask.h	/^class PAPILLON_EXPORT ChallengeTask : public Papillon::Task$/;"	c	namespace:Papillon
+ChallengeTask	libpapillon/tasks/challengetask.cpp	/^ChallengeTask::ChallengeTask(Papillon::Task *parent)$/;"	f	class:Papillon::ChallengeTask
+Challenge_Test	libpapillon/tests/challengetest.h	/^class Challenge_Test : public QObject$/;"	c
+Client	libpapillon/client.cpp	/^Client::Client(Connector *connector, QObject *parent)$/;"	f	class:Papillon::Client
+Client	libpapillon/include/Papillon/client.h	/^class PAPILLON_EXPORT Client : public QObject$/;"	c	namespace:Papillon
+ClientInfo	libpapillon/include/Papillon/papillon_enums.h	/^	struct ClientInfo$/;"	s	namespace:Papillon
+ClientStream	libpapillon/include/Papillon/papillonclientstream.h	/^class PAPILLON_EXPORT ClientStream : public Stream$/;"	c	namespace:Papillon
+ClientStream	libpapillon/papillonclientstream.cpp	/^ClientStream::ClientStream(Connector *connector, QObject *parent)$/;"	f	class:Papillon::ClientStream
+Conflict	libpapillon/include/Papillon/Base/stream.h	/^		Conflict,$/;"	e	enum:Papillon::Stream::StreamCond
+Connected	libpapillon/include/Papillon/client.h	/^		Connected,$/;"	e	enum:Papillon::Client::ConnectionStatus
+Connecting	libpapillon/include/Papillon/client.h	/^		Connecting,$/;"	e	enum:Papillon::Client::ConnectionStatus
+Connection	libpapillon/connection.cpp	/^Connection::Connection(ClientStream *stream, QObject *parent)$/;"	f	class:Papillon::Connection
+Connection	libpapillon/include/Papillon/connection.h	/^class PAPILLON_EXPORT Connection : public QObject$/;"	c	namespace:Papillon
+ConnectionStatus	libpapillon/include/Papillon/client.h	/^	enum ConnectionStatus$/;"	g	class:Papillon::Client
+ConnectionTimeout	libpapillon/include/Papillon/Base/stream.h	/^		ConnectionTimeout,$/;"	e	enum:Papillon::Stream::StreamCond
+Connection_Test	libpapillon/tests/connection_test.h	/^class Connection_Test : public QObject$/;"	c
+Connector	libpapillon/base/connector.cpp	/^Connector::Connector(QObject *parent)$/;"	f	class:Papillon::Connector
+Connector	libpapillon/include/Papillon/Base/connector.h	/^class PAPILLON_EXPORT Connector : public QObject$/;"	c	namespace:Papillon
+Connector_Test	libpapillon/tests/connector_test.cpp	/^Connector_Test::Connector_Test(QObject *parent)$/;"	f	class:Connector_Test
+Connector_Test	libpapillon/tests/connector_test.h	/^class Connector_Test : public QObject$/;"	c
+Contact	libpapillon/contact.cpp	/^Contact::Contact(QObject *parent)$/;"	f	class:Papillon::Contact
+Contact	libpapillon/include/Papillon/contact.h	/^class PAPILLON_EXPORT Contact : public QObject$/;"	c	namespace:Papillon
+ContactEmailBusiness	messengercontactinfo.h	/^	MessengerInfoValue<QString> ContactEmailBusiness;$/;"	m	class:MessengerEmailUserInfo
+ContactEmailMessenger	messengercontactinfo.h	/^	MessengerInfoValue<QString> ContactEmailMessenger;$/;"	m	class:MessengerEmailUserInfo
+ContactEmailOther	messengercontactinfo.h	/^	MessengerInfoValue<QString> ContactEmailOther;$/;"	m	class:MessengerEmailUserInfo
+ContactEmailPersonal	messengercontactinfo.h	/^	MessengerInfoValue<QString> ContactEmailPersonal;$/;"	m	class:MessengerEmailUserInfo
+ContactList	libpapillon/contactlist.cpp	/^ContactList::ContactList(Client *client)$/;"	f	class:Papillon::ContactList
+ContactList	libpapillon/include/Papillon/contactlist.h	/^class PAPILLON_EXPORT ContactList : public QObject$/;"	c	namespace:Papillon
+ContactListEnums	libpapillon/include/Papillon/papillon_enums.h	/^	struct ContactListEnums$/;"	s	namespace:Papillon
+ContactPhoneBusiness	messengercontactinfo.h	/^	MessengerInfoValue<QString> ContactPhoneBusiness;$/;"	m	class:MessengerPhoneUserInfo
+ContactPhoneFax	messengercontactinfo.h	/^	MessengerInfoValue<QString> ContactPhoneFax;$/;"	m	class:MessengerPhoneUserInfo
+ContactPhoneMobile	messengercontactinfo.h	/^	MessengerInfoValue<QString> ContactPhoneMobile;$/;"	m	class:MessengerPhoneUserInfo
+ContactPhoneOther	messengercontactinfo.h	/^	MessengerInfoValue<QString> ContactPhoneOther;	$/;"	m	class:MessengerPhoneUserInfo
+ContactPhonePager	messengercontactinfo.h	/^	MessengerInfoValue<QString> ContactPhonePager;	$/;"	m	class:MessengerPhoneUserInfo
+ContactPhonePersonal	messengercontactinfo.h	/^	MessengerInfoValue<QString> ContactPhonePersonal;	$/;"	m	class:MessengerPhoneUserInfo
+ContactType	messengercontactinfo.h	/^	MessengerInfoValue<QString> ContactType;$/;"	m	class:MessengerGeneralUserInfo
+ContactWebSiteBusiness	messengercontactinfo.h	/^	MessengerInfoValue<QString> ContactWebSiteBusiness;$/;"	m	class:MessengerWebSiteUserInfo
+ContactWebSitePersonal	messengercontactinfo.h	/^	MessengerInfoValue<QString> ContactWebSitePersonal;$/;"	m	class:MessengerWebSiteUserInfo
+CoreProtocol_Test	libpapillon/tests/coreprotocol_test.h	/^class CoreProtocol_Test : public QObject$/;"	c
+Disconnected	libpapillon/include/Papillon/client.h	/^		Disconnected = 0,$/;"	e	enum:Papillon::Client::ConnectionStatus
+ErrCustom	libpapillon/include/Papillon/Base/bytestream.h	/^	enum Error { ErrRead, ErrWrite, ErrCustom = 10 };$/;"	e	enum:Papillon::ByteStream::Error
+ErrCustom	libpapillon/include/Papillon/Base/stream.h	/^	enum Error { ErrParse, ErrProtocol, ErrStream, ErrCustom = 10 };$/;"	e	enum:Papillon::Stream::Error
+ErrParse	libpapillon/include/Papillon/Base/stream.h	/^	enum Error { ErrParse, ErrProtocol, ErrStream, ErrCustom = 10 };$/;"	e	enum:Papillon::Stream::Error
+ErrProtocol	libpapillon/include/Papillon/Base/stream.h	/^	enum Error { ErrParse, ErrProtocol, ErrStream, ErrCustom = 10 };$/;"	e	enum:Papillon::Stream::Error
+ErrRead	libpapillon/include/Papillon/Base/bytestream.h	/^	enum Error { ErrRead, ErrWrite, ErrCustom = 10 };$/;"	e	enum:Papillon::ByteStream::Error
+ErrStream	libpapillon/include/Papillon/Base/stream.h	/^	enum Error { ErrParse, ErrProtocol, ErrStream, ErrCustom = 10 };$/;"	e	enum:Papillon::Stream::Error
+ErrWrite	libpapillon/include/Papillon/Base/bytestream.h	/^	enum Error { ErrRead, ErrWrite, ErrCustom = 10 };$/;"	e	enum:Papillon::ByteStream::Error
+Error	libpapillon/include/Papillon/Base/bytestream.h	/^	enum Error { ErrRead, ErrWrite, ErrCustom = 10 };$/;"	g	class:Papillon::ByteStream
+Error	libpapillon/include/Papillon/Base/stream.h	/^	enum Error { ErrParse, ErrProtocol, ErrStream, ErrCustom = 10 };$/;"	g	class:Papillon::Stream
+ErrorCode	libpapillon/include/Papillon/Http/securestream.h	/^	enum ErrorCode $/;"	g	class:Papillon::SecureStream
+ErrorDisconnected	libpapillon/include/Papillon/Http/securestream.h	/^		ErrorDisconnected,$/;"	e	enum:Papillon::SecureStream::ErrorCode
+ErrorDisconnected	libpapillon/include/Papillon/task.h	/^		ErrorDisconnected$/;"	e	enum:Papillon::Task::StatusCode
+ErrorHandshakeFailed	libpapillon/include/Papillon/Http/securestream.h	/^		ErrorHandshakeFailed,$/;"	e	enum:Papillon::SecureStream::ErrorCode
+ErrorInvalidCertificate	libpapillon/include/Papillon/Http/securestream.h	/^		ErrorInvalidCertificate,$/;"	e	enum:Papillon::SecureStream::ErrorCode
+ErrorNoCertificate	libpapillon/include/Papillon/Http/securestream.h	/^		ErrorNoCertificate,$/;"	e	enum:Papillon::SecureStream::ErrorCode
+ErrorNone	libpapillon/include/Papillon/Http/securestream.h	/^		ErrorNone,$/;"	e	enum:Papillon::SecureStream::ErrorCode
+ErrorUnknown	libpapillon/include/Papillon/Http/securestream.h	/^		ErrorUnknown $/;"	e	enum:Papillon::SecureStream::ErrorCode
+ErrorValidCertificate	libpapillon/include/Papillon/Http/securestream.h	/^		ErrorValidCertificate,$/;"	e	enum:Papillon::SecureStream::ErrorCode
+ErrorWrongCertificate	libpapillon/include/Papillon/Http/securestream.h	/^		ErrorWrongCertificate,$/;"	e	enum:Papillon::SecureStream::ErrorCode
+FETCHCONTACTLISTJOB_H	libpapillon/contactlist/fetchcontactlistjob.h	16;"	d
+FLN	messengerprotocol.h	/^	const Kopete::OnlineStatus FLN;  \/\/offline$/;"	m	class:MessengerProtocol
+Feature	libpapillon/include/Papillon/papillon_enums.h	/^		enum Feature$/;"	g	struct:Papillon::ClientInfo
+FeatureNone	libpapillon/include/Papillon/papillon_enums.h	/^			FeatureNone = 0x0, \/\/\/<Internal default$/;"	e	enum:Papillon::ClientInfo::Feature
+FetchContactListJob	libpapillon/contactlist/fetchcontactlistjob.cpp	/^FetchContactListJob::FetchContactListJob(ContactList *contactList)$/;"	f	class:Papillon::FetchContactListJob
+FetchContactListJob	libpapillon/contactlist/fetchcontactlistjob.h	/^class FetchContactListJob : public QObject$/;"	c	namespace:Papillon
+FindMembershipResult	libpapillon/contactlist/sharingservicebinding.h	/^class FindMembershipResult$/;"	c	namespace:Papillon::Internal
+ForwardList	libpapillon/include/Papillon/papillon_enums.h	/^			ForwardList = 1, \/\/\/<Contacts that you want to see their presence.$/;"	e	enum:Papillon::ContactListEnums::Type
+GenericStreamError	libpapillon/include/Papillon/Base/stream.h	/^		GenericStreamError,$/;"	e	enum:Papillon::Stream::StreamCond
+Global	libpapillon/include/Papillon/papillonglobal.h	/^namespace Global$/;"	n	namespace:Papillon
+Global	libpapillon/papillonglobal.cpp	/^namespace Global$/;"	n	namespace:Papillon	file:
+GoNothing	libpapillon/include/Papillon/task.h	/^		GoNothing, \/\/\/<Do nothing$/;"	e	enum:Papillon::Task::GoParameter
+GoParameter	libpapillon/include/Papillon/task.h	/^	enum GoParameter$/;"	g	class:Papillon::Task
+HDN	messengerprotocol.h	/^	const Kopete::OnlineStatus HDN;  \/\/invisible$/;"	m	class:MessengerProtocol
+HTTPCONNECTION_H	libpapillon/include/Papillon/Http/httpconnection.h	16;"	d
+HTTPCOREPROTOCOL_TEST_H	libpapillon/tests/httpcoreprotocol_test.h	16;"	d
+HTTPTRANSFER_TEST_H	libpapillon/tests/httptransfer_test.h	16;"	d
+HttpConnection	libpapillon/http/httpconnection.cpp	/^HttpConnection::HttpConnection(SecureStream *stream, QObject *parent)$/;"	f	class:Papillon::HttpConnection
+HttpConnection	libpapillon/include/Papillon/Http/httpconnection.h	/^class PAPILLON_EXPORT HttpConnection : public QObject$/;"	c	namespace:Papillon
+HttpCoreProtocol	libpapillon/http/httpcoreprotocol.cpp	/^HttpCoreProtocol::HttpCoreProtocol() : QObject(), d(new Private)$/;"	f	class:Papillon::HttpCoreProtocol
+HttpCoreProtocol	libpapillon/include/Papillon/Http/httpcoreprotocol.h	/^class PAPILLON_EXPORT HttpCoreProtocol : public QObject$/;"	c	namespace:Papillon
+HttpCoreProtocol_Test	libpapillon/tests/httpcoreprotocol_test.h	/^class HttpCoreProtocol_Test : public QObject$/;"	c
+HttpRequest	libpapillon/include/Papillon/Http/httptransfer.h	/^		HttpRequest,$/;"	e	enum:Papillon::HttpTransfer::HttpTransferType
+HttpResponse	libpapillon/include/Papillon/Http/httptransfer.h	/^		HttpResponse$/;"	e	enum:Papillon::HttpTransfer::HttpTransferType
+HttpTransfer	libpapillon/http/httptransfer.cpp	/^HttpTransfer::HttpTransfer(HttpTransferType type)$/;"	f	class:Papillon::HttpTransfer
+HttpTransfer	libpapillon/include/Papillon/Http/httptransfer.h	/^class PAPILLON_EXPORT HttpTransfer$/;"	c	namespace:Papillon
+HttpTransferType	libpapillon/include/Papillon/Http/httptransfer.h	/^	enum HttpTransferType$/;"	g	class:Papillon::HttpTransfer
+HttpTransfer_Test	libpapillon/tests/httptransfer_test.h	/^class HttpTransfer_Test : public QObject$/;"	c
+IDL	messengerprotocol.h	/^	const Kopete::OnlineStatus IDL;  \/\/idle$/;"	m	class:MessengerProtocol
+Idle	libpapillon/include/Papillon/papillon_enums.h	/^			Idle, \/\/\/<Correspond to IDL$/;"	e	enum:Papillon::Presence::Status
+InkFormatGif	libpapillon/include/Papillon/papillon_enums.h	/^			InkFormatGif = 0x04, \/\/\/<Support Ink messages in GIF format.$/;"	e	enum:Papillon::ClientInfo::Feature
+InkFormatIsf	libpapillon/include/Papillon/papillon_enums.h	/^			InkFormatIsf = 0x08, \/\/\/<Support Ink messages in ISF format.$/;"	e	enum:Papillon::ClientInfo::Feature
+Internal	libpapillon/contactlist/fetchcontactlistjob.h	/^namespace Internal$/;"	n	namespace:Papillon
+Internal	libpapillon/contactlist/sharingservicebinding.cpp	/^namespace Internal$/;"	n	namespace:Papillon	file:
+Internal	libpapillon/contactlist/sharingservicebinding.h	/^namespace Internal$/;"	n	namespace:Papillon
+InternalServerError	libpapillon/include/Papillon/Base/stream.h	/^		InternalServerError,$/;"	e	enum:Papillon::Stream::StreamCond
+InvalidFrom	libpapillon/include/Papillon/Base/stream.h	/^		InvalidFrom,$/;"	e	enum:Papillon::Stream::StreamCond
+Invisible	libpapillon/include/Papillon/papillon_enums.h	/^			Invisible, \/\/\/<Correspond to HDN$/;"	e	enum:Papillon::Presence::Status
+JobTitle	messengercontactinfo.h	/^	MessengerInfoValue<QString> JobTitle;$/;"	m	class:MessengerAnnotationUserInfo
+Kopete	messengeraccount.h	/^namespace Kopete $/;"	n
+Kopete	messengercontact.h	/^namespace Kopete$/;"	n
+Kopete	messengerprotocol.h	/^namespace Kopete$/;"	n
+Kopete	ui/messengereditaccountwidget.h	/^namespace Kopete { class Account; }$/;"	n
+LUN	messengerprotocol.h	/^	const Kopete::OnlineStatus LUN;  \/\/out to lunch$/;"	m	class:MessengerProtocol
+LoggedIn	libpapillon/include/Papillon/client.h	/^		LoggedIn$/;"	e	enum:Papillon::Client::ConnectionStatus
+LoginBadPassword	libpapillon/include/Papillon/client.h	/^		LoginBadPassword,$/;"	e	enum:Papillon::Client::ConnectionStatus
+LoginState	libpapillon/include/Papillon/Tasks/logintask.h	/^	enum LoginState $/;"	g	class:Papillon::LoginTask
+LoginTask	libpapillon/include/Papillon/Tasks/logintask.h	/^class PAPILLON_EXPORT LoginTask : public Papillon::Task$/;"	c	namespace:Papillon
+LoginTask	libpapillon/tasks/logintask.cpp	/^LoginTask::LoginTask(Task *parent)$/;"	f	class:Papillon::LoginTask
+MESSENGERACCOUNT_H	messengeraccount.h	18;"	d
+MESSENGERADDCONTACTPAGE_H	ui/messengeraddcontactpage.h	18;"	d
+MESSENGERCONTACT_H	messengercontact.h	18;"	d
+MESSENGERINFOVALUE_H	libpapillon/messengerinfovalue.h	20;"	d
+MESSENGERPROTOCOL_H	messengerprotocol.h	18;"	d
+MESSENGER_DEFAULT_PORT	messengeraccount.h	23;"	d
+MESSENGER_DEFAULT_SERVER	messengeraccount.h	22;"	d
+MIMEHEADER_TEST_H	libpapillon/tests/mimeheader_test.h	16;"	d
+MSNC1	libpapillon/include/Papillon/papillon_enums.h	/^			MSNC1 = 0x10000000, \/\/\/<MSNC(Mobile Status Notification Client) Version 1 (with MSN Messenger 6.0)$/;"	e	enum:Papillon::ClientInfo::Feature
+MSNC2	libpapillon/include/Papillon/papillon_enums.h	/^			MSNC2 = 0x20000000, \/\/\/<MSNC Version 2 (with MSN Messenger 6.1)$/;"	e	enum:Papillon::ClientInfo::Feature
+MSNC3	libpapillon/include/Papillon/papillon_enums.h	/^			MSNC3 = 0x30000000, \/\/\/<MSNC Version 3 (with MSN Messenger 6.2)$/;"	e	enum:Papillon::ClientInfo::Feature
+MSNC4	libpapillon/include/Papillon/papillon_enums.h	/^			MSNC4 = 0x40000000, \/\/\/<MSNC Version 4 (with MSN Messenger 7.0)$/;"	e	enum:Papillon::ClientInfo::Feature
+MSNC5	libpapillon/include/Papillon/papillon_enums.h	/^			MSNC5 = 0x50000000, \/\/\/<MSNC Version 5 (with MSN Messenger 7.5)$/;"	e	enum:Papillon::ClientInfo::Feature
+MSNC6	libpapillon/include/Papillon/papillon_enums.h	/^			MSNC6 = 0x60000000 \/\/\/<MSNC Version 6 (with Windows Live Messenger 8)$/;"	e	enum:Papillon::ClientInfo::Feature
+MSNEDITACCOUNTWIDEGET_H	ui/messengereditaccountwidget.h	20;"	d
+MSNEditAccountWidget	ui/messengereditaccountwidget.h	/^class MSNEditAccountWidget : public QWidget, public KopeteEditAccountWidget$/;"	c
+MediaGames	libpapillon/include/Papillon/papillon_enums.h	/^			MediaGames, \/\/\/<Current game played.$/;"	e	enum:Papillon::Presence::MediaType
+MediaMusic	libpapillon/include/Papillon/papillon_enums.h	/^			MediaMusic, \/\/\/<Current music played.$/;"	e	enum:Papillon::Presence::MediaType
+MediaNone	libpapillon/include/Papillon/papillon_enums.h	/^			MediaNone = 0, \/\/\/<Internal default$/;"	e	enum:Papillon::Presence::MediaType
+MediaOffice	libpapillon/include/Papillon/papillon_enums.h	/^			MediaOffice \/\/\/<Current office task done.$/;"	e	enum:Papillon::Presence::MediaType
+MediaType	libpapillon/include/Papillon/papillon_enums.h	/^		enum MediaType$/;"	g	struct:Papillon::Presence
+Member	libpapillon/contactlist/sharingservicebinding.h	/^class Member$/;"	c	namespace:Papillon::Internal
+Membership	libpapillon/contactlist/sharingservicebinding.h	/^class Membership$/;"	c	namespace:Papillon::Internal
+MessengerAccount	messengeraccount.cpp	/^MessengerAccount::MessengerAccount(MessengerProtocol *protocol, const QString &accountId)$/;"	f	class:MessengerAccount
+MessengerAccount	messengeraccount.h	/^class MessengerAccount : public Kopete::PasswordedAccount$/;"	c
+MessengerAccountPrivate	messengeraccount.cpp	/^		MessengerAccountPrivate()$/;"	f	class:MessengerAccountPrivate
+MessengerAccountPrivate	messengeraccount.cpp	/^class MessengerAccountPrivate$/;"	c	file:
+MessengerAddContactPage	ui/messengeraddcontactpage.cpp	/^MessengerAddContactPage::MessengerAddContactPage(MessengerAccount * owner, QWidget *parent)$/;"	f	class:MessengerAddContactPage
+MessengerAddContactPage	ui/messengeraddcontactpage.h	/^class MessengerAddContactPage : public AddContactPage$/;"	c
+MessengerAnnotationUserInfo	messengercontactinfo.h	/^class MessengerAnnotationUserInfo$/;"	c
+MessengerContact	messengercontact.cpp	/^MessengerContact::MessengerContact(MessengerAccount *account, const QString &contactId, Kopete::MetaContact *parent)$/;"	f	class:MessengerContact
+MessengerContact	messengercontact.h	/^class MessengerContact : public Kopete::Contact$/;"	c
+MessengerContactInfo	messengercontactinfo.cpp	/^MessengerContactInfo::MessengerContactInfo()$/;"	f	class:MessengerContactInfo
+MessengerContactInfo	messengercontactinfo.h	/^class MessengerContactInfo$/;"	c
+MessengerCoreProtocol	libpapillon/include/Papillon/messengercoreprotocol.h	/^class PAPILLON_EXPORT MessengerCoreProtocol : public QObject$/;"	c	namespace:Papillon
+MessengerCoreProtocol	libpapillon/messengercoreprotocol.cpp	/^MessengerCoreProtocol::MessengerCoreProtocol() : QObject(), d(new Private)$/;"	f	class:Papillon::MessengerCoreProtocol
+MessengerEditAccountWidget	ui/messengereditaccountwidget.cpp	/^MessengerEditAccountWidget::MessengerEditAccountWidget( MessengerProtocol *proto, Kopete::Account *account, QWidget *parent )$/;"	f	class:MessengerEditAccountWidget
+MessengerEditAccountWidgetPrivate	ui/messengereditaccountwidget.cpp	/^class MessengerEditAccountWidgetPrivate$/;"	c	file:
+MessengerEmailUserInfo	messengercontactinfo.h	/^class MessengerEmailUserInfo$/;"	c
+MessengerGeneralUserInfo	messengercontactinfo.h	/^class MessengerGeneralUserInfo$/;"	c
+MessengerInfoValue	libpapillon/messengerinfovalue.h	/^MessengerInfoValue<T>::MessengerInfoValue()$/;"	f	class:MessengerInfoValue
+MessengerInfoValue	libpapillon/messengerinfovalue.h	/^template <class T> class MessengerInfoValue$/;"	c
+MessengerLocationUserInfo	messengercontactinfo.h	/^	MessengerLocationUserInfo()$/;"	f	class:MessengerLocationUserInfo
+MessengerLocationUserInfo	messengercontactinfo.h	/^class MessengerLocationUserInfo$/;"	c
+MessengerPhoneUserInfo	messengercontactinfo.h	/^class MessengerPhoneUserInfo$/;"	c
+MessengerProtocol	messengerprotocol.cpp	/^MessengerProtocol::MessengerProtocol(QObject *parent, const QStringList &\/*args*\/)$/;"	f	class:MessengerProtocol
+MessengerProtocol	messengerprotocol.h	/^class MESSENGER_EXPORT MessengerProtocol : public Kopete::Protocol$/;"	c
+MessengerProtocolFactory	messengerprotocol.cpp	/^typedef KGenericFactory<MessengerProtocol> MessengerProtocolFactory;$/;"	t	file:
+MessengerUserInfoWidget	ui/messengeruserinfowidget.cpp	/^MessengerUserInfoWidget::MessengerUserInfoWidget( QWidget * parent)$/;"	f	class:MessengerUserInfoWidget
+MessengerUserInfoWidget	ui/messengeruserinfowidget.h	/^class MessengerUserInfoWidget : public KPageDialog$/;"	c
+MessengerWebSiteUserInfo	messengercontactinfo.h	/^class MessengerWebSiteUserInfo$/;"	c
+MimeHeader	libpapillon/include/Papillon/mimeheader.h	/^class PAPILLON_EXPORT MimeHeader$/;"	c	namespace:Papillon
+MimeHeader	libpapillon/mimeheader.cpp	/^MimeHeader::MimeHeader()$/;"	f	class:Papillon::MimeHeader
+MimeHeader	libpapillon/mimeheader.cpp	/^MimeHeader::MimeHeader(const MimeHeader &copy)$/;"	f	class:Papillon::MimeHeader
+MimeHeader_Test	libpapillon/tests/mimeheader_test.h	/^class MimeHeader_Test : public QObject$/;"	c
+MobileAuthorization	libpapillon/include/Papillon/papillon_enums.h	/^			MobileAuthorization, \/\/\/<are other people authorised to contact me on my MSN Mobile (Y or N)$/;"	e	enum:Papillon::ClientInfo::PersonalInformation
+MobileDeviceEnabled	libpapillon/include/Papillon/papillon_enums.h	/^			MobileDeviceEnabled \/\/\/<do I have a mobile device enabled on MSN Mobile (Y or N)$/;"	e	enum:Papillon::ClientInfo::PersonalInformation
+MsnDirectDevice	libpapillon/include/Papillon/papillon_enums.h	/^			MsnDirectDevice = 0x80, \/\/\/<Client is running on a MSN Direct device.$/;"	e	enum:Papillon::ClientInfo::Feature
+MsnMobileDevice	libpapillon/include/Papillon/papillon_enums.h	/^			MsnMobileDevice = 0x40, \/\/\/<Client is running on a MSN Mobile device.$/;"	e	enum:Papillon::ClientInfo::Feature
+NLN	messengerprotocol.h	/^	const Kopete::OnlineStatus NLN;  \/\/online$/;"	m	class:MessengerProtocol
+NeedMore	libpapillon/include/Papillon/Http/httpcoreprotocol.h	/^		NeedMore,$/;"	e	enum:Papillon::HttpCoreProtocol::State
+NeedMore	libpapillon/include/Papillon/messengercoreprotocol.h	/^		NeedMore,$/;"	e	enum:Papillon::MessengerCoreProtocol::State
+NickName	messengercontactinfo.h	/^	MessengerInfoValue<QString> NickName;$/;"	m	class:MessengerAnnotationUserInfo
+Nickname	libpapillon/include/Papillon/papillon_enums.h	/^			Nickname, \/\/\/<Setting the nickname$/;"	e	enum:Papillon::ClientInfo::PersonalInformation
+NoData	libpapillon/include/Papillon/Http/httpcoreprotocol.h	/^		NoData,$/;"	e	enum:Papillon::HttpCoreProtocol::State
+NoData	libpapillon/include/Papillon/messengercoreprotocol.h	/^		NoData,$/;"	e	enum:Papillon::MessengerCoreProtocol::State
+NormalTransfer	libpapillon/include/Papillon/transfer.h	/^		NormalTransfer,$/;"	e	enum:Papillon::Transfer::TransferTypeValues
+NotifyMessageTask	libpapillon/include/Papillon/Tasks/notifymessagetask.h	/^class PAPILLON_EXPORT NotifyMessageTask : public Papillon::Task$/;"	c	namespace:Papillon
+NotifyMessageTask	libpapillon/tasks/notifymessagetask.cpp	/^NotifyMessageTask::NotifyMessageTask(Task *parent)$/;"	f	class:Papillon::NotifyMessageTask
+NotifyPresenceTask	libpapillon/include/Papillon/Tasks/notifypresencetask.h	/^class PAPILLON_EXPORT NotifyPresenceTask : public Papillon::Task$/;"	c	namespace:Papillon
+NotifyPresenceTask	libpapillon/tasks/notifypresencetask.cpp	/^NotifyPresenceTask::NotifyPresenceTask(Papillon::Task *parent)$/;"	f	class:Papillon::NotifyPresenceTask
+NotifyStatusMessageTask	libpapillon/include/Papillon/Tasks/notifystatusmessagetask.h	/^class NotifyStatusMessageTask : public Papillon::Task$/;"	c	namespace:Papillon
+NotifyStatusMessageTask	libpapillon/tasks/notifystatusmessagetask.cpp	/^NotifyStatusMessageTask::NotifyStatusMessageTask(Papillon::Task *parent)$/;"	f	class:Papillon::NotifyStatusMessageTask
+Offline	libpapillon/include/Papillon/papillon_enums.h	/^			Offline, \/\/\/<Correspond to FLN$/;"	e	enum:Papillon::Presence::Status
+OnThePhone	libpapillon/include/Papillon/papillon_enums.h	/^			OnThePhone, \/\/\/<Correspond to PHN$/;"	e	enum:Papillon::Presence::Status
+Online	libpapillon/include/Papillon/papillon_enums.h	/^			Online, \/\/\/<Correspond to NLN$/;"	e	enum:Papillon::Presence::Status
+OutToLunch	libpapillon/include/Papillon/papillon_enums.h	/^			OutToLunch \/\/\/<Correspond to LUN$/;"	e	enum:Papillon::Presence::Status
+PAPILLONCHALLENGETASK_H	libpapillon/include/Papillon/Tasks/challengetask.h	19;"	d
+PAPILLONCLIENT_H	libpapillon/include/Papillon/client.h	16;"	d
+PAPILLONCONNECTION_H	libpapillon/include/Papillon/connection.h	16;"	d
+PAPILLONCONTACTLIST_H	libpapillon/include/Papillon/contactlist.h	16;"	d
+PAPILLONCONTACT_H	libpapillon/include/Papillon/contact.h	16;"	d
+PAPILLONGLOBAL_H	libpapillon/include/Papillon/papillonglobal.h	16;"	d
+PAPILLONLOGINTASK_H	libpapillon/include/Papillon/Tasks/logintask.h	16;"	d
+PAPILLONMIMEHEADER_H	libpapillon/include/Papillon/mimeheader.h	16;"	d
+PAPILLONNOTIFICATIONSTREAM_H	libpapillon/include/Papillon/papillonclientstream.h	16;"	d
+PAPILLONNOTIFYMESSAGETASK_H	libpapillon/include/Papillon/Tasks/notifymessagetask.h	16;"	d
+PAPILLONNOTIFYPRESENCETASK_H	libpapillon/include/Papillon/Tasks/notifypresencetask.h	16;"	d
+PAPILLONNOTIFYSTATUSMESSAGETASK_H	libpapillon/include/Papillon/Tasks/notifystatusmessagetask.h	16;"	d
+PAPILLONQTBYTESTREAM_H	libpapillon/include/Papillon/qtbytestream.h	16;"	d
+PAPILLONQTCONNECTOR_H	libpapillon/include/Papillon/qtconnector.h	16;"	d
+PAPILLONSETPERSONALINFORMATIONTASK_H	libpapillon/include/Papillon/Tasks/setpersonalinformationtask.h	16;"	d
+PAPILLONSETPRESENCETASK_H	libpapillon/include/Papillon/Tasks/setpresencetask.h	16;"	d
+PAPILLONSETSTATUSMESSAGETASK_H	libpapillon/include/Papillon/Tasks/setstatusmessagetask.h	16;"	d
+PAPILLONSTATUSMESSAGE_H	libpapillon/include/Papillon/papillonstatusmessage.h	16;"	d
+PAPILLONTRANSFER_H	libpapillon/include/Papillon/transfer.h	16;"	d
+PAPILLONTWEENERHANDLER_H	libpapillon/include/Papillon/Http/tweenerhandler.h	16;"	d
+PAPILLONUSERCONTACT_H	libpapillon/include/Papillon/usercontact.h	16;"	d
+PAPILLON_CONNECTOR_H	libpapillon/include/Papillon/Base/connector.h	20;"	d
+PAPILLON_CONSOLE_H	libpapillon/tests/papillon_console.h	16;"	d
+PAPILLON_CORE_PROTOCOL_H	libpapillon/include/Papillon/messengercoreprotocol.h	20;"	d
+PAPILLON_ENUMS_H	libpapillon/include/Papillon/papillon_enums.h	16;"	d
+PAPILLON_EXPORT	libpapillon/include/Papillon/papillon_macros.h	37;"	d
+PAPILLON_EXPORT	libpapillon/include/Papillon/papillon_macros.h	39;"	d
+PAPILLON_EXPORT	libpapillon/include/Papillon/papillon_macros.h	42;"	d
+PAPILLON_FUNCINFO	libpapillon/include/Papillon/papillon_macros.h	70;"	d
+PAPILLON_FUNCINFO	libpapillon/include/Papillon/papillon_macros.h	72;"	d
+PAPILLON_HTTPCOREPROTOCOL_H	libpapillon/include/Papillon/Http/httpcoreprotocol.h	20;"	d
+PAPILLON_HTTPTRANSFER_H	libpapillon/include/Papillon/Http/httptransfer.h	16;"	d
+PAPILLON_IS_VERSION	libpapillon/include/Papillon/papillon_macros.h	80;"	d
+PAPILLON_MACROS_H	libpapillon/include/Papillon/papillon_macros.h	16;"	d
+PAPILLON_MAKE_VERSION	libpapillon/include/Papillon/papillon_macros.h	50;"	d
+PAPILLON_STREAM_H	libpapillon/include/Papillon/Base/stream.h	20;"	d
+PAPILLON_TASK_H	libpapillon/include/Papillon/task.h	21;"	d
+PAPILLON_TESTS_DATA	libpapillon/tests/coreprotocol_test.cpp	28;"	d	file:
+PAPILLON_TESTS_DATA	libpapillon/tests/httpcoreprotocol_test.cpp	27;"	d	file:
+PAPILLON_VERSION	libpapillon/include/Papillon/papillon_macros.h	57;"	d
+PAPILLON_VERSION_MAJOR	libpapillon/include/Papillon/papillon_macros.h	47;"	d
+PAPILLON_VERSION_MINOR	libpapillon/include/Papillon/papillon_macros.h	48;"	d
+PAPILLON_VERSION_RELEASE	libpapillon/include/Papillon/papillon_macros.h	49;"	d
+PAPILLON_VERSION_STRING	libpapillon/include/Papillon/papillon_macros.h	46;"	d
+PASSPORT_ID	libpapillon/tests/connector_test.cpp	28;"	d	file:
+PHN	messengerprotocol.h	/^	const Kopete::OnlineStatus PHN;  \/\/on the phone$/;"	m	class:MessengerProtocol
+Papillon	libpapillon/base/bytestream.cpp	/^namespace Papillon$/;"	n	file:
+Papillon	libpapillon/base/connector.cpp	/^namespace Papillon$/;"	n	file:
+Papillon	libpapillon/base/stream.cpp	/^namespace Papillon$/;"	n	file:
+Papillon	libpapillon/client.cpp	/^namespace Papillon$/;"	n	file:
+Papillon	libpapillon/connection.cpp	/^namespace Papillon $/;"	n	file:
+Papillon	libpapillon/contact.cpp	/^namespace Papillon$/;"	n	file:
+Papillon	libpapillon/contactlist.cpp	/^namespace Papillon $/;"	n	file:
+Papillon	libpapillon/contactlist/fetchcontactlistjob.cpp	/^namespace Papillon$/;"	n	file:
+Papillon	libpapillon/contactlist/fetchcontactlistjob.h	/^namespace Papillon$/;"	n
+Papillon	libpapillon/contactlist/sharingservicebinding.cpp	/^namespace Papillon$/;"	n	file:
+Papillon	libpapillon/contactlist/sharingservicebinding.h	/^namespace Papillon$/;"	n
+Papillon	libpapillon/http/httpconnection.cpp	/^namespace Papillon$/;"	n	file:
+Papillon	libpapillon/http/httpcoreprotocol.cpp	/^namespace Papillon$/;"	n	file:
+Papillon	libpapillon/http/httptransfer.cpp	/^namespace Papillon$/;"	n	file:
+Papillon	libpapillon/http/securestream.cpp	/^namespace Papillon$/;"	n	file:
+Papillon	libpapillon/http/tweenerhandler.cpp	/^namespace Papillon $/;"	n	file:
+Papillon	libpapillon/include/Papillon/Base/bytestream.h	/^namespace Papillon$/;"	n
+Papillon	libpapillon/include/Papillon/Base/connector.h	/^namespace Papillon$/;"	n
+Papillon	libpapillon/include/Papillon/Base/stream.h	/^namespace Papillon$/;"	n
+Papillon	libpapillon/include/Papillon/Http/httpconnection.h	/^namespace Papillon$/;"	n
+Papillon	libpapillon/include/Papillon/Http/httpcoreprotocol.h	/^namespace Papillon$/;"	n
+Papillon	libpapillon/include/Papillon/Http/httptransfer.h	/^namespace Papillon$/;"	n
+Papillon	libpapillon/include/Papillon/Http/securestream.h	/^namespace Papillon$/;"	n
+Papillon	libpapillon/include/Papillon/Http/tweenerhandler.h	/^namespace Papillon$/;"	n
+Papillon	libpapillon/include/Papillon/Tasks/challengetask.h	/^namespace Papillon$/;"	n
+Papillon	libpapillon/include/Papillon/Tasks/logintask.h	/^namespace Papillon $/;"	n
+Papillon	libpapillon/include/Papillon/Tasks/notifymessagetask.h	/^namespace Papillon$/;"	n
+Papillon	libpapillon/include/Papillon/Tasks/notifypresencetask.h	/^namespace Papillon$/;"	n
+Papillon	libpapillon/include/Papillon/Tasks/notifystatusmessagetask.h	/^namespace Papillon$/;"	n
+Papillon	libpapillon/include/Papillon/Tasks/setpersonalinformationtask.h	/^namespace Papillon$/;"	n
+Papillon	libpapillon/include/Papillon/Tasks/setpresencetask.h	/^namespace Papillon$/;"	n
+Papillon	libpapillon/include/Papillon/Tasks/setstatusmessagetask.h	/^namespace Papillon$/;"	n
+Papillon	libpapillon/include/Papillon/client.h	/^namespace Papillon$/;"	n
+Papillon	libpapillon/include/Papillon/connection.h	/^namespace Papillon $/;"	n
+Papillon	libpapillon/include/Papillon/contact.h	/^namespace Papillon$/;"	n
+Papillon	libpapillon/include/Papillon/contactlist.h	/^namespace Papillon $/;"	n
+Papillon	libpapillon/include/Papillon/messengercoreprotocol.h	/^namespace Papillon$/;"	n
+Papillon	libpapillon/include/Papillon/mimeheader.h	/^namespace Papillon $/;"	n
+Papillon	libpapillon/include/Papillon/papillon_enums.h	/^namespace Papillon$/;"	n
+Papillon	libpapillon/include/Papillon/papillonclientstream.h	/^namespace Papillon$/;"	n
+Papillon	libpapillon/include/Papillon/papillonglobal.h	/^namespace Papillon$/;"	n
+Papillon	libpapillon/include/Papillon/papillonstatusmessage.h	/^namespace Papillon$/;"	n
+Papillon	libpapillon/include/Papillon/qtbytestream.h	/^namespace Papillon {$/;"	n
+Papillon	libpapillon/include/Papillon/qtconnector.h	/^namespace Papillon $/;"	n
+Papillon	libpapillon/include/Papillon/task.h	/^namespace Papillon$/;"	n
+Papillon	libpapillon/include/Papillon/transfer.h	/^namespace Papillon $/;"	n
+Papillon	libpapillon/include/Papillon/usercontact.h	/^namespace Papillon$/;"	n
+Papillon	libpapillon/messengercoreprotocol.cpp	/^namespace Papillon$/;"	n	file:
+Papillon	libpapillon/mimeheader.cpp	/^namespace Papillon $/;"	n	file:
+Papillon	libpapillon/papillonclientstream.cpp	/^namespace Papillon $/;"	n	file:
+Papillon	libpapillon/papillonglobal.cpp	/^namespace Papillon$/;"	n	file:
+Papillon	libpapillon/papillonstatusmessage.cpp	/^namespace Papillon$/;"	n	file:
+Papillon	libpapillon/papillontypes.h	/^namespace Papillon $/;"	n
+Papillon	libpapillon/qtbytestream.cpp	/^namespace Papillon {$/;"	n	file:
+Papillon	libpapillon/qtconnector.cpp	/^namespace Papillon {$/;"	n	file:
+Papillon	libpapillon/task.cpp	/^namespace Papillon$/;"	n	file:
+Papillon	libpapillon/tasks/challengetask.cpp	/^namespace Papillon$/;"	n	file:
+Papillon	libpapillon/tasks/logintask.cpp	/^namespace Papillon $/;"	n	file:
+Papillon	libpapillon/tasks/notifymessagetask.cpp	/^namespace Papillon$/;"	n	file:
+Papillon	libpapillon/tasks/notifypresencetask.cpp	/^namespace Papillon$/;"	n	file:
+Papillon	libpapillon/tasks/notifystatusmessagetask.cpp	/^namespace Papillon$/;"	n	file:
+Papillon	libpapillon/tasks/setpersonalinformationtask.cpp	/^namespace Papillon$/;"	n	file:
+Papillon	libpapillon/tasks/setpresencetask.cpp	/^namespace Papillon$/;"	n	file:
+Papillon	libpapillon/tasks/setstatusmessagetask.cpp	/^namespace Papillon$/;"	n	file:
+Papillon	libpapillon/tests/papillon_console.h	/^namespace Papillon$/;"	n
+Papillon	libpapillon/transfer.cpp	/^namespace Papillon {$/;"	n	file:
+Papillon	libpapillon/usercontact.cpp	/^namespace Papillon$/;"	n	file:
+PapillonConsole	libpapillon/tests/papillon_console.cpp	/^PapillonConsole::PapillonConsole(QWidget *parent)$/;"	f	class:PapillonConsole::PapillonConsole
+PapillonConsole	libpapillon/tests/papillon_console.cpp	/^namespace PapillonConsole$/;"	n	file:
+PapillonConsole	libpapillon/tests/papillon_console.h	/^class PapillonConsole : public QWidget$/;"	c	namespace:PapillonConsole
+PapillonConsole	libpapillon/tests/papillon_console.h	/^namespace PapillonConsole$/;"	n
+PayloadTransfer	libpapillon/include/Papillon/transfer.h	/^		PayloadTransfer$/;"	e	enum:Papillon::Transfer::TransferTypeValues
+PendingList	libpapillon/include/Papillon/papillon_enums.h	/^			PendingList = 16 \/\/\/<Contacts pending to be added.$/;"	e	enum:Papillon::ContactListEnums::Type
+PersonalCity	messengercontactinfo.h	/^	MessengerInfoValue<QString> PersonalCity;$/;"	m	class:MessengerLocationUserInfo
+PersonalCountry	messengercontactinfo.h	/^	MessengerInfoValue<QString> PersonalCountry;$/;"	m	class:MessengerLocationUserInfo
+PersonalInfoNone	libpapillon/include/Papillon/papillon_enums.h	/^			PersonalInfoNone = 0, \/\/\/<Internal default$/;"	e	enum:Papillon::ClientInfo::PersonalInformation
+PersonalInformation	libpapillon/include/Papillon/papillon_enums.h	/^		enum PersonalInformation$/;"	g	struct:Papillon::ClientInfo
+PersonalPostalCode	messengercontactinfo.h	/^	MessengerInfoValue<QString> PersonalPostalCode;$/;"	m	class:MessengerLocationUserInfo
+PersonalState	messengercontactinfo.h	/^	MessengerInfoValue<QString> PersonalState;$/;"	m	class:MessengerLocationUserInfo
+PersonalStreet	messengercontactinfo.h	/^	MessengerInfoValue<QString> PersonalStreet;$/;"	m	class:MessengerLocationUserInfo
+PhoneHome	libpapillon/include/Papillon/papillon_enums.h	/^			PhoneHome, \/\/\/<Setting the home phone number$/;"	e	enum:Papillon::ClientInfo::PersonalInformation
+PhoneMobile	libpapillon/include/Papillon/papillon_enums.h	/^			PhoneMobile, \/\/\/<Setting the mobile phone number$/;"	e	enum:Papillon::ClientInfo::PersonalInformation
+PhoneWork	libpapillon/include/Papillon/papillon_enums.h	/^			PhoneWork, \/\/\/<Setting the work phone number$/;"	e	enum:Papillon::ClientInfo::PersonalInformation
+PolicyViolation	libpapillon/include/Papillon/Base/stream.h	/^		PolicyViolation,$/;"	e	enum:Papillon::Stream::StreamCond
+Presence	libpapillon/include/Papillon/papillon_enums.h	/^	struct Presence$/;"	s	namespace:Papillon
+Private	libpapillon/base/bytestream.cpp	/^	Private() {}$/;"	f	class:Papillon::ByteStream::Private
+Private	libpapillon/base/bytestream.cpp	/^class ByteStream::Private$/;"	c	class:Papillon::ByteStream	file:
+Private	libpapillon/base/connector.cpp	/^class Connector::Private$/;"	c	class:Papillon::Connector	file:
+Private	libpapillon/client.cpp	/^	Private()$/;"	f	class:Papillon::Client::Private
+Private	libpapillon/client.cpp	/^class Client::Private$/;"	c	class:Papillon::Client	file:
+Private	libpapillon/connection.cpp	/^	Private()$/;"	f	class:Papillon::Connection::Private
+Private	libpapillon/connection.cpp	/^class Connection::Private$/;"	c	class:Papillon::Connection	file:
+Private	libpapillon/contact.cpp	/^	Private()$/;"	f	class:Papillon::Contact::Private
+Private	libpapillon/contact.cpp	/^class Contact::Private$/;"	c	class:Papillon::Contact	file:
+Private	libpapillon/contactlist.cpp	/^	Private()$/;"	f	class:Papillon::ContactList::Private
+Private	libpapillon/contactlist.cpp	/^class ContactList::Private$/;"	c	class:Papillon::ContactList	file:
+Private	libpapillon/contactlist/fetchcontactlistjob.cpp	/^	Private()$/;"	f	class:Papillon::FetchContactListJob::Private
+Private	libpapillon/contactlist/fetchcontactlistjob.cpp	/^class FetchContactListJob::Private$/;"	c	class:Papillon::FetchContactListJob	file:
+Private	libpapillon/contactlist/sharingservicebinding.cpp	/^	Private()$/;"	f	class:Papillon::Internal::SharingServiceBinding::Private
+Private	libpapillon/contactlist/sharingservicebinding.cpp	/^class SharingServiceBinding::Private$/;"	c	class:Papillon::Internal::SharingServiceBinding	file:
+Private	libpapillon/http/httpconnection.cpp	/^	Private()$/;"	f	class:Papillon::HttpConnection::Private
+Private	libpapillon/http/httpconnection.cpp	/^class HttpConnection::Private$/;"	c	class:Papillon::HttpConnection	file:
+Private	libpapillon/http/httpcoreprotocol.cpp	/^	Private()$/;"	f	class:Papillon::HttpCoreProtocol::Private
+Private	libpapillon/http/httpcoreprotocol.cpp	/^class HttpCoreProtocol::Private$/;"	c	class:Papillon::HttpCoreProtocol	file:
+Private	libpapillon/http/httptransfer.cpp	/^	Private()$/;"	f	class:Papillon::HttpTransfer::Private
+Private	libpapillon/http/httptransfer.cpp	/^class HttpTransfer::Private$/;"	c	class:Papillon::HttpTransfer	file:
+Private	libpapillon/http/securestream.cpp	/^	Private()$/;"	f	class:Papillon::SecureStream::Private
+Private	libpapillon/http/securestream.cpp	/^class SecureStream::Private$/;"	c	class:Papillon::SecureStream	file:
+Private	libpapillon/http/tweenerhandler.cpp	/^	Private()$/;"	f	class:Papillon::TweenerHandler::Private
+Private	libpapillon/http/tweenerhandler.cpp	/^class TweenerHandler::Private$/;"	c	class:Papillon::TweenerHandler	file:
+Private	libpapillon/messengercoreprotocol.cpp	/^	Private()$/;"	f	class:Papillon::MessengerCoreProtocol::Private
+Private	libpapillon/messengercoreprotocol.cpp	/^class MessengerCoreProtocol::Private$/;"	c	class:Papillon::MessengerCoreProtocol	file:
+Private	libpapillon/mimeheader.cpp	/^	Private()$/;"	f	class:Papillon::MimeHeader::Private
+Private	libpapillon/mimeheader.cpp	/^class MimeHeader::Private : public QSharedData$/;"	c	class:Papillon::MimeHeader	file:
+Private	libpapillon/papillonclientstream.cpp	/^	Private()$/;"	f	class:Papillon::ClientStream::Private
+Private	libpapillon/papillonclientstream.cpp	/^class ClientStream::Private$/;"	c	class:Papillon::ClientStream	file:
+Private	libpapillon/papillonstatusmessage.cpp	/^	Private()$/;"	f	class:Papillon::StatusMessage::Private
+Private	libpapillon/papillonstatusmessage.cpp	/^class StatusMessage::Private : public QSharedData$/;"	c	class:Papillon::StatusMessage	file:
+Private	libpapillon/qtbytestream.cpp	/^class QtByteStream::Private$/;"	c	class:Papillon::QtByteStream	file:
+Private	libpapillon/qtconnector.cpp	/^class QtConnector::Private$/;"	c	class:Papillon::QtConnector	file:
+Private	libpapillon/task.cpp	/^	Private() {}$/;"	f	class:Papillon::Task::Private
+Private	libpapillon/task.cpp	/^class Task::Private$/;"	c	class:Papillon::Task	file:
+Private	libpapillon/tasks/challengetask.cpp	/^	Private()$/;"	f	class:Papillon::ChallengeTask::Private
+Private	libpapillon/tasks/challengetask.cpp	/^class ChallengeTask::Private$/;"	c	class:Papillon::ChallengeTask	file:
+Private	libpapillon/tasks/logintask.cpp	/^	Private()$/;"	f	class:Papillon::LoginTask::Private
+Private	libpapillon/tasks/logintask.cpp	/^class LoginTask::Private$/;"	c	class:Papillon::LoginTask	file:
+Private	libpapillon/tasks/notifymessagetask.cpp	/^	Private()$/;"	f	class:Papillon::NotifyMessageTask::Private
+Private	libpapillon/tasks/notifymessagetask.cpp	/^class NotifyMessageTask::Private$/;"	c	class:Papillon::NotifyMessageTask	file:
+Private	libpapillon/tasks/notifypresencetask.cpp	/^	Private()$/;"	f	class:Papillon::NotifyPresenceTask::Private
+Private	libpapillon/tasks/notifypresencetask.cpp	/^class NotifyPresenceTask::Private$/;"	c	class:Papillon::NotifyPresenceTask	file:
+Private	libpapillon/tasks/notifystatusmessagetask.cpp	/^	Private()$/;"	f	class:Papillon::NotifyStatusMessageTask::Private
+Private	libpapillon/tasks/notifystatusmessagetask.cpp	/^class NotifyStatusMessageTask::Private$/;"	c	class:Papillon::NotifyStatusMessageTask	file:
+Private	libpapillon/tasks/setpersonalinformationtask.cpp	/^	Private()$/;"	f	class:Papillon::SetPersonalInformationTask::Private
+Private	libpapillon/tasks/setpersonalinformationtask.cpp	/^class SetPersonalInformationTask::Private$/;"	c	class:Papillon::SetPersonalInformationTask	file:
+Private	libpapillon/tasks/setpresencetask.cpp	/^	Private()$/;"	f	class:Papillon::SetPresenceTask::Private
+Private	libpapillon/tasks/setpresencetask.cpp	/^class SetPresenceTask::Private$/;"	c	class:Papillon::SetPresenceTask	file:
+Private	libpapillon/tasks/setstatusmessagetask.cpp	/^	Private()$/;"	f	class:Papillon::SetStatusMessageTask::Private
+Private	libpapillon/tasks/setstatusmessagetask.cpp	/^class SetStatusMessageTask::Private$/;"	c	class:Papillon::SetStatusMessageTask	file:
+Private	libpapillon/tests/connector_test.cpp	/^	Private()$/;"	f	class:Connector_Test::Private
+Private	libpapillon/tests/connector_test.cpp	/^class Connector_Test::Private$/;"	c	class:Connector_Test	file:
+Private	libpapillon/tests/papillon_console.cpp	/^	Private()$/;"	f	class:PapillonConsole::PapillonConsole::Private
+Private	libpapillon/tests/papillon_console.cpp	/^class PapillonConsole::Private$/;"	c	class:PapillonConsole::PapillonConsole	file:
+Private	libpapillon/transfer.cpp	/^class Transfer::Private$/;"	c	class:Papillon::Transfer	file:
+Private	libpapillon/usercontact.cpp	/^	Private()$/;"	f	class:Papillon::UserContact::Private
+Private	libpapillon/usercontact.cpp	/^class UserContact::Private$/;"	c	class:Papillon::UserContact	file:
+QtByteStream	libpapillon/include/Papillon/qtbytestream.h	/^class PAPILLON_EXPORT QtByteStream : public ByteStream$/;"	c	namespace:Papillon
+QtByteStream	libpapillon/qtbytestream.cpp	/^QtByteStream::QtByteStream(QObject *parent)$/;"	f	class:Papillon::QtByteStream
+QtConnector	libpapillon/include/Papillon/qtconnector.h	/^class PAPILLON_EXPORT QtConnector : public Connector$/;"	c	namespace:Papillon
+QtConnector	libpapillon/qtconnector.cpp	/^QtConnector::QtConnector(QObject *parent)$/;"	f	class:Papillon::QtConnector
+ResourceConstraint	libpapillon/include/Papillon/Base/stream.h	/^		ResourceConstraint,$/;"	e	enum:Papillon::Stream::StreamCond
+ReverseList	libpapillon/include/Papillon/papillon_enums.h	/^			ReverseList = 8, \/\/\/<Contacts that have you on their Forward List.$/;"	e	enum:Papillon::ContactListEnums::Type
+SAFEDELETE_H	libpapillon/include/Papillon/Base/safedelete.h	21;"	d
+SECURESTREAM_H	libpapillon/include/Papillon/Http/securestream.h	16;"	d
+SHARINGSERVICEBINDING_H	libpapillon/contactlist/sharingservicebinding.h	16;"	d
+STATUSMESSAGE_TEST_H	libpapillon/tests/statusmessage_test.h	16;"	d
+SafeDelete	libpapillon/base/safedelete.cpp	/^SafeDelete::SafeDelete()$/;"	f	class:SafeDelete
+SafeDelete	libpapillon/include/Papillon/Base/safedelete.h	/^class SafeDelete$/;"	c
+SafeDeleteLater	libpapillon/base/safedelete.cpp	/^SafeDeleteLater::SafeDeleteLater()$/;"	f	class:SafeDeleteLater
+SafeDeleteLater	libpapillon/include/Papillon/Base/safedelete.h	/^class SafeDeleteLater : public QObject$/;"	c
+SafeDeleteLock	libpapillon/base/safedelete.cpp	/^SafeDeleteLock::SafeDeleteLock(SafeDelete *sd)$/;"	f	class:SafeDeleteLock
+SafeDeleteLock	libpapillon/include/Papillon/Base/safedelete.h	/^class SafeDeleteLock$/;"	c
+SecureStream	libpapillon/http/securestream.cpp	/^SecureStream::SecureStream(Connector *connector)$/;"	f	class:Papillon::SecureStream
+SecureStream	libpapillon/include/Papillon/Http/securestream.h	/^class PAPILLON_EXPORT SecureStream : public QObject$/;"	c	namespace:Papillon
+Service	libpapillon/contactlist/sharingservicebinding.h	/^class Service$/;"	c	namespace:Papillon::Internal
+SetPersonalInformationTask	libpapillon/include/Papillon/Tasks/setpersonalinformationtask.h	/^class PAPILLON_EXPORT SetPersonalInformationTask : public Papillon::Task$/;"	c	namespace:Papillon
+SetPersonalInformationTask	libpapillon/tasks/setpersonalinformationtask.cpp	/^SetPersonalInformationTask::SetPersonalInformationTask(Papillon::Task *parent)$/;"	f	class:Papillon::SetPersonalInformationTask
+SetPresenceTask	libpapillon/include/Papillon/Tasks/setpresencetask.h	/^class PAPILLON_EXPORT SetPresenceTask : public Papillon::Task$/;"	c	namespace:Papillon
+SetPresenceTask	libpapillon/tasks/setpresencetask.cpp	/^SetPresenceTask::SetPresenceTask(Papillon::Task *parent)$/;"	f	class:Papillon::SetPresenceTask
+SetStatusMessageTask	libpapillon/include/Papillon/Tasks/setstatusmessagetask.h	/^class PAPILLON_EXPORT SetStatusMessageTask : public Papillon::Task$/;"	c	namespace:Papillon
+SetStatusMessageTask	libpapillon/tasks/setstatusmessagetask.cpp	/^SetStatusMessageTask::SetStatusMessageTask(Papillon::Task *parent)$/;"	f	class:Papillon::SetStatusMessageTask
+SharingServiceBinding	libpapillon/contactlist/sharingservicebinding.cpp	/^SharingServiceBinding::SharingServiceBinding(HttpConnection *connection, QObject *parent)$/;"	f	class:Papillon::Internal::SharingServiceBinding
+SharingServiceBinding	libpapillon/contactlist/sharingservicebinding.h	/^class SharingServiceBinding : public QObject$/;"	c	namespace:Papillon::Internal
+Spouse	messengercontactinfo.h	/^	MessengerInfoValue<QString> Spouse;$/;"	m	class:MessengerAnnotationUserInfo
+State	libpapillon/include/Papillon/Http/httpcoreprotocol.h	/^	enum State$/;"	g	class:Papillon::HttpCoreProtocol
+State	libpapillon/include/Papillon/messengercoreprotocol.h	/^	enum State $/;"	g	class:Papillon::MessengerCoreProtocol
+StateBadPassword	libpapillon/include/Papillon/Tasks/logintask.h	/^		StateBadPassword,$/;"	e	enum:Papillon::LoginTask::LoginState
+StateCVR	libpapillon/include/Papillon/Tasks/logintask.h	/^		StateCVR,$/;"	e	enum:Papillon::LoginTask::LoginState
+StateError	libpapillon/include/Papillon/Tasks/logintask.h	/^		StateError,$/;"	e	enum:Papillon::LoginTask::LoginState
+StateFinish	libpapillon/include/Papillon/Tasks/logintask.h	/^		StateFinish,$/;"	e	enum:Papillon::LoginTask::LoginState
+StateRedirection	libpapillon/include/Papillon/Tasks/logintask.h	/^		StateRedirection$/;"	e	enum:Papillon::LoginTask::LoginState
+StateTweenerConfirmed	libpapillon/include/Papillon/Tasks/logintask.h	/^		StateTweenerConfirmed,$/;"	e	enum:Papillon::LoginTask::LoginState
+StateTweenerInvite	libpapillon/include/Papillon/Tasks/logintask.h	/^		StateTweenerInvite,$/;"	e	enum:Papillon::LoginTask::LoginState
+StateVersion	libpapillon/include/Papillon/Tasks/logintask.h	/^		StateVersion,$/;"	e	enum:Papillon::LoginTask::LoginState
+Status	libpapillon/include/Papillon/papillon_enums.h	/^		enum Status$/;"	g	struct:Papillon::Presence
+StatusCode	libpapillon/include/Papillon/task.h	/^	enum StatusCode$/;"	g	class:Papillon::Task
+StatusMessage	libpapillon/include/Papillon/papillonstatusmessage.h	/^class PAPILLON_EXPORT StatusMessage$/;"	c	namespace:Papillon
+StatusMessage	libpapillon/papillonstatusmessage.cpp	/^StatusMessage::StatusMessage()$/;"	f	class:Papillon::StatusMessage
+StatusMessage	libpapillon/papillonstatusmessage.cpp	/^StatusMessage::StatusMessage(const QString &plainStatusMessage)$/;"	f	class:Papillon::StatusMessage
+StatusMessage	libpapillon/papillonstatusmessage.cpp	/^StatusMessage::StatusMessage(const StatusMessage &copy)$/;"	f	class:Papillon::StatusMessage
+StatusMessage_Test	libpapillon/tests/statusmessage_test.h	/^class StatusMessage_Test : public QObject$/;"	c
+Stream	libpapillon/base/stream.cpp	/^Stream::Stream(QObject *parent)$/;"	f	class:Papillon::Stream
+Stream	libpapillon/include/Papillon/Base/stream.h	/^class PAPILLON_EXPORT Stream : public QObject$/;"	c	namespace:Papillon
+StreamCond	libpapillon/include/Papillon/Base/stream.h	/^	enum StreamCond {$/;"	g	class:Papillon::Stream
+SupportDirectIM	libpapillon/include/Papillon/papillon_enums.h	/^			SupportDirectIM =  0x4000, \/\/\/<Support direct P2P connections instead of using Switchboard.$/;"	e	enum:Papillon::ClientInfo::Feature
+SupportMsnSearch	libpapillon/include/Papillon/papillon_enums.h	/^			SupportMsnSearch = 0x10000, \/\/\/<Client supports MSN Search.$/;"	e	enum:Papillon::ClientInfo::Feature
+SupportMultiPacketMessaging	libpapillon/include/Papillon/papillon_enums.h	/^			SupportMultiPacketMessaging = 0x20, \/\/\/<Support messages over multiple packets.$/;"	e	enum:Papillon::ClientInfo::Feature
+SupportVoiceClips	libpapillon/include/Papillon/papillon_enums.h	/^			SupportVoiceClips = 0x40000, \/\/\/<Support Voice clips (introduced in MSN Messenger 7.5)$/;"	e	enum:Papillon::ClientInfo::Feature
+SupportWebcam	libpapillon/include/Papillon/papillon_enums.h	/^			SupportWebcam = 0x10, \/\/\/<Support Webcam. $/;"	e	enum:Papillon::ClientInfo::Feature
+SupportWinks	libpapillon/include/Papillon/papillon_enums.h	/^			SupportWinks = 0x8000, \/\/\/<Client can receive Winks.$/;"	e	enum:Papillon::ClientInfo::Feature
+SystemShutdown	libpapillon/include/Papillon/Base/stream.h	/^		SystemShutdown$/;"	e	enum:Papillon::Stream::StreamCond
+TRANSFER_TEST_H	libpapillon/tests/transfer_test.h	16;"	d
+Task	libpapillon/include/Papillon/task.h	/^class PAPILLON_EXPORT Task : public QObject$/;"	c	namespace:Papillon
+Task	libpapillon/task.cpp	/^Task::Task(Connection* parent, bool)$/;"	f	class:Papillon::Task
+Task	libpapillon/task.cpp	/^Task::Task(Task *parent)$/;"	f	class:Papillon::Task
+TransactionTransfer	libpapillon/include/Papillon/transfer.h	/^		TransactionTransfer,$/;"	e	enum:Papillon::Transfer::TransferTypeValues
+Transfer	libpapillon/include/Papillon/transfer.h	/^class PAPILLON_EXPORT Transfer$/;"	c	namespace:Papillon
+Transfer	libpapillon/transfer.cpp	/^Transfer::Transfer(const TransferType &type)$/;"	f	class:Papillon::Transfer
+TransferTypeValues	libpapillon/include/Papillon/transfer.h	/^	enum TransferTypeValues$/;"	g	class:Papillon::Transfer
+Transfer_Test	libpapillon/tests/transfer_test.h	/^class Transfer_Test : public QObject$/;"	c
+TweenerHandler	libpapillon/http/tweenerhandler.cpp	/^TweenerHandler::TweenerHandler(SecureStream *stream)$/;"	f	class:Papillon::TweenerHandler
+TweenerHandler	libpapillon/include/Papillon/Http/tweenerhandler.h	/^class PAPILLON_EXPORT TweenerHandler : public QObject$/;"	c	namespace:Papillon
+TweenerState	libpapillon/include/Papillon/Http/tweenerhandler.h	/^	enum TweenerState $/;"	g	class:Papillon::TweenerHandler
+TwnAuth	libpapillon/include/Papillon/Http/tweenerhandler.h	/^		TwnAuth $/;"	e	enum:Papillon::TweenerHandler::TweenerState
+TwnGetServer	libpapillon/include/Papillon/Http/tweenerhandler.h	/^		TwnGetServer,$/;"	e	enum:Papillon::TweenerHandler::TweenerState
+Type	libpapillon/include/Papillon/papillon_enums.h	/^		enum Type$/;"	g	struct:Papillon::ContactListEnums
+UNK	messengerprotocol.h	/^	const Kopete::OnlineStatus UNK;  \/\/inknown (internal)$/;"	m	class:MessengerProtocol
+Ui	ui/messengeraddcontactpage.h	/^namespace Ui { class messengerAddUI; }$/;"	n
+UserContact	libpapillon/include/Papillon/usercontact.h	/^class PAPILLON_EXPORT UserContact : public Contact$/;"	c	namespace:Papillon
+UserContact	libpapillon/usercontact.cpp	/^UserContact::UserContact(Client *client)$/;"	f	class:Papillon::UserContact
+WaitForContent	libpapillon/include/Papillon/Http/httpcoreprotocol.h	/^		WaitForContent$/;"	e	enum:Papillon::HttpCoreProtocol::State
+WaitForPayload	libpapillon/include/Papillon/messengercoreprotocol.h	/^		WaitForPayload$/;"	e	enum:Papillon::MessengerCoreProtocol::State
+WebMessenger	libpapillon/include/Papillon/papillon_enums.h	/^			WebMessenger = 0x100, \/\/\/<Client is using MSN Web Messenger.$/;"	e	enum:Papillon::ClientInfo::Feature
+WindowsMobile	libpapillon/include/Papillon/papillon_enums.h	/^			WindowsMobile = 0x1,  \/\/\/<This is a Windows Mobile client.$/;"	e	enum:Papillon::ClientInfo::Feature
+_MESSENGERCONTACTINFO_H_	messengercontactinfo.h	2;"	d
+_MESSENGERUSERINFOWIDGET_H_	ui/messengeruserinfowidget.h	2;"	d
+_PAPILLONTYPES_H_	libpapillon/papillontypes.h	2;"	d
+_sd	libpapillon/include/Papillon/Base/safedelete.h	/^	SafeDelete *_sd;$/;"	m	class:SafeDeleteLock
+actionMenu	messengeraccount.cpp	/^KActionMenu *MessengerAccount::actionMenu()$/;"	f	class:MessengerAccount
+addIncomingData	libpapillon/http/httpcoreprotocol.cpp	/^void HttpCoreProtocol::addIncomingData(const QByteArray &incomingBytes )$/;"	f	class:Papillon::HttpCoreProtocol
+addIncomingData	libpapillon/messengercoreprotocol.cpp	/^void MessengerCoreProtocol::addIncomingData(const QByteArray &incomingBytes )$/;"	f	class:Papillon::MessengerCoreProtocol
+addToList	libpapillon/contact.cpp	/^void Contact::addToList(const Papillon::ContactListEnums::ListFlags &list)$/;"	f	class:Papillon::Contact
+addUI	ui/messengeraddcontactpage.h	/^	Ui::MessengerAddUI *addUI;$/;"	m	class:MessengerAddContactPage
+addr	libpapillon/base/connector.cpp	/^	QHostAddress addr;$/;"	m	class:Papillon::Connector::Private	file:
+allowList	libpapillon/contactlist.cpp	/^QList<Papillon::Contact*> ContactList::allowList() const$/;"	f	class:Papillon::ContactList
+appendArray	libpapillon/base/bytestream.cpp	/^void ByteStream::appendArray(QByteArray *a, const QByteArray &b)$/;"	f	class:Papillon::ByteStream
+appendRead	libpapillon/base/bytestream.cpp	/^void ByteStream::appendRead(const QByteArray &block)$/;"	f	class:Papillon::ByteStream
+appendWrite	libpapillon/base/bytestream.cpp	/^void ByteStream::appendWrite(const QByteArray &block)$/;"	f	class:Papillon::ByteStream
+application	libpapillon/papillonstatusmessage.cpp	/^	QString application;$/;"	m	class:Papillon::StatusMessage::Private	file:
+apply	ui/messengeraddcontactpage.cpp	/^bool MessengerAddContactPage::apply( Kopete::Account* , Kopete::MetaContact*m )$/;"	f	class:MessengerAddContactPage
+apply	ui/messengereditaccountwidget.cpp	/^Kopete::Account * MessengerEditAccountWidget::apply()$/;"	f	class:MessengerEditAccountWidget
+arguments	libpapillon/papillonstatusmessage.cpp	/^	QList<QVariant> arguments;$/;"	m	class:Papillon::StatusMessage::Private	file:
+arguments	libpapillon/transfer.cpp	/^	QStringList arguments;$/;"	m	class:Papillon::Transfer::Private	file:
+arguments	libpapillon/transfer.cpp	/^QStringList Transfer::arguments() const$/;"	f	class:Papillon::Transfer
+autoDelete	libpapillon/task.cpp	/^	bool insignificant, deleteme, autoDelete;$/;"	m	class:Papillon::Task::Private	file:
+bindingFindMembershipResult	libpapillon/contactlist/fetchcontactlistjob.cpp	/^void FetchContactListJob::bindingFindMembershipResult(Papillon::Internal::FindMembershipResult *result)$/;"	f	class:Papillon::FetchContactListJob
+birthdate	messengercontactinfo.h	/^	MessengerInfoValue<QDate> birthdate;$/;"	m	class:MessengerGeneralUserInfo
+blockList	libpapillon/contactlist.cpp	/^QList<Papillon::Contact*> ContactList::blockList() const$/;"	f	class:Papillon::ContactList
+body	libpapillon/http/httptransfer.cpp	/^	QByteArray body;$/;"	m	class:Papillon::HttpTransfer::Private	file:
+body	libpapillon/http/httptransfer.cpp	/^QByteArray HttpTransfer::body() const$/;"	f	class:Papillon::HttpTransfer
+buttonConnect	libpapillon/tests/papillon_console.cpp	/^	QPushButton *buttonConnect;$/;"	m	class:PapillonConsole::PapillonConsole::Private	file:
+buttonConnectClicked	libpapillon/tests/papillon_console.cpp	/^void PapillonConsole::buttonConnectClicked()$/;"	f	class:PapillonConsole::PapillonConsole
+buttonSend	libpapillon/tests/papillon_console.cpp	/^	QPushButton *buttonSend;$/;"	m	class:PapillonConsole::PapillonConsole::Private	file:
+buttonSendClicked	libpapillon/tests/papillon_console.cpp	/^void PapillonConsole::buttonSendClicked()$/;"	f	class:PapillonConsole::PapillonConsole
+buttonTestContactList	libpapillon/tests/papillon_console.cpp	/^void PapillonConsole::buttonTestContactList()$/;"	f	class:PapillonConsole::PapillonConsole
+byteStream	libpapillon/http/securestream.cpp	/^	ByteStream *byteStream;$/;"	m	class:Papillon::SecureStream::Private	file:
+byteStream	libpapillon/papillonclientstream.cpp	/^	ByteStream *byteStream;$/;"	m	class:Papillon::ClientStream::Private	file:
+byteStream	libpapillon/qtconnector.cpp	/^	QtByteStream *byteStream;$/;"	m	class:Papillon::QtConnector::Private	file:
+bytesAvailable	libpapillon/base/bytestream.cpp	/^int ByteStream::bytesAvailable() const$/;"	f	class:Papillon::ByteStream
+bytesToWrite	libpapillon/base/bytestream.cpp	/^int ByteStream::bytesToWrite() const$/;"	f	class:Papillon::ByteStream
+cID	libpapillon/contactlist/sharingservicebinding.cpp	/^int Member::cID() const$/;"	f	class:Papillon::Internal::Member
+challengeProductId	libpapillon/tasks/challengetask.cpp	/^const QString challengeProductId = QString("PROD01065C%ZFN6F");$/;"	v
+challengeProductKey	libpapillon/tasks/challengetask.cpp	/^const QString challengeProductKey = QString("O4BG@C7BWLYQX?5G");$/;"	v
+changeServer	libpapillon/http/tweenerhandler.cpp	/^void TweenerHandler::changeServer(const QString &host)$/;"	f	class:Papillon::TweenerHandler
+changes	libpapillon/contactlist/sharingservicebinding.cpp	/^QString Member::changes() const$/;"	f	class:Papillon::Internal::Member
+charset	libpapillon/mimeheader.cpp	/^	QString charset;$/;"	m	class:Papillon::MimeHeader::Private	file:
+charset	libpapillon/mimeheader.cpp	/^QString MimeHeader::charset() const$/;"	f	class:Papillon::MimeHeader
+clear	libpapillon/papillonstatusmessage.cpp	/^void StatusMessage::clear()$/;"	f	class:Papillon::StatusMessage
+clearReadBuffer	libpapillon/base/bytestream.cpp	/^void ByteStream::clearReadBuffer()$/;"	f	class:Papillon::ByteStream
+clearWriteBuffer	libpapillon/base/bytestream.cpp	/^void ByteStream::clearWriteBuffer()$/;"	f	class:Papillon::ByteStream
+client	libpapillon/connection.cpp	/^	Client *client;$/;"	m	class:Papillon::Connection::Private	file:
+client	libpapillon/connection.cpp	/^Client *Connection::client()$/;"	f	class:Papillon::Connection
+client	libpapillon/contactlist.cpp	/^	QPointer<Client> client;$/;"	m	class:Papillon::ContactList::Private	file:
+client	libpapillon/contactlist.cpp	/^Client *ContactList::client()$/;"	f	class:Papillon::ContactList
+client	libpapillon/tests/papillon_console.cpp	/^	Client *client;$/;"	m	class:PapillonConsole::PapillonConsole::Private	file:
+client	libpapillon/usercontact.cpp	/^	QPointer<Client> client;$/;"	m	class:Papillon::UserContact::Private	file:
+client	libpapillon/usercontact.cpp	/^Client *UserContact::client()$/;"	f	class:Papillon::UserContact
+client	messengeraccount.cpp	/^		Client *client;$/;"	m	class:MessengerAccountPrivate	file:
+client	messengeraccount.cpp	/^Client * MessengerAccount::client()$/;"	f	class:MessengerAccount
+clientConnectionStatusChanged	libpapillon/tests/connection_test.cpp	/^void Connection_Test::clientConnectionStatusChanged(Papillon::Client::ConnectionStatus status)$/;"	f	class:Connection_Test
+clientConnectionStatusChanged	libpapillon/tests/papillon_console.cpp	/^void PapillonConsole::clientConnectionStatusChanged(Papillon::Client::ConnectionStatus status)$/;"	f	class:PapillonConsole::PapillonConsole
+clientFeatures	libpapillon/contact.cpp	/^	Papillon::ClientInfo::Features clientFeatures;$/;"	m	class:Papillon::Contact::Private	file:
+clientFeatures	libpapillon/contact.cpp	/^ClientInfo::Features Contact::clientFeatures() const$/;"	f	class:Papillon::Contact
+close	libpapillon/base/bytestream.cpp	/^void ByteStream::close()$/;"	f	class:Papillon::ByteStream
+close	libpapillon/papillonclientstream.cpp	/^void ClientStream::close()$/;"	f	class:Papillon::ClientStream
+close	libpapillon/qtbytestream.cpp	/^void QtByteStream::close()$/;"	f	class:Papillon::QtByteStream
+closeUserInfoDialog	messengercontact.cpp	/^void MessengerContact::closeUserInfoDialog()$/;"	f	class:MessengerContact
+closing	libpapillon/qtbytestream.cpp	/^	bool closing;$/;"	m	class:Papillon::QtByteStream::Private	file:
+command	libpapillon/transfer.cpp	/^	QString command;$/;"	m	class:Papillon::Transfer::Private	file:
+command	libpapillon/transfer.cpp	/^QString Transfer::command() const$/;"	f	class:Papillon::Transfer
+comment	messengercontactinfo.h	/^	MessengerInfoValue<QString> comment; $/;"	m	class:MessengerGeneralUserInfo
+connect	libpapillon/qtbytestream.cpp	/^bool QtByteStream::connect(const QString &host, quint16 port)$/;"	f	class:Papillon::QtByteStream
+connectToServer	libpapillon/client.cpp	/^void Client::connectToServer(Papillon::Presence::Status initialPresence)$/;"	f	class:Papillon::Client
+connectToServer	libpapillon/connection.cpp	/^void Connection::connectToServer(const QString &server, quint16 port)$/;"	f	class:Papillon::Connection
+connectToServer	libpapillon/contactlist/sharingservicebinding.cpp	/^void SharingServiceBinding::connectToServer(const QString &server)$/;"	f	class:Papillon::Internal::SharingServiceBinding
+connectToServer	libpapillon/http/httpconnection.cpp	/^void HttpConnection::connectToServer(const QString &server)$/;"	f	class:Papillon::HttpConnection
+connectToServer	libpapillon/http/securestream.cpp	/^void SecureStream::connectToServer(const QString &server)$/;"	f	class:Papillon::SecureStream
+connectToServer	libpapillon/papillonclientstream.cpp	/^void ClientStream::connectToServer(const QString &server, quint16 port)$/;"	f	class:Papillon::ClientStream
+connectToServer	libpapillon/qtconnector.cpp	/^void QtConnector::connectToServer(const QString& server, quint16 port)$/;"	f	class:Papillon::QtConnector
+connectToServer	libpapillon/tests/connector_test.cpp	/^void Connector_Test::connectToServer()$/;"	f	class:Connector_Test
+connectWithPassword	messengeraccount.cpp	/^void MessengerAccount::connectWithPassword(const QString &password)$/;"	f	class:MessengerAccount
+connection	libpapillon/contactlist/fetchcontactlistjob.cpp	/^	HttpConnection *connection;$/;"	m	class:Papillon::FetchContactListJob::Private	file:
+connection	libpapillon/contactlist/sharingservicebinding.cpp	/^	HttpConnection *connection;$/;"	m	class:Papillon::Internal::SharingServiceBinding::Private	file:
+connection	libpapillon/task.cpp	/^	Connection *connection;$/;"	m	class:Papillon::Task::Private	file:
+connection	libpapillon/task.cpp	/^Connection *Task::connection() const$/;"	f	class:Papillon::Task
+connectionDisconnected	libpapillon/task.cpp	/^void Task::connectionDisconnected()$/;"	f	class:Papillon::Task
+connectionReadyRead	libpapillon/contactlist/sharingservicebinding.cpp	/^void SharingServiceBinding::connectionReadyRead()$/;"	f	class:Papillon::Internal::SharingServiceBinding
+connectionStatus	libpapillon/client.cpp	/^	Papillon::Client::ConnectionStatus connectionStatus;$/;"	m	class:Papillon::Client::Private	file:
+connectionStatus	libpapillon/client.cpp	/^Papillon::Client::ConnectionStatus Client::connectionStatus() const$/;"	f	class:Papillon::Client
+connector	libpapillon/client.cpp	/^	Connector *connector;$/;"	m	class:Papillon::Client::Private	file:
+connector	libpapillon/http/securestream.cpp	/^	Connector *connector;$/;"	m	class:Papillon::SecureStream::Private	file:
+connector	libpapillon/papillonclientstream.cpp	/^	Connector *connector;$/;"	m	class:Papillon::ClientStream::Private	file:
+console	libpapillon/tests/papillon_console.cpp	/^PapillonConsole *console;$/;"	v
+contact	libpapillon/contactlist.cpp	/^Contact* ContactList::contact(const QString &contactId)$/;"	f	class:Papillon::ContactList
+contactId	libpapillon/contact.cpp	/^	QString contactId;$/;"	m	class:Papillon::Contact::Private	file:
+contactId	libpapillon/contact.cpp	/^QString Contact::contactId() const$/;"	f	class:Papillon::Contact
+contactList	libpapillon/client.cpp	/^	ContactList *contactList;$/;"	m	class:Papillon::Client::Private	file:
+contactList	libpapillon/client.cpp	/^ContactList *Client::contactList()$/;"	f	class:Papillon::Client
+contactList	libpapillon/contactlist/fetchcontactlistjob.cpp	/^	QPointer<ContactList> contactList;$/;"	m	class:Papillon::FetchContactListJob::Private	file:
+contactListLoaded	libpapillon/tests/papillon_console.cpp	/^void PapillonConsole::contactListLoaded()$/;"	f	class:PapillonConsole::PapillonConsole
+contacts	libpapillon/contactlist.cpp	/^	QList<Contact*> contacts;$/;"	m	class:Papillon::ContactList::Private	file:
+contacts	libpapillon/contactlist.cpp	/^QList<Papillon::Contact*> ContactList::contacts() const$/;"	f	class:Papillon::ContactList
+contentLength	libpapillon/http/httpcoreprotocol.cpp	/^	int contentLength;$/;"	m	class:Papillon::HttpCoreProtocol::Private	file:
+contentLength	libpapillon/http/httptransfer.cpp	/^uint HttpTransfer::contentLength() const$/;"	f	class:Papillon::HttpTransfer
+contentType	libpapillon/http/httptransfer.cpp	/^QString HttpTransfer::contentType() const$/;"	f	class:Papillon::HttpTransfer
+contentType	libpapillon/mimeheader.cpp	/^QString MimeHeader::contentType() const$/;"	f	class:Papillon::MimeHeader
+cookie	libpapillon/http/httpconnection.cpp	/^	QString cookie;$/;"	m	class:Papillon::HttpConnection::Private	file:
+cookie	libpapillon/http/httpconnection.cpp	/^QString HttpConnection::cookie() const$/;"	f	class:Papillon::HttpConnection
+countries	messengerprotocol.h	/^	const QMap<int, QString> &countries() { return mCountries; }$/;"	f	class:MessengerProtocol
+createAddContactWidget	messengerprotocol.cpp	/^AddContactPage *MessengerProtocol::createAddContactWidget(QWidget *parent, Kopete::Account *account)$/;"	f	class:MessengerProtocol
+createChallengeHash	libpapillon/tasks/challengetask.cpp	/^QString ChallengeTask::createChallengeHash(const QString &challengeString)$/;"	f	class:Papillon::ChallengeTask
+createConnection	libpapillon/client.cpp	/^Connection *Client::createConnection()$/;"	f	class:Papillon::Client
+createContact	libpapillon/contactlist.cpp	/^Contact* ContactList::createContact(const QString &contactId)$/;"	f	class:Papillon::ContactList
+createContact	messengeraccount.cpp	/^bool MessengerAccount::createContact(const QString &contactId, Kopete::MetaContact *parentMetaContact)$/;"	f	class:MessengerAccount
+createEditAccountWidget	messengerprotocol.cpp	/^KopeteEditAccountWidget *MessengerProtocol::createEditAccountWidget(Kopete::Account *account, QWidget *parent)$/;"	f	class:MessengerProtocol
+createHashKey	libpapillon/tasks/challengetask.cpp	/^qint64 ChallengeTask::Private::createHashKey(const QVector<qint32>& md5Integers, const QVector<qint32>& challengeIntegers)$/;"	f	class:Papillon::ChallengeTask::Private
+createNewAccount	messengerprotocol.cpp	/^Kopete::Account *MessengerProtocol::createNewAccount(const QString &accountId)$/;"	f	class:MessengerProtocol
+createNewConnector	libpapillon/qtconnector.cpp	/^Connector *QtConnector::createNewConnector(QObject *parent)$/;"	f	class:Papillon::QtConnector
+createSecureStream	libpapillon/client.cpp	/^SecureStream *Client::createSecureStream()$/;"	f	class:Papillon::Client
+currentMediaApplication	libpapillon/papillonstatusmessage.cpp	/^QString StatusMessage::currentMediaApplication() const$/;"	f	class:Papillon::StatusMessage
+currentMediaArguments	libpapillon/papillonstatusmessage.cpp	/^QList<QVariant> StatusMessage::currentMediaArguments() const$/;"	f	class:Papillon::StatusMessage
+currentMediaEnabled	libpapillon/papillonstatusmessage.cpp	/^	bool currentMediaEnabled;$/;"	m	class:Papillon::StatusMessage::Private	file:
+currentMediaFormatterString	libpapillon/papillonstatusmessage.cpp	/^QString StatusMessage::currentMediaFormatterString() const$/;"	f	class:Papillon::StatusMessage
+currentMediaType	libpapillon/papillonstatusmessage.cpp	/^	Papillon::Presence::MediaType currentMediaType;$/;"	m	class:Papillon::StatusMessage::Private	file:
+currentMediaType	libpapillon/papillonstatusmessage.cpp	/^Papillon::Presence::MediaType StatusMessage::currentMediaType() const$/;"	f	class:Papillon::StatusMessage
+currentState	libpapillon/tasks/logintask.cpp	/^	LoginTask::LoginState currentState;$/;"	m	class:Papillon::LoginTask::Private	file:
+currentTransactionId	libpapillon/tasks/logintask.cpp	/^	QString currentTransactionId;$/;"	m	class:Papillon::LoginTask::Private	file:
+currentTransactionId	libpapillon/tasks/setpersonalinformationtask.cpp	/^	QString currentTransactionId;$/;"	m	class:Papillon::SetPersonalInformationTask::Private	file:
+currentTransactionId	libpapillon/tasks/setpresencetask.cpp	/^	QString currentTransactionId;$/;"	m	class:Papillon::SetPresenceTask::Private	file:
+currentTransactionId	libpapillon/tasks/setstatusmessagetask.cpp	/^	QString currentTransactionId;$/;"	m	class:Papillon::SetStatusMessageTask::Private	file:
+customContextMenuActions	messengercontact.cpp	/^QList<KAction *> *MessengerContact::customContextMenuActions()$/;"	f	class:MessengerContact
+d	libpapillon/contactlist/fetchcontactlistjob.h	/^	Private *d;$/;"	m	class:Papillon::FetchContactListJob
+d	libpapillon/contactlist/sharingservicebinding.h	/^	Private *d;$/;"	m	class:Papillon::Internal::SharingServiceBinding
+d	libpapillon/include/Papillon/Base/bytestream.h	/^	Private *d;$/;"	m	class:Papillon::ByteStream
+d	libpapillon/include/Papillon/Base/connector.h	/^	Private *d;$/;"	m	class:Papillon::Connector
+d	libpapillon/include/Papillon/Http/httpconnection.h	/^	Private *d;$/;"	m	class:Papillon::HttpConnection
+d	libpapillon/include/Papillon/Http/httpcoreprotocol.h	/^	Private *d;$/;"	m	class:Papillon::HttpCoreProtocol
+d	libpapillon/include/Papillon/Http/httptransfer.h	/^	Private *d;$/;"	m	class:Papillon::HttpTransfer
+d	libpapillon/include/Papillon/Http/securestream.h	/^	Private *d;$/;"	m	class:Papillon::SecureStream
+d	libpapillon/include/Papillon/Http/tweenerhandler.h	/^	Private *d;$/;"	m	class:Papillon::TweenerHandler
+d	libpapillon/include/Papillon/Tasks/challengetask.h	/^	Private *d;$/;"	m	class:Papillon::ChallengeTask
+d	libpapillon/include/Papillon/Tasks/logintask.h	/^	Private *d;$/;"	m	class:Papillon::LoginTask
+d	libpapillon/include/Papillon/Tasks/notifymessagetask.h	/^	Private *d;$/;"	m	class:Papillon::NotifyMessageTask
+d	libpapillon/include/Papillon/Tasks/notifypresencetask.h	/^	Private *d;$/;"	m	class:Papillon::NotifyPresenceTask
+d	libpapillon/include/Papillon/Tasks/notifystatusmessagetask.h	/^	Private *d;$/;"	m	class:Papillon::NotifyStatusMessageTask
+d	libpapillon/include/Papillon/Tasks/setpersonalinformationtask.h	/^	Private *d;$/;"	m	class:Papillon::SetPersonalInformationTask
+d	libpapillon/include/Papillon/Tasks/setpresencetask.h	/^	Private *d;$/;"	m	class:Papillon::SetPresenceTask
+d	libpapillon/include/Papillon/Tasks/setstatusmessagetask.h	/^	Private *d;$/;"	m	class:Papillon::SetStatusMessageTask
+d	libpapillon/include/Papillon/client.h	/^	Private *d;$/;"	m	class:Papillon::Client
+d	libpapillon/include/Papillon/connection.h	/^	Private *d;$/;"	m	class:Papillon::Connection
+d	libpapillon/include/Papillon/contact.h	/^	Private *d;$/;"	m	class:Papillon::Contact
+d	libpapillon/include/Papillon/contactlist.h	/^	Private *d;$/;"	m	class:Papillon::ContactList
+d	libpapillon/include/Papillon/messengercoreprotocol.h	/^	Private *d;$/;"	m	class:Papillon::MessengerCoreProtocol
+d	libpapillon/include/Papillon/mimeheader.h	/^	QSharedDataPointer<Private> d;$/;"	m	class:Papillon::MimeHeader
+d	libpapillon/include/Papillon/papillonclientstream.h	/^	Private *d;$/;"	m	class:Papillon::ClientStream
+d	libpapillon/include/Papillon/papillonstatusmessage.h	/^	QSharedDataPointer<Private> d;$/;"	m	class:Papillon::StatusMessage
+d	libpapillon/include/Papillon/qtbytestream.h	/^	Private *d;$/;"	m	class:Papillon::QtByteStream
+d	libpapillon/include/Papillon/qtconnector.h	/^	Private *d;$/;"	m	class:Papillon::QtConnector
+d	libpapillon/include/Papillon/task.h	/^	Private *d;$/;"	m	class:Papillon::Task
+d	libpapillon/include/Papillon/transfer.h	/^	Private *d;$/;"	m	class:Papillon::Transfer
+d	libpapillon/include/Papillon/usercontact.h	/^	Private *d;$/;"	m	class:Papillon::UserContact
+d	libpapillon/tests/connector_test.h	/^	Private *d;$/;"	m	class:Connector_Test
+d	libpapillon/tests/papillon_console.h	/^	Private *d;$/;"	m	class:PapillonConsole::PapillonConsole
+d	messengeraccount.h	/^	MessengerAccountPrivate *d;$/;"	m	class:MessengerAccount
+d	ui/messengereditaccountwidget.h	/^	MSNEditAccountWidgetPrivate *d;$/;"	m	class:MSNEditAccountWidget
+days	messengerprotocol.h	/^	const QMap<int, QString> &days() { return mDays; }$/;"	f	class:MessengerProtocol
+debug	libpapillon/task.cpp	/^void Task::debug(const QString &str)$/;"	f	class:Papillon::Task
+deleteAll	libpapillon/base/safedelete.cpp	/^void SafeDelete::deleteAll()$/;"	f	class:SafeDelete
+deleteItLater	libpapillon/base/safedelete.cpp	/^void SafeDeleteLater::deleteItLater(QObject *o)$/;"	f	class:SafeDeleteLater
+deleteLater	libpapillon/base/safedelete.cpp	/^void SafeDelete::deleteLater(QObject *o)$/;"	f	class:SafeDelete
+deleteSingle	libpapillon/base/safedelete.cpp	/^void SafeDelete::deleteSingle(QObject *o)$/;"	f	class:SafeDelete
+deleted	libpapillon/contactlist/sharingservicebinding.cpp	/^bool Member::deleted() const$/;"	f	class:Papillon::Internal::Member
+deleteme	libpapillon/task.cpp	/^	bool insignificant, deleteme, autoDelete;$/;"	m	class:Papillon::Task::Private	file:
+deserializeContact	messengerprotocol.cpp	/^Kopete::Contact *MessengerProtocol::deserializeContact( Kopete::MetaContact *metaContact, $/;"	f	class:MessengerProtocol
+disconnect	messengeraccount.cpp	/^void MessengerAccount::disconnect()$/;"	f	class:MessengerAccount
+disconnectFromServer	libpapillon/client.cpp	/^void Client::disconnectFromServer()$/;"	f	class:Papillon::Client
+disconnectFromServer	libpapillon/connection.cpp	/^void Connection::disconnectFromServer()$/;"	f	class:Papillon::Connection
+disconnectFromServer	libpapillon/http/httpconnection.cpp	/^void HttpConnection::disconnectFromServer()$/;"	f	class:Papillon::HttpConnection
+disconnectFromServer	libpapillon/http/securestream.cpp	/^void SecureStream::disconnectFromServer()$/;"	f	class:Papillon::SecureStream
+dispatchTransfer	libpapillon/connection.cpp	/^void Connection::dispatchTransfer(Transfer *transfer)$/;"	f	class:Papillon::Connection
+displayName	libpapillon/contact.cpp	/^	QString displayName;$/;"	m	class:Papillon::Contact::Private	file:
+displayName	libpapillon/contact.cpp	/^QString Contact::displayName() const$/;"	f	class:Papillon::Contact
+displayName	libpapillon/contactlist/sharingservicebinding.cpp	/^QString Member::displayName() const$/;"	f	class:Papillon::Internal::Member
+doLoginProcess	libpapillon/tests/connector_test.cpp	/^void Connector_Test::doLoginProcess()$/;"	f	class:Connector_Test
+done	libpapillon/qtconnector.cpp	/^void QtConnector::done()$/;"	f	class:Papillon::QtConnector
+done	libpapillon/task.cpp	/^	bool done;$/;"	m	class:Papillon::Task::Private	file:
+done	libpapillon/task.cpp	/^void Task::done()$/;"	f	class:Papillon::Task
+dump	messengercontactinfo.cpp	/^const MessengerContactInfo::dump() const$/;"	f	class:MessengerContactInfo
+dying	libpapillon/base/safedelete.cpp	/^void SafeDeleteLock::dying()$/;"	f	class:SafeDeleteLock
+email	messengercontactinfo.h	/^	MessengerInfoValue<QString> email; $/;"	m	class:MessengerGeneralUserInfo
+emitResult	libpapillon/http/tweenerhandler.cpp	/^void TweenerHandler::emitResult(bool success)$/;"	f	class:Papillon::TweenerHandler
+ensureExists	libpapillon/base/safedelete.cpp	/^SafeDeleteLater *SafeDeleteLater::ensureExists()$/;"	f	class:SafeDeleteLater
+errorCode	libpapillon/http/securestream.cpp	/^	SecureStream::ErrorCode errorCode;$/;"	m	class:Papillon::SecureStream::Private	file:
+errorCode	libpapillon/http/securestream.cpp	/^SecureStream::ErrorCode SecureStream::errorCode() const$/;"	f	class:Papillon::SecureStream
+errorCondition	libpapillon/papillonclientstream.cpp	/^int ClientStream::errorCondition() const$/;"	f	class:Papillon::ClientStream
+errorString	libpapillon/http/securestream.cpp	/^	QString errorString;$/;"	m	class:Papillon::SecureStream::Private	file:
+errorString	libpapillon/http/securestream.cpp	/^QString SecureStream::errorString() const$/;"	f	class:Papillon::SecureStream
+errorText	libpapillon/papillonclientstream.cpp	/^QString ClientStream::errorText() const$/;"	f	class:Papillon::ClientStream
+execute	libpapillon/contactlist/fetchcontactlistjob.cpp	/^void FetchContactListJob::execute()$/;"	f	class:Papillon::FetchContactListJob
+explode	libpapillon/base/safedelete.cpp	/^void SafeDeleteLater::explode()$/;"	f	class:SafeDeleteLater
+features	libpapillon/tasks/setpresencetask.cpp	/^	Papillon::ClientInfo::Features features;$/;"	m	class:Papillon::SetPresenceTask::Private	file:
+fillComboFromTable	messengerprotocol.cpp	/^void MessengerProtocol::fillComboFromTable(QComboBox *box, const QMap<int, QString> &map)$/;"	f	class:MessengerProtocol
+fillDomElement	messengercontactinfo.cpp	/^MessengerGeneralUserInfo::fillDomElement(const QDomElement &e)$/;"	f	class:MessengerGeneralUserInfo
+fillQDomElement	messengercontactinfo.cpp	/^void MessengerContactInfo::fillQDomElement(const QDomElement &e)$/;"	f	class:MessengerContactInfo
+findMembership	libpapillon/contactlist/sharingservicebinding.cpp	/^void SharingServiceBinding::findMembership()$/;"	f	class:Papillon::Internal::SharingServiceBinding
+firstName	messengercontactinfo.h	/^	MessengerInfoValue<QString> firstName; $/;"	m	class:MessengerGeneralUserInfo
+forMe	libpapillon/task.cpp	/^bool Task::forMe(Transfer *transfer) const$/;"	f	class:Papillon::Task
+forMe	libpapillon/tasks/logintask.cpp	/^bool LoginTask::forMe(Transfer *transfer)$/;"	f	class:Papillon::LoginTask
+forMe	libpapillon/tasks/notifymessagetask.cpp	/^bool NotifyMessageTask::forMe(Transfer *transfer) const$/;"	f	class:Papillon::NotifyMessageTask
+forMe	libpapillon/tasks/notifypresencetask.cpp	/^bool NotifyPresenceTask::forMe(Transfer *transfer) const$/;"	f	class:Papillon::NotifyPresenceTask
+formattedMediaString	libpapillon/papillonstatusmessage.cpp	/^QString StatusMessage::formattedMediaString() const$/;"	f	class:Papillon::StatusMessage
+formatterString	libpapillon/papillonstatusmessage.cpp	/^	QString formatterString;$/;"	m	class:Papillon::StatusMessage::Private	file:
+fromQDomElement	messengercontactinfo.cpp	/^MessengerContactInfo::fromQDomElement(const QDomElement &e)$/;"	f	class:MessengerContactInfo
+fromQDomElement	messengercontactinfo.cpp	/^MessengerGeneralUserInfo::fromQDomElement(const QDomElement &e)$/;"	f	class:MessengerGeneralUserInfo
+fromXml	libpapillon/papillonstatusmessage.cpp	/^StatusMessage StatusMessage::fromXml(const QString &xml)$/;"	f	class:Papillon::StatusMessage
+get	libpapillon/messengerinfovalue.h	/^const T &MessengerInfoValue<T>::get() const$/;"	f	class:MessengerInfoValue
+getCodeForCombo	messengerprotocol.cpp	/^int MessengerProtocol::getCodeForCombo(QComboBox *cmb, const QMap<int, QString> &map)$/;"	f	class:MessengerProtocol
+go	libpapillon/task.cpp	/^void Task::go(GoParameters args)$/;"	f	class:Papillon::Task
+gotInitalProfile	libpapillon/client.cpp	/^void Client::gotInitalProfile(const Papillon::MimeHeader &profileMessage)$/;"	f	class:Papillon::Client
+guiDebugOutput	libpapillon/tests/papillon_console.cpp	/^void guiDebugOutput(QtMsgType type, const char *msg)$/;"	f	namespace:PapillonConsole
+hasChanged	libpapillon/messengerinfovalue.h	/^bool MessengerInfoValue<T>::hasChanged() const$/;"	f	class:MessengerInfoValue
+hasContentLength	libpapillon/http/httptransfer.cpp	/^bool HttpTransfer::hasContentLength() const$/;"	f	class:Papillon::HttpTransfer
+hasContentType	libpapillon/http/httptransfer.cpp	/^bool HttpTransfer::hasContentType() const$/;"	f	class:Papillon::HttpTransfer
+hasKey	libpapillon/http/httptransfer.cpp	/^bool HttpTransfer::hasKey(const QString &key) const$/;"	f	class:Papillon::HttpTransfer
+hasKey	libpapillon/mimeheader.cpp	/^bool MimeHeader::hasKey(const QString &key) const$/;"	f	class:Papillon::MimeHeader
+hashMimeHeader	libpapillon/mimeheader.cpp	/^	QHash<QString, QVariant> hashMimeHeader;$/;"	m	class:Papillon::MimeHeader::Private	file:
+havePeerAddress	libpapillon/base/connector.cpp	/^bool Connector::havePeerAddress() const$/;"	f	class:Papillon::Connector
+haveaddr	libpapillon/base/connector.cpp	/^	bool haveaddr;$/;"	m	class:Papillon::Connector::Private	file:
+hexSwap	libpapillon/tasks/challengetask.cpp	/^QString ChallengeTask::Private::hexSwap(const QString& in)$/;"	f	class:Papillon::ChallengeTask::Private
+httpHeader	libpapillon/http/httptransfer.cpp	/^	QHttpHeader *httpHeader;$/;"	m	class:Papillon::HttpTransfer::Private	file:
+in	libpapillon/http/httpcoreprotocol.cpp	/^	QByteArray in;$/;"	m	class:Papillon::HttpCoreProtocol::Private	file:
+in	libpapillon/messengercoreprotocol.cpp	/^	QByteArray in;$/;"	m	class:Papillon::MessengerCoreProtocol::Private	file:
+inTransfer	libpapillon/http/httpcoreprotocol.cpp	/^	HttpTransfer *inTransfer;$/;"	m	class:Papillon::HttpCoreProtocol::Private	file:
+inTransfer	libpapillon/messengercoreprotocol.cpp	/^	Transfer *inTransfer;$/;"	m	class:Papillon::MessengerCoreProtocol::Private	file:
+incomingTransfer	libpapillon/http/httpcoreprotocol.cpp	/^HttpTransfer *HttpCoreProtocol::incomingTransfer()$/;"	f	class:Papillon::HttpCoreProtocol
+incomingTransfer	libpapillon/messengercoreprotocol.cpp	/^Transfer *MessengerCoreProtocol::incomingTransfer()$/;"	f	class:Papillon::MessengerCoreProtocol
+infoTypeToString	libpapillon/tasks/setpersonalinformationtask.cpp	/^QString SetPersonalInformationTask::Private::infoTypeToString(Papillon::ClientInfo::PersonalInformation type)$/;"	f	class:Papillon::SetPersonalInformationTask::Private
+init	libpapillon/messengerinfovalue.h	/^void MessengerInfoValue<T>::init( const T & value )$/;"	f	class:MessengerInfoValue
+init	libpapillon/qtconnector.cpp	/^void QtConnector::init()$/;"	f	class:Papillon::QtConnector
+init	libpapillon/task.cpp	/^void Task::init()$/;"	f	class:Papillon::Task
+initCountries	messengerprotocol.cpp	/^void MessengerProtocol::initCountries()$/;"	f	class:MessengerProtocol
+initDays	messengerprotocol.cpp	/^void MessengerProtocol::initDays()$/;"	f	class:MessengerProtocol
+initMonths	messengerprotocol.cpp	/^void MessengerProtocol::initMonths()$/;"	f	class:MessengerProtocol
+initNotificationTasks	libpapillon/client.cpp	/^void Client::initNotificationTasks()$/;"	f	class:Papillon::Client
+insignificant	libpapillon/task.cpp	/^	bool insignificant, deleteme, autoDelete;$/;"	m	class:Papillon::Task::Private	file:
+isConnected	libpapillon/connection.cpp	/^	bool isConnected;$/;"	m	class:Papillon::Connection::Private	file:
+isConnected	libpapillon/connection.cpp	/^bool Connection::isConnected()$/;"	f	class:Papillon::Connection
+isCurrentMediaEnabled	libpapillon/papillonstatusmessage.cpp	/^bool StatusMessage::isCurrentMediaEnabled() const$/;"	f	class:Papillon::StatusMessage
+isOpen	libpapillon/base/bytestream.cpp	/^bool ByteStream::isOpen() const$/;"	f	class:Papillon::ByteStream
+isOpen	libpapillon/qtbytestream.cpp	/^bool QtByteStream::isOpen() const$/;"	f	class:Papillon::QtByteStream
+isPassportNameHidden	libpapillon/contactlist/sharingservicebinding.cpp	/^bool Member::isPassportNameHidden() const$/;"	f	class:Papillon::Internal::Member
+isPayloadCommand	libpapillon/messengercoreprotocol.cpp	/^bool MessengerCoreProtocol::isPayloadCommand(const QString &command)$/;"	f	class:Papillon::MessengerCoreProtocol
+isPayloadCommand	libpapillon/tests/papillon_console.cpp	/^bool PapillonConsole::isPayloadCommand(const QString &command)$/;"	f	class:PapillonConsole::PapillonConsole
+isReachable	messengercontact.cpp	/^bool MessengerContact::isReachable()$/;"	f	class:MessengerContact
+isValid	libpapillon/http/httptransfer.cpp	/^bool HttpTransfer::isValid() const$/;"	f	class:Papillon::HttpTransfer
+isValid	libpapillon/mimeheader.cpp	/^bool MimeHeader::isValid() const$/;"	f	class:Papillon::MimeHeader
+lastChange	libpapillon/contactlist/sharingservicebinding.cpp	/^QDateTime Service::lastChange() const$/;"	f	class:Papillon::Internal::Service
+lastChanged	libpapillon/contactlist/sharingservicebinding.cpp	/^QDateTime Member::lastChanged() const$/;"	f	class:Papillon::Internal::Member
+lastName	messengercontactinfo.h	/^	MessengerInfoValue<QString> lastName; $/;"	m	class:MessengerGeneralUserInfo
+lineCommand	libpapillon/tests/papillon_console.cpp	/^	QLineEdit *lineCommand;$/;"	m	class:PapillonConsole::PapillonConsole::Private	file:
+linePayload	libpapillon/tests/papillon_console.cpp	/^	QLineEdit *linePayload;$/;"	m	class:PapillonConsole::PapillonConsole::Private	file:
+list	libpapillon/include/Papillon/Base/safedelete.h	/^	QObjectList list;$/;"	m	class:SafeDelete
+list	libpapillon/include/Papillon/Base/safedelete.h	/^	QObjectList list;$/;"	m	class:SafeDeleteLater
+lists	libpapillon/contact.cpp	/^	ContactListEnums::ListFlags lists;$/;"	m	class:Papillon::Contact::Private	file:
+lists	libpapillon/contact.cpp	/^Papillon::ContactListEnums::ListFlags Contact::lists() const$/;"	f	class:Papillon::Contact
+load	libpapillon/contactlist.cpp	/^void ContactList::load()$/;"	f	class:Papillon::ContactList
+loadProp	messengercontactinfo.cpp	/^MessengerAnnotationUserInfo::loadProp()$/;"	f	class:MessengerAnnotationUserInfo
+loadProp	messengercontactinfo.cpp	/^MessengerContactInfo::loadProp(MessengerContactInfo *m_contact)$/;"	f	class:MessengerContactInfo
+loadProp	messengercontactinfo.cpp	/^MessengerEmailUserInfo::loadProp()$/;"	f	class:MessengerEmailUserInfo
+loadProp	messengercontactinfo.cpp	/^MessengerGeneralUserInfo::loadProp()$/;"	f	class:MessengerGeneralUserInfo
+loadProp	messengercontactinfo.cpp	/^MessengerLocationUserInfo::loadProp()$/;"	f	class:MessengerLocationUserInfo
+loadProp	messengercontactinfo.cpp	/^MessengerPhoneUserInfo::loadProp()$/;"	f	class:MessengerPhoneUserInfo
+loadProp	messengercontactinfo.cpp	/^MessengerWebSiteUserInfo::loadProp()$/;"	f	class:MessengerWebSiteUserInfo
+lock	libpapillon/include/Papillon/Base/safedelete.h	/^	SafeDeleteLock *lock;$/;"	m	class:SafeDelete
+login	libpapillon/client.cpp	/^void Client::login()$/;"	f	class:Papillon::Client
+loginCookie	libpapillon/usercontact.cpp	/^	QString loginCookie;$/;"	m	class:Papillon::UserContact::Private	file:
+loginCookie	libpapillon/usercontact.cpp	/^QString UserContact::loginCookie() const$/;"	f	class:Papillon::UserContact
+loginProcessCvr	libpapillon/tests/connector_test.cpp	/^void Connector_Test::loginProcessCvr()$/;"	f	class:Connector_Test
+loginProcessTwnI	libpapillon/tests/connector_test.cpp	/^void Connector_Test::loginProcessTwnI()$/;"	f	class:Connector_Test
+loginProcessTwnS	libpapillon/tests/connector_test.cpp	/^void Connector_Test::loginProcessTwnS()$/;"	f	class:Connector_Test
+loginRedirect	libpapillon/client.cpp	/^void Client::loginRedirect(const QString &server, quint16 port)$/;"	f	class:Papillon::Client
+loginResult	libpapillon/client.cpp	/^void Client::loginResult(Papillon::Task *task)$/;"	f	class:Papillon::Client
+loginState	libpapillon/tasks/logintask.cpp	/^LoginTask::LoginState LoginTask::loginState() const$/;"	f	class:Papillon::LoginTask
+loginTask	libpapillon/client.cpp	/^	LoginTask *loginTask;$/;"	m	class:Papillon::Client::Private	file:
+loginUrl	libpapillon/http/tweenerhandler.cpp	/^	QString loginUrl;$/;"	m	class:Papillon::TweenerHandler::Private	file:
+mAccount	ui/messengeraddcontactpage.h	/^	MessengerAccount *mAccount;$/;"	m	class:MessengerAddContactPage
+mCountries	messengerprotocol.h	/^	QMap<int, QString> mCountries;$/;"	m	class:MessengerProtocol
+mDays	messengerprotocol.h	/^	QMap<int, QString> mDays;$/;"	m	class:MessengerProtocol
+mMonths	messengerprotocol.h	/^	QMap<int, QString> mMonths;$/;"	m	class:MessengerProtocol
+m_annotationUserInfo	messengercontactinfo.h	/^	MessengerAnnotationUserInfo* m_annotationUserInfo;$/;"	m	class:MessengerContactInfo
+m_cID	libpapillon/contactlist/sharingservicebinding.h	/^    int m_cID;$/;"	m	class:Papillon::Internal::Member
+m_changes	libpapillon/contactlist/sharingservicebinding.h	/^    QString m_changes;$/;"	m	class:Papillon::Internal::Member
+m_client	libpapillon/tests/connection_test.h	/^	Client *m_client;$/;"	m	class:Connection_Test
+m_contactInfoWidget	ui/messengeruserinfowidget.h	/^	Ui::MessengerContactInfoWidget* m_contactInfoWidget;$/;"	m	class:MessengerUserInfoWidget
+m_deleted	libpapillon/contactlist/sharingservicebinding.h	/^    bool m_deleted;$/;"	m	class:Papillon::Internal::Member
+m_dirty	libpapillon/messengerinfovalue.h	/^	bool m_dirty;$/;"	m	class:MessengerInfoValue
+m_displayName	libpapillon/contactlist/sharingservicebinding.h	/^    QString m_displayName;$/;"	m	class:Papillon::Internal::Member
+m_emailUserInfo	messengercontactinfo.h	/^	MessengerEmailUserInfo* m_emailUserInfo;$/;"	m	class:MessengerContactInfo
+m_genInfoWidget	ui/messengeruserinfowidget.h	/^	Ui::MessengerGeneralInfoWidget* m_genInfoWidget;$/;"	m	class:MessengerUserInfoWidget
+m_generalUserInfo	messengercontactinfo.h	/^	MessengerGeneralUserInfo* m_generalUserInfo;$/;"	m	class:MessengerContactInfo
+m_isPassportNameHidden	libpapillon/contactlist/sharingservicebinding.h	/^    bool m_isPassportNameHidden;$/;"	m	class:Papillon::Internal::Member
+m_lastChange	libpapillon/contactlist/sharingservicebinding.h	/^	QDateTime m_lastChange;$/;"	m	class:Papillon::Internal::Service
+m_lastChanged	libpapillon/contactlist/sharingservicebinding.h	/^    QDateTime m_lastChanged;$/;"	m	class:Papillon::Internal::Member
+m_locationUserInfo	messengercontactinfo.h	/^	MessengerLocationUserInfo* m_locationUserInfo;$/;"	m	class:MessengerContactInfo
+m_memberRole	libpapillon/contactlist/sharingservicebinding.h	/^	QString m_memberRole;$/;"	m	class:Papillon::Internal::Membership
+m_members	libpapillon/contactlist/sharingservicebinding.h	/^	QList<Member*> m_members;$/;"	m	class:Papillon::Internal::Membership
+m_membershipId	libpapillon/contactlist/sharingservicebinding.h	/^    unsigned int m_membershipId;$/;"	m	class:Papillon::Internal::Member
+m_memberships	libpapillon/contactlist/sharingservicebinding.h	/^	QList<Membership*> m_memberships;$/;"	m	class:Papillon::Internal::Service
+m_notesInfoWidget	ui/messengeruserinfowidget.h	/^	Ui::MessengerNotesInfoWidget* m_notesInfoWidget;$/;"	m	class:MessengerUserInfoWidget
+m_passportChanges	libpapillon/contactlist/sharingservicebinding.h	/^    QString m_passportChanges;$/;"	m	class:Papillon::Internal::Member
+m_passportId	libpapillon/contactlist/sharingservicebinding.h	/^    int m_passportId;$/;"	m	class:Papillon::Internal::Member
+m_passportName	libpapillon/contactlist/sharingservicebinding.h	/^    QString m_passportName;$/;"	m	class:Papillon::Internal::Member
+m_personalInfoWidget	ui/messengeruserinfowidget.h	/^	Ui::MessengerPersonalInfoWidget* m_personalInfoWidget;$/;"	m	class:MessengerUserInfoWidget
+m_phoneUserInfo	messengercontactinfo.h	/^	MessengerPhoneUserInfo* m_phoneUserInfo;$/;"	m	class:MessengerContactInfo
+m_services	libpapillon/contactlist/sharingservicebinding.h	/^	QList<Service*> m_services;$/;"	m	class:Papillon::Internal::FindMembershipResult
+m_state	libpapillon/contactlist/sharingservicebinding.h	/^    QString m_state;$/;"	m	class:Papillon::Internal::Member
+m_type	libpapillon/contactlist/sharingservicebinding.h	/^    QString m_type;$/;"	m	class:Papillon::Internal::Member
+m_value	libpapillon/messengerinfovalue.h	/^	T m_value;$/;"	m	class:MessengerInfoValue
+m_websiteUserInfo	messengercontactinfo.h	/^	MessengerWebSiteUserInfo* m_websiteUserInfo;$/;"	m	class:MessengerContactInfo
+m_workInfoWidget	ui/messengeruserinfowidget.h	/^	Ui::MessengerWorkInfoWidget* m_workInfoWidget;$/;"	m	class:MessengerUserInfoWidget
+main	libpapillon/tests/connection_test.cpp	/^int main(int argc, char **argv)$/;"	f
+main	libpapillon/tests/connector_test.cpp	/^int main(int argc, char **argv)$/;"	f
+main	libpapillon/tests/papillon_console.cpp	/^int main(int argc, char **argv)$/;"	f
+manager	messengercontact.cpp	/^Kopete::ChatSession *MessengerContact::manager(CanCreateFlags canCreate)$/;"	f	class:MessengerContact
+mediaTypeFromString	libpapillon/papillonstatusmessage.cpp	/^Papillon::Presence::MediaType StatusMessage::Private::mediaTypeFromString(const QString &media)$/;"	f	class:Papillon::StatusMessage::Private
+mediaTypeToString	libpapillon/papillonstatusmessage.cpp	/^QString StatusMessage::Private::mediaTypeToString(Papillon::Presence::MediaType type)$/;"	f	class:Papillon::StatusMessage::Private
+memberRole	libpapillon/contactlist/sharingservicebinding.cpp	/^QString Membership::memberRole() const$/;"	f	class:Papillon::Internal::Membership
+members	libpapillon/contactlist/sharingservicebinding.cpp	/^QList<Member*> Membership::members() const$/;"	f	class:Papillon::Internal::Membership
+membershipId	libpapillon/contactlist/sharingservicebinding.cpp	/^unsigned int Member::membershipId() const$/;"	f	class:Papillon::Internal::Member
+memberships	libpapillon/contactlist/sharingservicebinding.cpp	/^QList<Membership*> Service::memberships() const$/;"	f	class:Papillon::Internal::Service
+message	libpapillon/papillonstatusmessage.cpp	/^QString StatusMessage::message() const$/;"	f	class:Papillon::StatusMessage
+method	libpapillon/http/httptransfer.cpp	/^QString HttpTransfer::method() const$/;"	f	class:Papillon::HttpTransfer
+mimeVersion	libpapillon/mimeheader.cpp	/^QString MimeHeader::mimeVersion() const$/;"	f	class:Papillon::MimeHeader
+months	messengerprotocol.h	/^	const QMap<int, QString> &months() { return mMonths; }$/;"	f	class:MessengerProtocol
+notificationConnected	libpapillon/client.cpp	/^void Client::notificationConnected()$/;"	f	class:Papillon::Client
+notificationConnection	libpapillon/client.cpp	/^	Connection *notificationConnection;$/;"	m	class:Papillon::Client::Private	file:
+notificationConnection	libpapillon/client.cpp	/^Connection *Client::notificationConnection()$/;"	f	class:Papillon::Client
+notifyMessageTask	libpapillon/client.cpp	/^	NotifyMessageTask *notifyMessageTask;$/;"	m	class:Papillon::Client::Private	file:
+notifyPresenceTask	libpapillon/client.cpp	/^	NotifyPresenceTask *notifyPresenceTask;$/;"	m	class:Papillon::Client::Private	file:
+notifyStatusMessageTask	libpapillon/client.cpp	/^	NotifyStatusMessageTask *notifyStatusMessageTask;$/;"	m	class:Papillon::Client::Private	file:
+okToProceed	libpapillon/http/httpcoreprotocol.cpp	/^bool HttpCoreProtocol::okToProceed(const QDataStream &din)$/;"	f	class:Papillon::HttpCoreProtocol
+okToProceed	libpapillon/messengercoreprotocol.cpp	/^bool MessengerCoreProtocol::okToProceed(const QDataStream &din)$/;"	f	class:Papillon::MessengerCoreProtocol
+onDisconnect	libpapillon/task.cpp	/^void Task::onDisconnect()$/;"	f	class:Papillon::Task
+onGo	libpapillon/task.cpp	/^void Task::onGo()$/;"	f	class:Papillon::Task
+onGo	libpapillon/tasks/logintask.cpp	/^void LoginTask::onGo()$/;"	f	class:Papillon::LoginTask
+onGo	libpapillon/tasks/setpersonalinformationtask.cpp	/^void SetPersonalInformationTask::onGo()$/;"	f	class:Papillon::SetPersonalInformationTask
+onGo	libpapillon/tasks/setpresencetask.cpp	/^void SetPresenceTask::onGo()$/;"	f	class:Papillon::SetPresenceTask
+onGo	libpapillon/tasks/setstatusmessagetask.cpp	/^void SetStatusMessageTask::onGo()$/;"	f	class:Papillon::SetStatusMessageTask
+operator =	libpapillon/messengerinfovalue.h	/^T & MessengerInfoValue<T>::operator=( const T & value )$/;"	f	class:MessengerInfoValue
+operator =	libpapillon/mimeheader.cpp	/^MimeHeader &MimeHeader::operator=(const MimeHeader &other)$/;"	f	class:Papillon::MimeHeader
+operator =	libpapillon/papillonstatusmessage.cpp	/^StatusMessage &StatusMessage::operator=(const StatusMessage &other)$/;"	f	class:Papillon::StatusMessage
+outgoingTransfer	libpapillon/http/httpcoreprotocol.cpp	/^void HttpCoreProtocol::outgoingTransfer(HttpTransfer *outgoing)$/;"	f	class:Papillon::HttpCoreProtocol
+outgoingTransfer	libpapillon/messengercoreprotocol.cpp	/^void MessengerCoreProtocol::outgoingTransfer(Transfer *outgoing)$/;"	f	class:Papillon::MessengerCoreProtocol
+own	libpapillon/include/Papillon/Base/safedelete.h	/^	bool own;$/;"	m	class:SafeDeleteLock
+parent	libpapillon/task.cpp	/^Task *Task::parent() const$/;"	f	class:Papillon::Task
+parseFindMembershipResponse	libpapillon/contactlist/sharingservicebinding.cpp	/^void SharingServiceBinding::parseFindMembershipResponse(const QDomElement &element)$/;"	f	class:Papillon::Internal::SharingServiceBinding
+parseMember	libpapillon/contactlist/sharingservicebinding.cpp	/^Member *SharingServiceBinding::parseMember(const QDomElement &member)$/;"	f	class:Papillon::Internal::SharingServiceBinding
+parseMembership	libpapillon/contactlist/sharingservicebinding.cpp	/^Membership *SharingServiceBinding::parseMembership(const QDomElement &membership)$/;"	f	class:Papillon::Internal::SharingServiceBinding
+parseMimeHeader	libpapillon/mimeheader.cpp	/^MimeHeader MimeHeader::parseMimeHeader(const QString &data)$/;"	f	class:Papillon::MimeHeader
+parseService	libpapillon/contactlist/sharingservicebinding.cpp	/^Service* SharingServiceBinding::parseService(const QDomElement &element)$/;"	f	class:Papillon::Internal::SharingServiceBinding
+passportChanges	libpapillon/contactlist/sharingservicebinding.cpp	/^QString Member::passportChanges() const$/;"	f	class:Papillon::Internal::Member
+passportId	libpapillon/contact.cpp	/^	QString passportId;$/;"	m	class:Papillon::Contact::Private	file:
+passportId	libpapillon/contact.cpp	/^QString Contact::passportId() const$/;"	f	class:Papillon::Contact
+passportId	libpapillon/contactlist/sharingservicebinding.cpp	/^int Member::passportId() const$/;"	f	class:Papillon::Internal::Member
+passportId	libpapillon/http/tweenerhandler.cpp	/^	QString passportId;$/;"	m	class:Papillon::TweenerHandler::Private	file:
+passportId	libpapillon/tasks/logintask.cpp	/^QString LoginTask::passportId() const$/;"	f	class:Papillon::LoginTask
+passportName	libpapillon/contactlist/sharingservicebinding.cpp	/^QString Member::passportName() const$/;"	f	class:Papillon::Internal::Member
+password	libpapillon/http/tweenerhandler.cpp	/^	QString password;$/;"	m	class:Papillon::TweenerHandler::Private	file:
+password	libpapillon/tasks/logintask.cpp	/^QString LoginTask::password() const$/;"	f	class:Papillon::LoginTask
+password	libpapillon/usercontact.cpp	/^	QString password;$/;"	m	class:Papillon::UserContact::Private	file:
+password	libpapillon/usercontact.cpp	/^QString UserContact::password() const$/;"	f	class:Papillon::UserContact
+path	libpapillon/http/httptransfer.cpp	/^QString HttpTransfer::path() const$/;"	f	class:Papillon::HttpTransfer
+payloadData	libpapillon/transfer.cpp	/^	QByteArray payloadData;$/;"	m	class:Papillon::Transfer::Private	file:
+payloadData	libpapillon/transfer.cpp	/^QByteArray Transfer::payloadData() const$/;"	f	class:Papillon::Transfer
+payloadLength	libpapillon/messengercoreprotocol.cpp	/^	int payloadLength;$/;"	m	class:Papillon::MessengerCoreProtocol::Private	file:
+payloadLength	libpapillon/transfer.cpp	/^int Transfer::payloadLength() const$/;"	f	class:Papillon::Transfer
+peerAddress	libpapillon/base/connector.cpp	/^QHostAddress Connector::peerAddress() const$/;"	f	class:Papillon::Connector
+peerPort	libpapillon/base/connector.cpp	/^quint16 Connector::peerPort() const$/;"	f	class:Papillon::Connector
+pendingList	libpapillon/contactlist.cpp	/^QList<Papillon::Contact*> ContactList::pendingList() const$/;"	f	class:Papillon::ContactList
+pictureData	ui/messengereditaccountwidget.cpp	/^	QImage pictureData;$/;"	m	class:MessengerEditAccountWidgetPrivate	file:
+pictureUrl	ui/messengereditaccountwidget.cpp	/^	QString pictureUrl;$/;"	m	class:MessengerEditAccountWidgetPrivate	file:
+plainMessage	libpapillon/papillonstatusmessage.cpp	/^	QString plainMessage;$/;"	m	class:Papillon::StatusMessage::Private	file:
+port	libpapillon/base/connector.cpp	/^	quint16 port;$/;"	m	class:Papillon::Connector::Private	file:
+port	libpapillon/client.cpp	/^	quint16 port;$/;"	m	class:Papillon::Client::Private	file:
+port	libpapillon/connection.cpp	/^	int port;$/;"	m	class:Papillon::Connection::Private	file:
+port	libpapillon/qtconnector.cpp	/^	quint16 port;$/;"	m	class:Papillon::QtConnector::Private	file:
+presence	libpapillon/tasks/setpresencetask.cpp	/^	Papillon::Presence::Status presence;$/;"	m	class:Papillon::SetPresenceTask::Private	file:
+presenceToString	libpapillon/papillonglobal.cpp	/^QString presenceToString(Papillon::Presence::Status status)$/;"	f	namespace:Papillon::Global
+private	libpapillon/tests/challengetest.cpp	26;"	d	file:
+private	libpapillon/tests/challengetest.cpp	28;"	d	file:
+private	libpapillon/tests/papillon_console.h	21;"	d
+private	libpapillon/tests/papillon_console.h	23;"	d
+propABJobSpouse	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propABJobSpouse;$/;"	m	class:MessengerProtocol
+propABJobTitle	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propABJobTitle;$/;"	m	class:MessengerProtocol
+propABNickName	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propABNickName;$/;"	m	class:MessengerProtocol
+propAnniversary	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propAnniversary;$/;"	m	class:MessengerProtocol
+propBirthday	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propBirthday;$/;"	m	class:MessengerProtocol
+propBusinessCity	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propBusinessCity;$/;"	m	class:MessengerProtocol
+propBusinessCountry	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propBusinessCountry;$/;"	m	class:MessengerProtocol
+propBusinessName	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propBusinessName;$/;"	m	class:MessengerProtocol
+propBusinessPostalCode	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propBusinessPostalCode;$/;"	m	class:MessengerProtocol
+propBusinessState	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propBusinessState;$/;"	m	class:MessengerProtocol
+propBusinessStreet	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propBusinessStreet;$/;"	m	class:MessengerProtocol
+propClient	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propClient;$/;"	m	class:MessengerProtocol
+propComment	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propComment;$/;"	m	class:MessengerProtocol
+propContactEmailBusiness	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propContactEmailBusiness;$/;"	m	class:MessengerProtocol
+propContactEmailMessenger	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propContactEmailMessenger;$/;"	m	class:MessengerProtocol
+propContactEmailOther	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propContactEmailOther;$/;"	m	class:MessengerProtocol
+propContactEmailPersonal	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propContactEmailPersonal;$/;"	m	class:MessengerProtocol
+propContactPhoneBusiness	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propContactPhoneBusiness;$/;"	m	class:MessengerProtocol
+propContactPhoneFax	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propContactPhoneFax;$/;"	m	class:MessengerProtocol
+propContactPhoneMobile	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propContactPhoneMobile;$/;"	m	class:MessengerProtocol
+propContactPhoneOther	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propContactPhoneOther;	$/;"	m	class:MessengerProtocol
+propContactPhonePager	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propContactPhonePager;	$/;"	m	class:MessengerProtocol
+propContactPhonePersonal	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propContactPhonePersonal;	$/;"	m	class:MessengerProtocol
+propContactType	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propContactType;$/;"	m	class:MessengerProtocol
+propContactWebSiteBusiness	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propContactWebSiteBusiness;$/;"	m	class:MessengerProtocol
+propContactWebSitePersonal	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propContactWebSitePersonal;$/;"	m	class:MessengerProtocol
+propEmail	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propEmail;$/;"	m	class:MessengerProtocol
+propFirstName	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propFirstName;$/;"	m	class:MessengerProtocol
+propGuid	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propGuid;$/;"	m	class:MessengerProtocol
+propLastName	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propLastName;$/;"	m	class:MessengerProtocol
+propPersonalCity	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propPersonalCity;$/;"	m	class:MessengerProtocol
+propPersonalCountry	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propPersonalCountry;$/;"	m	class:MessengerProtocol
+propPersonalMessage	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propPersonalMessage; \/\/ it's the equivalent of away message.$/;"	m	class:MessengerProtocol
+propPersonalName	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propPersonalName;$/;"	m	class:MessengerProtocol
+propPersonalPostalCode	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propPersonalPostalCode;$/;"	m	class:MessengerProtocol
+propPersonalState	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propPersonalState;$/;"	m	class:MessengerProtocol
+propPersonalStreet	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propPersonalStreet;$/;"	m	class:MessengerProtocol
+propPhoneHome	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propPhoneHome;$/;"	m	class:MessengerProtocol
+propPhoneMobile	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propPhoneMobile;$/;"	m	class:MessengerProtocol
+propPhoneWork	messengerprotocol.h	/^	const Kopete::ContactPropertyTmpl propPhoneWork;$/;"	m	class:MessengerProtocol
+protocol	libpapillon/http/httpconnection.cpp	/^	HttpCoreProtocol protocol;$/;"	m	class:Papillon::HttpConnection::Private	file:
+protocol	libpapillon/papillonclientstream.cpp	/^	MessengerCoreProtocol protocol;$/;"	m	class:Papillon::ClientStream::Private	file:
+protocol	messengerprotocol.cpp	/^MessengerProtocol *MessengerProtocol::protocol()$/;"	f	class:MessengerProtocol
+protocol	ui/messengereditaccountwidget.cpp	/^	MessengerProtocol *protocol;$/;"	m	class:MessengerEditAccountWidgetPrivate	file:
+protocolIncomingData	libpapillon/http/httpconnection.cpp	/^void HttpConnection::protocolIncomingData()$/;"	f	class:Papillon::HttpConnection
+protocolOutgoingData	libpapillon/http/httpconnection.cpp	/^void HttpConnection::protocolOutgoingData(const QByteArray &data)$/;"	f	class:Papillon::HttpConnection
+qcaInit	libpapillon/client.cpp	/^	QCA::Initializer qcaInit;$/;"	m	class:Papillon::Client::Private	file:
+qtConnector	libpapillon/tests/connector_test.cpp	/^	QtConnector *qtConnector;$/;"	m	class:Connector_Test::Private	file:
+rawToTransfer	libpapillon/http/httpcoreprotocol.cpp	/^int HttpCoreProtocol::rawToTransfer(const QByteArray &raw)$/;"	f	class:Papillon::HttpCoreProtocol
+rawToTransfer	libpapillon/messengercoreprotocol.cpp	/^int MessengerCoreProtocol::rawToTransfer(const QByteArray &raw)$/;"	f	class:Papillon::MessengerCoreProtocol
+read	libpapillon/base/bytestream.cpp	/^QByteArray ByteStream::read(int bytes)$/;"	f	class:Papillon::ByteStream
+read	libpapillon/http/httpconnection.cpp	/^HttpTransfer *HttpConnection::read()$/;"	f	class:Papillon::HttpConnection
+read	libpapillon/http/securestream.cpp	/^QByteArray SecureStream::read()$/;"	f	class:Papillon::SecureStream
+read	libpapillon/papillonclientstream.cpp	/^Transfer *ClientStream::read()$/;"	f	class:Papillon::ClientStream
+readBuf	libpapillon/base/bytestream.cpp	/^	QByteArray readBuf, writeBuf;$/;"	m	class:Papillon::ByteStream::Private	file:
+readBuf	libpapillon/base/bytestream.cpp	/^QByteArray & ByteStream::readBuf()$/;"	f	class:Papillon::ByteStream
+readBuffer	libpapillon/http/securestream.cpp	/^	QByteArray readBuffer;$/;"	m	class:Papillon::SecureStream::Private	file:
+readDataFromFile	libpapillon/tests/coreprotocol_test.cpp	/^QByteArray readDataFromFile(const QString &fileName)$/;"	f
+readDataFromFile	libpapillon/tests/httpcoreprotocol_test.cpp	/^QByteArray readDataFromFile(const QString &fileName)$/;"	f
+removeFromList	libpapillon/contact.cpp	/^void Contact::removeFromList(const Papillon::ContactListEnums::ListFlags &list)$/;"	f	class:Papillon::Contact
+reset	libpapillon/http/httpcoreprotocol.cpp	/^void HttpCoreProtocol::reset()$/;"	f	class:Papillon::HttpCoreProtocol
+reset	libpapillon/messengercoreprotocol.cpp	/^void MessengerCoreProtocol::reset()$/;"	f	class:Papillon::MessengerCoreProtocol
+reset	libpapillon/papillonclientstream.cpp	/^void ClientStream::reset(bool all)$/;"	f	class:Papillon::ClientStream
+reverseList	libpapillon/contactlist.cpp	/^QList<Papillon::Contact*> ContactList::reverseList() const$/;"	f	class:Papillon::ContactList
+reverseMap	messengerprotocol.cpp	/^QMap<QString, int> MessengerProtocol::reverseMap( const QMap<int, QString>& map ) const$/;"	f	class:MessengerProtocol
+rootTask	libpapillon/connection.cpp	/^	Task *rootTask;$/;"	m	class:Papillon::Connection::Private	file:
+rootTask	libpapillon/connection.cpp	/^Task *Connection::rootTask()$/;"	f	class:Papillon::Connection
+s_self	messengerprotocol.cpp	/^MessengerProtocol *MessengerProtocol::s_self = 0;$/;"	m	class:MessengerProtocol	file:
+s_self	messengerprotocol.h	/^	static MessengerProtocol *s_self;$/;"	m	class:MessengerProtocol
+safeDelete	libpapillon/task.cpp	/^void Task::safeDelete()$/;"	f	class:Papillon::Task
+scalePicture	messengerprotocol.cpp	/^QImage MessengerProtocol::scalePicture(const QImage &picture)$/;"	f	class:MessengerProtocol
+self	libpapillon/base/safedelete.cpp	/^SafeDeleteLater *SafeDeleteLater::self = 0;$/;"	m	class:SafeDeleteLater	file:
+self	libpapillon/include/Papillon/Base/safedelete.h	/^	static SafeDeleteLater *self;$/;"	m	class:SafeDeleteLater
+send	libpapillon/connection.cpp	/^void Connection::send(Transfer *transfer)$/;"	f	class:Papillon::Connection
+send	libpapillon/task.cpp	/^void Task::send(Transfer *request)$/;"	f	class:Papillon::Task
+sendCvrCommand	libpapillon/tasks/logintask.cpp	/^void LoginTask::sendCvrCommand()$/;"	f	class:Papillon::LoginTask
+sendFile	messengercontact.cpp	/^void MessengerContact::sendFile( const KUrl &sourceURL, const QString &altFileName, uint \/*fileSize*\/ )$/;"	f	class:MessengerContact
+sendRequest	libpapillon/http/tweenerhandler.cpp	/^void TweenerHandler::sendRequest(const QHttpRequestHeader &httpHeader)$/;"	f	class:Papillon::TweenerHandler
+sendTweenerConfirmation	libpapillon/tasks/logintask.cpp	/^void LoginTask::sendTweenerConfirmation()$/;"	f	class:Papillon::LoginTask
+sendTweenerInviteCommand	libpapillon/tasks/logintask.cpp	/^void LoginTask::sendTweenerInviteCommand()$/;"	f	class:Papillon::LoginTask
+sendVersionCommand	libpapillon/tasks/logintask.cpp	/^void LoginTask::sendVersionCommand()$/;"	f	class:Papillon::LoginTask
+serialize	messengercontact.cpp	/^void MessengerContact::serialize(QMap< QString, QString >& serializedData, QMap< QString, QString >& addressBookData)$/;"	f	class:MessengerContact
+server	libpapillon/client.cpp	/^	QString server;$/;"	m	class:Papillon::Client::Private	file:
+server	libpapillon/connection.cpp	/^	QString server;$/;"	m	class:Papillon::Connection::Private	file:
+server	libpapillon/http/securestream.cpp	/^	QString server;$/;"	m	class:Papillon::SecureStream::Private	file:
+server	libpapillon/qtconnector.cpp	/^	QString server;$/;"	m	class:Papillon::QtConnector::Private	file:
+services	libpapillon/contactlist/sharingservicebinding.cpp	/^QList<Service*> FindMembershipResult::services() const$/;"	f	class:Papillon::Internal::FindMembershipResult
+set	libpapillon/messengerinfovalue.h	/^void MessengerInfoValue<T>::set( const T & value )$/;"	f	class:MessengerInfoValue
+setArguments	libpapillon/transfer.cpp	/^void Transfer::setArguments(const QString &argumentString)$/;"	f	class:Papillon::Transfer
+setArguments	libpapillon/transfer.cpp	/^void Transfer::setArguments(const QStringList &arguments)$/;"	f	class:Papillon::Transfer
+setBody	libpapillon/http/httptransfer.cpp	/^void HttpTransfer::setBody(const QByteArray &body)$/;"	f	class:Papillon::HttpTransfer
+setCID	libpapillon/contactlist/sharingservicebinding.cpp	/^void Member::setCID(int value)$/;"	f	class:Papillon::Internal::Member
+setChanges	libpapillon/contactlist/sharingservicebinding.cpp	/^void Member::setChanges(const QString &value)$/;"	f	class:Papillon::Internal::Member
+setCharset	libpapillon/mimeheader.cpp	/^void MimeHeader::setCharset(const QString &charset)$/;"	f	class:Papillon::MimeHeader
+setClient	libpapillon/connection.cpp	/^void Connection::setClient(Client *client)$/;"	f	class:Papillon::Connection
+setClientFeatures	libpapillon/contact.cpp	/^void Contact::setClientFeatures(const ClientInfo::Features &features)$/;"	f	class:Papillon::Contact
+setClientFeatures	libpapillon/tasks/setpresencetask.cpp	/^void SetPresenceTask::setClientFeatures(Papillon::ClientInfo::Features features)$/;"	f	class:Papillon::SetPresenceTask
+setComboFromTable	messengerprotocol.cpp	/^void MessengerProtocol::setComboFromTable(QComboBox *box, const QMap<int, QString> &map, int value)$/;"	f	class:MessengerProtocol
+setCommand	libpapillon/transfer.cpp	/^void Transfer::setCommand(const QString &command)$/;"	f	class:Papillon::Transfer
+setConnectionStatus	libpapillon/client.cpp	/^void Client::setConnectionStatus(Papillon::Client::ConnectionStatus newStatus)$/;"	f	class:Papillon::Client
+setContact	ui/messengeruserinfowidget.cpp	/^void MessengerUserInfoWidget::setContact( MessengerContact* contact )$/;"	f	class:MessengerUserInfoWidget
+setContactId	libpapillon/contact.cpp	/^void Contact::setContactId(const QString &contactId)$/;"	f	class:Papillon::Contact
+setContentType	libpapillon/http/httptransfer.cpp	/^void HttpTransfer::setContentType(const QString &contentType)$/;"	f	class:Papillon::HttpTransfer
+setContentType	libpapillon/mimeheader.cpp	/^void MimeHeader::setContentType(const QString &contentType)$/;"	f	class:Papillon::MimeHeader
+setCookie	libpapillon/http/httpconnection.cpp	/^void HttpConnection::setCookie(const QString &cookie)$/;"	f	class:Papillon::HttpConnection
+setCurrentMediaApplication	libpapillon/papillonstatusmessage.cpp	/^void StatusMessage::setCurrentMediaApplication(const QString &application)$/;"	f	class:Papillon::StatusMessage
+setCurrentMediaArguments	libpapillon/papillonstatusmessage.cpp	/^void StatusMessage::setCurrentMediaArguments(const QList<QVariant> &args)$/;"	f	class:Papillon::StatusMessage
+setCurrentMediaEnabled	libpapillon/papillonstatusmessage.cpp	/^void StatusMessage::setCurrentMediaEnabled(bool enabled)$/;"	f	class:Papillon::StatusMessage
+setCurrentMediaFormatterString	libpapillon/papillonstatusmessage.cpp	/^void StatusMessage::setCurrentMediaFormatterString(const QString &formatterString)$/;"	f	class:Papillon::StatusMessage
+setCurrentMediaType	libpapillon/papillonstatusmessage.cpp	/^void StatusMessage::setCurrentMediaType(Papillon::Presence::MediaType type)$/;"	f	class:Papillon::StatusMessage
+setDeleted	libpapillon/contactlist/sharingservicebinding.cpp	/^void Member::setDeleted(bool value)$/;"	f	class:Papillon::Internal::Member
+setDisplayName	libpapillon/contact.cpp	/^void Contact::setDisplayName(const QString &displayName)$/;"	f	class:Papillon::Contact
+setDisplayName	libpapillon/contactlist/sharingservicebinding.cpp	/^void Member::setDisplayName(const QString &value)$/;"	f	class:Papillon::Internal::Member
+setError	libpapillon/task.cpp	/^void Task::setError(int code, const QString &str)$/;"	f	class:Papillon::Task
+setHttpHeader	libpapillon/http/httptransfer.cpp	/^void HttpTransfer::setHttpHeader(const QHttpRequestHeader &header)$/;"	f	class:Papillon::HttpTransfer
+setHttpHeader	libpapillon/http/httptransfer.cpp	/^void HttpTransfer::setHttpHeader(const QHttpResponseHeader &header)$/;"	f	class:Papillon::HttpTransfer
+setIsPassportNameHidden	libpapillon/contactlist/sharingservicebinding.cpp	/^void Member::setIsPassportNameHidden(bool value)$/;"	f	class:Papillon::Internal::Member
+setLastChange	libpapillon/contactlist/sharingservicebinding.cpp	/^void Service::setLastChange(const QDateTime &lastChange)$/;"	f	class:Papillon::Internal::Service
+setLastChanged	libpapillon/contactlist/sharingservicebinding.cpp	/^void Member::setLastChanged(const QDateTime &value)$/;"	f	class:Papillon::Internal::Member
+setLoginCookie	libpapillon/usercontact.cpp	/^void UserContact::setLoginCookie(const QString &cookie)$/;"	f	class:Papillon::UserContact
+setLoginInformation	libpapillon/http/tweenerhandler.cpp	/^void TweenerHandler::setLoginInformation(const QString &tweener, const QString &passportId, const QString &password)$/;"	f	class:Papillon::TweenerHandler
+setLoginInformation	libpapillon/usercontact.cpp	/^void UserContact::setLoginInformation(const QString &passportId, const QString &password)$/;"	f	class:Papillon::UserContact
+setMemberRole	libpapillon/contactlist/sharingservicebinding.cpp	/^void Membership::setMemberRole(const QString &memberRole)$/;"	f	class:Papillon::Internal::Membership
+setMembers	libpapillon/contactlist/sharingservicebinding.cpp	/^void Membership::setMembers(const QList<Member*> &members)$/;"	f	class:Papillon::Internal::Membership
+setMembershipId	libpapillon/contactlist/sharingservicebinding.cpp	/^void Member::setMembershipId(unsigned int value)$/;"	f	class:Papillon::Internal::Member
+setMemberships	libpapillon/contactlist/sharingservicebinding.cpp	/^void Service::setMemberships(const QList<Membership*> &memberships)$/;"	f	class:Papillon::Internal::Service
+setMessage	libpapillon/papillonstatusmessage.cpp	/^void StatusMessage::setMessage(const QString &message)$/;"	f	class:Papillon::StatusMessage
+setMimeVersion	libpapillon/mimeheader.cpp	/^void MimeHeader::setMimeVersion(const QString &mimeVersion)$/;"	f	class:Papillon::MimeHeader
+setOnlineStatus	messengeraccount.cpp	/^void MessengerAccount::setOnlineStatus(const Kopete::OnlineStatus& status, const Kopete::StatusMessage &reason)$/;"	f	class:MessengerAccount
+setPassportChanges	libpapillon/contactlist/sharingservicebinding.cpp	/^void Member::setPassportChanges(const QString &value)$/;"	f	class:Papillon::Internal::Member
+setPassportId	libpapillon/contact.cpp	/^void Contact::setPassportId(const QString &passportId)$/;"	f	class:Papillon::Contact
+setPassportId	libpapillon/contactlist/sharingservicebinding.cpp	/^void Member::setPassportId(int value)$/;"	f	class:Papillon::Internal::Member
+setPassportName	libpapillon/contactlist/sharingservicebinding.cpp	/^void Member::setPassportName(const QString &value)$/;"	f	class:Papillon::Internal::Member
+setPayloadData	libpapillon/transfer.cpp	/^void Transfer::setPayloadData(const QByteArray &data)$/;"	f	class:Papillon::Transfer
+setPeerAddress	libpapillon/base/connector.cpp	/^void Connector::setPeerAddress(const QHostAddress &_addr, quint16 _port)$/;"	f	class:Papillon::Connector
+setPeerAddressNone	libpapillon/base/connector.cpp	/^void Connector::setPeerAddressNone()$/;"	f	class:Papillon::Connector
+setPersonalInformation	libpapillon/tasks/setpersonalinformationtask.cpp	/^void SetPersonalInformationTask::setPersonalInformation(Papillon::ClientInfo::PersonalInformation type, const QString &value)$/;"	f	class:Papillon::SetPersonalInformationTask
+setPersonalInformation	libpapillon/usercontact.cpp	/^void UserContact::setPersonalInformation(Papillon::ClientInfo::PersonalInformation type, const QString &value)$/;"	f	class:Papillon::UserContact
+setPersonalStatusMessage	libpapillon/usercontact.cpp	/^void UserContact::setPersonalStatusMessage(const Papillon::StatusMessage &statusMessage)$/;"	f	class:Papillon::UserContact
+setPresence	libpapillon/tasks/setpresencetask.cpp	/^void SetPresenceTask::setPresence(Papillon::Presence::Status presence)$/;"	f	class:Papillon::SetPresenceTask
+setPresence	libpapillon/usercontact.cpp	/^void UserContact::setPresence(Papillon::Presence::Status newPresence)$/;"	f	class:Papillon::UserContact
+setRequest	libpapillon/http/httptransfer.cpp	/^void HttpTransfer::setRequest(const QString &method, const QString &path, int majorVer, int minorVer)$/;"	f	class:Papillon::HttpTransfer
+setServer	libpapillon/client.cpp	/^void Client::setServer(const QString &server, quint16 port)$/;"	f	class:Papillon::Client
+setServices	libpapillon/contactlist/sharingservicebinding.cpp	/^void FindMembershipResult::setServices(const QList<Service*> &service)$/;"	f	class:Papillon::Internal::FindMembershipResult
+setState	libpapillon/contactlist/sharingservicebinding.cpp	/^void Member::setState(const QString &value)$/;"	f	class:Papillon::Internal::Member
+setStatusMessage	libpapillon/tasks/setstatusmessagetask.cpp	/^void SetStatusMessageTask::setStatusMessage(const Papillon::StatusMessage &statusMessage)$/;"	f	class:Papillon::SetStatusMessageTask
+setStatusMessage	messengeraccount.cpp	/^void MessengerAccount::setStatusMessage(const Kopete::StatusMessage &statusMessage)$/;"	f	class:MessengerAccount
+setSuccess	libpapillon/task.cpp	/^void Task::setSuccess(int code, const QString &str)$/;"	f	class:Papillon::Task
+setTransactionId	libpapillon/transfer.cpp	/^void Transfer::setTransactionId(const QString &transactionId)$/;"	f	class:Papillon::Transfer
+setTransfer	libpapillon/task.cpp	/^void Task::setTransfer(Transfer *transfer)$/;"	f	class:Papillon::Task
+setType	libpapillon/contactlist/sharingservicebinding.cpp	/^void Member::setType(const QString &value)$/;"	f	class:Papillon::Internal::Member
+setUserInfo	ui/messengeruserinfowidget.cpp	/^void MessengerUserInfoWidget::setUserInfo(MessengerContactInfo * contactInfo)$/;"	f	class:MessengerUserInfoWidget
+setValue	libpapillon/http/httptransfer.cpp	/^void HttpTransfer::setValue(const QString & key, const QString &value)$/;"	f	class:Papillon::HttpTransfer
+setValue	libpapillon/mimeheader.cpp	/^void MimeHeader::setValue(const QString &key, const QVariant &value)$/;"	f	class:Papillon::MimeHeader
+setValues	libpapillon/http/httptransfer.cpp	/^void HttpTransfer::setValues(const QList<QPair<QString, QString> > &values)$/;"	f	class:Papillon::HttpTransfer
+settings	libpapillon/tests/papillon_console.cpp	/^	QSettings *settings;$/;"	m	class:PapillonConsole::PapillonConsole::Private	file:
+slotAllow	ui/messengereditaccountwidget.cpp	/^void MessengerEditAccountWidget::slotAllow()$/;"	f	class:MessengerEditAccountWidget
+slotBlock	ui/messengereditaccountwidget.cpp	/^void MessengerEditAccountWidget::slotBlock()$/;"	f	class:MessengerEditAccountWidget
+slotByteStreamBytesWritten	libpapillon/papillonclientstream.cpp	/^void ClientStream::slotByteStreamBytesWritten(int bytes)$/;"	f	class:Papillon::ClientStream
+slotByteStreamConnectionClosed	libpapillon/papillonclientstream.cpp	/^void ClientStream::slotByteStreamConnectionClosed()$/;"	f	class:Papillon::ClientStream
+slotByteStreamReadyRead	libpapillon/papillonclientstream.cpp	/^void ClientStream::slotByteStreamReadyRead()$/;"	f	class:Papillon::ClientStream
+slotBytesWritten	libpapillon/qtbytestream.cpp	/^void QtByteStream::slotBytesWritten(qint64 bytes)$/;"	f	class:Papillon::QtByteStream
+slotConnected	libpapillon/connection.cpp	/^void Connection::slotConnected()$/;"	f	class:Papillon::Connection
+slotConnected	libpapillon/http/tweenerhandler.cpp	/^void TweenerHandler::slotConnected()$/;"	f	class:Papillon::TweenerHandler
+slotConnected	libpapillon/qtbytestream.cpp	/^void QtByteStream::slotConnected()$/;"	f	class:Papillon::QtByteStream
+slotConnected	libpapillon/qtconnector.cpp	/^void QtConnector::slotConnected()$/;"	f	class:Papillon::QtConnector
+slotConnected	libpapillon/tests/connector_test.cpp	/^void Connector_Test::slotConnected()$/;"	f	class:Connector_Test
+slotConnectionClosed	libpapillon/qtbytestream.cpp	/^void QtByteStream::slotConnectionClosed()$/;"	f	class:Papillon::QtByteStream
+slotConnectorConnected	libpapillon/papillonclientstream.cpp	/^void ClientStream::slotConnectorConnected()$/;"	f	class:Papillon::ClientStream
+slotContactPresenceChanged	libpapillon/client.cpp	/^void Client::slotContactPresenceChanged(const QString &contactId, Papillon::Presence::Status presence)$/;"	f	class:Papillon::Client
+slotContactStatusMessageChanged	libpapillon/client.cpp	/^void Client::slotContactStatusMessageChanged(const QString &contactId, const Papillon::StatusMessage &newStatusMessage)$/;"	f	class:Papillon::Client
+slotDisconnected	libpapillon/connection.cpp	/^void Connection::slotDisconnected()$/;"	f	class:Papillon::Connection
+slotDisconnected	libpapillon/http/securestream.cpp	/^void SecureStream::slotDisconnected()$/;"	f	class:Papillon::SecureStream
+slotError	libpapillon/qtbytestream.cpp	/^void QtByteStream::slotError(int)$/;"	f	class:Papillon::QtByteStream
+slotExit	libpapillon/tests/connector_test.cpp	/^void Connector_Test::slotExit()$/;"	f	class:Connector_Test
+slotOpenRegister	ui/messengereditaccountwidget.cpp	/^void MessengerEditAccountWidget::slotOpenRegister()$/;"	f	class:MessengerEditAccountWidget
+slotProtocolIncomingData	libpapillon/papillonclientstream.cpp	/^void ClientStream::slotProtocolIncomingData()$/;"	f	class:Papillon::ClientStream
+slotProtocolOutgoingData	libpapillon/papillonclientstream.cpp	/^void ClientStream::slotProtocolOutgoingData(const QByteArray &data)$/;"	f	class:Papillon::ClientStream
+slotReadTransfer	libpapillon/tests/connector_test.cpp	/^void Connector_Test::slotReadTransfer()$/;"	f	class:Connector_Test
+slotReadyRead	libpapillon/http/tweenerhandler.cpp	/^void TweenerHandler::slotReadyRead()$/;"	f	class:Papillon::TweenerHandler
+slotReadyRead	libpapillon/qtbytestream.cpp	/^void QtByteStream::slotReadyRead()$/;"	f	class:Papillon::QtByteStream
+slotSelectImage	ui/messengereditaccountwidget.cpp	/^void MessengerEditAccountWidget::slotSelectImage()$/;"	f	class:MessengerEditAccountWidget
+slotShowReverseList	ui/messengereditaccountwidget.cpp	/^void MessengerEditAccountWidget::slotShowReverseList()$/;"	f	class:MessengerEditAccountWidget
+slotUpdateDay	ui/messengeruserinfowidget.cpp	/^void MessengerUserInfoWidget::slotUpdateDay()$/;"	f	class:MessengerUserInfoWidget
+slotUpdateNickName	ui/messengeruserinfowidget.cpp	/^void MessengerUserInfoWidget::slotUpdateNickName(const QString & text)$/;"	f	class:MessengerUserInfoWidget
+slotUserInfo	messengeraccount.cpp	/^void MessengerContact::slotUserInfo()$/;"	f	class:MessengerContact
+slotUserInfo	messengercontact.cpp	/^void MessengerContact::slotUserInfo()$/;"	f	class:MessengerContact
+slotUserProfile	messengercontact.cpp	/^void MessengerContact::slotUserProfile()$/;"	f	class:MessengerContact
+socket	libpapillon/qtbytestream.cpp	/^	QTcpSocket *socket;$/;"	m	class:Papillon::QtByteStream::Private	file:
+start	libpapillon/http/tweenerhandler.cpp	/^void TweenerHandler::start()$/;"	f	class:Papillon::TweenerHandler
+state	libpapillon/contactlist/sharingservicebinding.cpp	/^QString Member::state() const$/;"	f	class:Papillon::Internal::Member
+state	libpapillon/http/httpcoreprotocol.cpp	/^	HttpCoreProtocol::State state;$/;"	m	class:Papillon::HttpCoreProtocol::Private	file:
+state	libpapillon/http/httpcoreprotocol.cpp	/^int HttpCoreProtocol::state()$/;"	f	class:Papillon::HttpCoreProtocol
+state	libpapillon/http/tweenerhandler.cpp	/^	TweenerHandler::TweenerState state;$/;"	m	class:Papillon::TweenerHandler::Private	file:
+state	libpapillon/messengercoreprotocol.cpp	/^	int state;$/;"	m	class:Papillon::MessengerCoreProtocol::Private	file:
+state	libpapillon/messengercoreprotocol.cpp	/^int MessengerCoreProtocol::state()$/;"	f	class:Papillon::MessengerCoreProtocol
+statusCode	libpapillon/http/httptransfer.cpp	/^int HttpTransfer::statusCode() const$/;"	f	class:Papillon::HttpTransfer
+statusCode	libpapillon/task.cpp	/^	int statusCode;$/;"	m	class:Papillon::Task::Private	file:
+statusCode	libpapillon/task.cpp	/^int Task::statusCode() const$/;"	f	class:Papillon::Task
+statusMessage	libpapillon/tasks/setstatusmessagetask.cpp	/^	Papillon::StatusMessage statusMessage;$/;"	m	class:Papillon::SetStatusMessageTask::Private	file:
+statusString	libpapillon/task.cpp	/^	QString statusString;$/;"	m	class:Papillon::Task::Private	file:
+statusString	libpapillon/task.cpp	/^const QString &Task::statusString() const$/;"	f	class:Papillon::Task
+storeProp	messengercontactinfo.cpp	/^MessengerAnnotationUserInfo::storeProp()$/;"	f	class:MessengerAnnotationUserInfo
+storeProp	messengercontactinfo.cpp	/^MessengerContactInfo::storeProp(MessengerContactInfo *m_contact)$/;"	f	class:MessengerContactInfo
+storeProp	messengercontactinfo.cpp	/^MessengerEmailUserInfo::storeProp()$/;"	f	class:MessengerEmailUserInfo
+storeProp	messengercontactinfo.cpp	/^MessengerGeneralUserInfo::storeProp()$/;"	f	class:MessengerGeneralUserInfo
+storeProp	messengercontactinfo.cpp	/^MessengerLocationUserInfo::storeProp()$/;"	f	class:MessengerLocationUserInfo
+storeProp	messengercontactinfo.cpp	/^MessengerPhoneUserInfo::storeProp()$/;"	f	class:MessengerPhoneUserInfo
+storeProp	messengercontactinfo.cpp	/^MessengerWebSiteUserInfo::storeProp()$/;"	f	class:MessengerWebSiteUserInfo
+stream	libpapillon/connection.cpp	/^	ClientStream *stream;$/;"	m	class:Papillon::Connection::Private	file:
+stream	libpapillon/http/httpconnection.cpp	/^	SecureStream *stream;$/;"	m	class:Papillon::HttpConnection::Private	file:
+stream	libpapillon/http/tweenerhandler.cpp	/^	SecureStream *stream;$/;"	m	class:Papillon::TweenerHandler::Private	file:
+stream	libpapillon/qtconnector.cpp	/^ByteStream* QtConnector::stream() const$/;"	f	class:Papillon::QtConnector
+stream	libpapillon/tests/connector_test.cpp	/^	ClientStream *stream;$/;"	m	class:Connector_Test::Private	file:
+streamConnected	libpapillon/http/securestream.cpp	/^void SecureStream::streamConnected()$/;"	f	class:Papillon::SecureStream
+streamReadyRead	libpapillon/http/httpconnection.cpp	/^void HttpConnection::streamReadyRead()$/;"	f	class:Papillon::HttpConnection
+streamReadyRead	libpapillon/http/securestream.cpp	/^void SecureStream::streamReadyRead()$/;"	f	class:Papillon::SecureStream
+stringToPresence	libpapillon/papillonglobal.cpp	/^Papillon::Presence::Status stringToPresence(const QString &status)$/;"	f	namespace:Papillon::Global
+success	libpapillon/http/tweenerhandler.cpp	/^	bool success;$/;"	m	class:Papillon::TweenerHandler::Private	file:
+success	libpapillon/http/tweenerhandler.cpp	/^bool TweenerHandler::success() const$/;"	f	class:Papillon::TweenerHandler
+success	libpapillon/task.cpp	/^	bool success;$/;"	m	class:Papillon::Task::Private	file:
+success	libpapillon/task.cpp	/^bool Task::success() const$/;"	f	class:Papillon::Task
+take	libpapillon/task.cpp	/^bool Task::take(Transfer *transfer)$/;"	f	class:Papillon::Task
+take	libpapillon/tasks/challengetask.cpp	/^bool ChallengeTask::take(Transfer *transfer)$/;"	f	class:Papillon::ChallengeTask
+take	libpapillon/tasks/logintask.cpp	/^bool LoginTask::take(Transfer *transfer)$/;"	f	class:Papillon::LoginTask
+take	libpapillon/tasks/notifymessagetask.cpp	/^bool NotifyMessageTask::take(Transfer *transfer)$/;"	f	class:Papillon::NotifyMessageTask
+take	libpapillon/tasks/notifypresencetask.cpp	/^bool NotifyPresenceTask::take(Transfer *transfer)$/;"	f	class:Papillon::NotifyPresenceTask
+take	libpapillon/tasks/notifystatusmessagetask.cpp	/^bool NotifyStatusMessageTask::take(Transfer *transfer)$/;"	f	class:Papillon::NotifyStatusMessageTask
+take	libpapillon/tasks/setpersonalinformationtask.cpp	/^bool SetPersonalInformationTask::take(Transfer *transfer)$/;"	f	class:Papillon::SetPersonalInformationTask
+take	libpapillon/tasks/setpresencetask.cpp	/^bool SetPresenceTask::take(Transfer *transfer)$/;"	f	class:Papillon::SetPresenceTask
+take	libpapillon/tasks/setstatusmessagetask.cpp	/^bool SetStatusMessageTask::take(Transfer *transfer)$/;"	f	class:Papillon::SetStatusMessageTask
+takeArray	libpapillon/base/bytestream.cpp	/^QByteArray ByteStream::takeArray(QByteArray *from, int size, bool del)$/;"	f	class:Papillon::ByteStream
+takeRead	libpapillon/base/bytestream.cpp	/^QByteArray ByteStream::takeRead(int size, bool del)$/;"	f	class:Papillon::ByteStream
+takeWrite	libpapillon/base/bytestream.cpp	/^QByteArray ByteStream::takeWrite(int size, bool del)$/;"	f	class:Papillon::ByteStream
+testChallenge	libpapillon/tests/challengetest.cpp	/^void Challenge_Test::testChallenge()$/;"	f	class:Challenge_Test
+testConnection	libpapillon/tests/connection_test.cpp	/^void Connection_Test::testConnection()$/;"	f	class:Connection_Test
+testFragmentPayloadTransfer	libpapillon/tests/coreprotocol_test.cpp	/^void CoreProtocol_Test::testFragmentPayloadTransfer()$/;"	f	class:CoreProtocol_Test
+testFullPayloadTransfer	libpapillon/tests/coreprotocol_test.cpp	/^void CoreProtocol_Test::testFullPayloadTransfer()$/;"	f	class:CoreProtocol_Test
+testHttpRequest	libpapillon/tests/httptransfer_test.cpp	/^void HttpTransfer_Test::testHttpRequest()$/;"	f	class:HttpTransfer_Test
+testHttpResponse	libpapillon/tests/httptransfer_test.cpp	/^void HttpTransfer_Test::testHttpResponse()$/;"	f	class:HttpTransfer_Test
+testMimeGeneration	libpapillon/tests/mimeheader_test.cpp	/^void MimeHeader_Test::testMimeGeneration()$/;"	f	class:MimeHeader_Test
+testMimeParsing	libpapillon/tests/mimeheader_test.cpp	/^void MimeHeader_Test::testMimeParsing()$/;"	f	class:MimeHeader_Test
+testNormalTransfer	libpapillon/tests/coreprotocol_test.cpp	/^void CoreProtocol_Test::testNormalTransfer()$/;"	f	class:CoreProtocol_Test
+testNormalTransfer	libpapillon/tests/httpcoreprotocol_test.cpp	/^void HttpCoreProtocol_Test::testNormalTransfer()$/;"	f	class:HttpCoreProtocol_Test
+testNormalTransfer	libpapillon/tests/transfer_test.cpp	/^void Transfer_Test::testNormalTransfer()$/;"	f	class:Transfer_Test
+testPayloadTransfer	libpapillon/tests/transfer_test.cpp	/^void Transfer_Test::testPayloadTransfer()$/;"	f	class:Transfer_Test
+testStatusMessageGeneration	libpapillon/tests/statusmessage_test.cpp	/^void StatusMessage_Test::testStatusMessageGeneration()$/;"	f	class:StatusMessage_Test
+testStatusMessageParsing	libpapillon/tests/statusmessage_test.cpp	/^void StatusMessage_Test::testStatusMessageParsing()$/;"	f	class:StatusMessage_Test
+testStringArguments	libpapillon/tests/transfer_test.cpp	/^void Transfer_Test::testStringArguments()$/;"	f	class:Transfer_Test
+testTransactionTransfer	libpapillon/tests/transfer_test.cpp	/^void Transfer_Test::testTransactionTransfer()$/;"	f	class:Transfer_Test
+textDebugOutput	libpapillon/tests/papillon_console.cpp	/^	QTextEdit *textDebugOutput;$/;"	m	class:PapillonConsole::PapillonConsole::Private	file:
+ticket	libpapillon/http/tweenerhandler.cpp	/^	QString ticket;$/;"	m	class:Papillon::TweenerHandler::Private	file:
+ticket	libpapillon/http/tweenerhandler.cpp	/^QString TweenerHandler::ticket() const$/;"	f	class:Papillon::TweenerHandler
+ticketReceived	libpapillon/tasks/logintask.cpp	/^void LoginTask::ticketReceived(TweenerHandler *tweenerHandler)$/;"	f	class:Papillon::LoginTask
+tlsError	libpapillon/http/securestream.cpp	/^void SecureStream::tlsError()$/;"	f	class:Papillon::SecureStream
+tlsHandler	libpapillon/http/securestream.cpp	/^	QCA::TLS *tlsHandler;$/;"	m	class:Papillon::SecureStream::Private	file:
+tlsHandshaken	libpapillon/http/securestream.cpp	/^void SecureStream::tlsHandshaken()$/;"	f	class:Papillon::SecureStream
+tlsReadyRead	libpapillon/http/securestream.cpp	/^void SecureStream::tlsReadyRead()$/;"	f	class:Papillon::SecureStream
+tlsReadyWrite	libpapillon/http/securestream.cpp	/^void SecureStream::tlsReadyWrite()$/;"	f	class:Papillon::SecureStream
+toRawCommand	libpapillon/http/httptransfer.cpp	/^QByteArray HttpTransfer::toRawCommand()$/;"	f	class:Papillon::HttpTransfer
+toRawCommand	libpapillon/transfer.cpp	/^QByteArray Transfer::toRawCommand() const$/;"	f	class:Papillon::Transfer
+toString	libpapillon/mimeheader.cpp	/^QString MimeHeader::toString() const$/;"	f	class:Papillon::MimeHeader
+toString	libpapillon/transfer.cpp	/^QString Transfer::toString() const$/;"	f	class:Papillon::Transfer
+toXml	libpapillon/papillonstatusmessage.cpp	/^QString StatusMessage::toXml() const$/;"	f	class:Papillon::StatusMessage
+trId	libpapillon/tests/connector_test.cpp	/^	int trId;$/;"	m	class:Connector_Test::Private	file:
+transactionId	libpapillon/connection.cpp	/^	int transactionId;$/;"	m	class:Papillon::Connection::Private	file:
+transactionId	libpapillon/connection.cpp	/^int Connection::transactionId()$/;"	f	class:Papillon::Connection
+transactionId	libpapillon/transfer.cpp	/^	QString transactionId;$/;"	m	class:Papillon::Transfer::Private	file:
+transactionId	libpapillon/transfer.cpp	/^QString Transfer::transactionId() const$/;"	f	class:Papillon::Transfer
+transfer	libpapillon/task.cpp	/^	Transfer *transfer;$/;"	m	class:Papillon::Task::Private	file:
+transfer	libpapillon/task.cpp	/^Transfer *Task::transfer() const$/;"	f	class:Papillon::Task
+transferQueue	libpapillon/http/httpconnection.cpp	/^	QQueue<HttpTransfer*> transferQueue;$/;"	m	class:Papillon::HttpConnection::Private	file:
+transferQueue	libpapillon/papillonclientstream.cpp	/^	QQueue<Transfer*> transferQueue;$/;"	m	class:Papillon::ClientStream::Private	file:
+transferReceived	libpapillon/connection.cpp	/^void Connection::transferReceived()$/;"	f	class:Papillon::Connection
+transfersAvailable	libpapillon/papillonclientstream.cpp	/^bool ClientStream::transfersAvailable() const$/;"	f	class:Papillon::ClientStream
+tryWrite	libpapillon/base/bytestream.cpp	/^int ByteStream::tryWrite()$/;"	f	class:Papillon::ByteStream
+tryWrite	libpapillon/qtbytestream.cpp	/^int QtByteStream::tryWrite()$/;"	f	class:Papillon::QtByteStream
+tweener	libpapillon/http/tweenerhandler.cpp	/^	QString tweener;$/;"	m	class:Papillon::TweenerHandler::Private	file:
+tweenerTicket	libpapillon/tasks/logintask.cpp	/^	QString tweenerTicket;$/;"	m	class:Papillon::LoginTask::Private	file:
+type	libpapillon/contactlist/sharingservicebinding.cpp	/^QString Member::type() const$/;"	f	class:Papillon::Internal::Member
+type	libpapillon/http/httptransfer.cpp	/^	HttpTransfer::HttpTransferType type;$/;"	m	class:Papillon::HttpTransfer::Private	file:
+type	libpapillon/http/httptransfer.cpp	/^HttpTransfer::HttpTransferType HttpTransfer::type() const$/;"	f	class:Papillon::HttpTransfer
+type	libpapillon/tasks/setpersonalinformationtask.cpp	/^	Papillon::ClientInfo::PersonalInformation type;$/;"	m	class:Papillon::SetPersonalInformationTask::Private	file:
+type	libpapillon/transfer.cpp	/^	Transfer::TransferType type;$/;"	m	class:Papillon::Transfer::Private	file:
+type	libpapillon/transfer.cpp	/^Transfer::TransferType Transfer::type() const$/;"	f	class:Papillon::Transfer
+ui	ui/messengereditaccountwidget.cpp	/^	Ui::MessengerEditAccountUI *ui;$/;"	m	class:MessengerEditAccountWidgetPrivate	file:
+unlock	libpapillon/base/safedelete.cpp	/^void SafeDelete::unlock()$/;"	f	class:SafeDelete
+userContact	libpapillon/client.cpp	/^	UserContact *userContact;$/;"	m	class:Papillon::Client::Private	file:
+userContact	libpapillon/client.cpp	/^UserContact *Client::userContact()$/;"	f	class:Papillon::Client
+validContactId	messengerprotocol.cpp	/^bool MessengerProtocol::validContactId(const QString& userid)$/;"	f	class:MessengerProtocol
+validateData	ui/messengeraddcontactpage.cpp	/^bool MessengerAddContactPage::validateData()$/;"	f	class:MessengerAddContactPage
+validateData	ui/messengereditaccountwidget.cpp	/^bool MessengerEditAccountWidget::validateData()$/;"	f	class:MessengerEditAccountWidget
+value	libpapillon/http/httptransfer.cpp	/^QString HttpTransfer::value(const QString & key) const$/;"	f	class:Papillon::HttpTransfer
+value	libpapillon/mimeheader.cpp	/^QVariant MimeHeader::value(const QString &key) const$/;"	f	class:Papillon::MimeHeader
+value	libpapillon/tasks/setpersonalinformationtask.cpp	/^	QString value;$/;"	m	class:Papillon::SetPersonalInformationTask::Private	file:
+values	libpapillon/http/httptransfer.cpp	/^QList<QPair<QString, QString> > HttpTransfer::values() const$/;"	f	class:Papillon::HttpTransfer
+write	libpapillon/base/bytestream.cpp	/^void ByteStream::write(const QByteArray &a)$/;"	f	class:Papillon::ByteStream
+write	libpapillon/http/httpconnection.cpp	/^void HttpConnection::write(HttpTransfer *transfer)$/;"	f	class:Papillon::HttpConnection
+write	libpapillon/http/securestream.cpp	/^void SecureStream::write(const QByteArray &data)$/;"	f	class:Papillon::SecureStream
+write	libpapillon/papillonclientstream.cpp	/^void ClientStream::write(Transfer *transfer)$/;"	f	class:Papillon::ClientStream
+writeBuf	libpapillon/base/bytestream.cpp	/^	QByteArray readBuf, writeBuf;$/;"	m	class:Papillon::ByteStream::Private	file:
+writeBuf	libpapillon/base/bytestream.cpp	/^QByteArray & ByteStream::writeBuf()$/;"	f	class:Papillon::ByteStream
+writeCommand	libpapillon/client.cpp	/^void Client::writeCommand(Transfer *command)$/;"	f	class:Papillon::Client
+~ByteStream	libpapillon/base/bytestream.cpp	/^ByteStream::~ByteStream()$/;"	f	class:Papillon::ByteStream
+~ChallengeTask	libpapillon/tasks/challengetask.cpp	/^ChallengeTask::~ChallengeTask()$/;"	f	class:Papillon::ChallengeTask
+~Client	libpapillon/client.cpp	/^Client::~Client()$/;"	f	class:Papillon::Client
+~ClientStream	libpapillon/papillonclientstream.cpp	/^ClientStream::~ClientStream()$/;"	f	class:Papillon::ClientStream
+~Connection	libpapillon/connection.cpp	/^Connection::~Connection()$/;"	f	class:Papillon::Connection
+~Connector	libpapillon/base/connector.cpp	/^Connector::~Connector()$/;"	f	class:Papillon::Connector
+~Connector_Test	libpapillon/tests/connector_test.cpp	/^Connector_Test::~Connector_Test()$/;"	f	class:Connector_Test
+~Contact	libpapillon/contact.cpp	/^Contact::~Contact()$/;"	f	class:Papillon::Contact
+~ContactList	libpapillon/contactlist.cpp	/^ContactList::~ContactList()$/;"	f	class:Papillon::ContactList
+~FetchContactListJob	libpapillon/contactlist/fetchcontactlistjob.cpp	/^FetchContactListJob::~FetchContactListJob()$/;"	f	class:Papillon::FetchContactListJob
+~FindMembershipResult	libpapillon/contactlist/sharingservicebinding.cpp	/^FindMembershipResult::~FindMembershipResult()$/;"	f	class:Papillon::Internal::FindMembershipResult
+~HttpConnection	libpapillon/http/httpconnection.cpp	/^HttpConnection::~HttpConnection()$/;"	f	class:Papillon::HttpConnection
+~HttpCoreProtocol	libpapillon/http/httpcoreprotocol.cpp	/^HttpCoreProtocol::~HttpCoreProtocol()$/;"	f	class:Papillon::HttpCoreProtocol
+~HttpTransfer	libpapillon/http/httptransfer.cpp	/^HttpTransfer::~HttpTransfer()$/;"	f	class:Papillon::HttpTransfer
+~LoginTask	libpapillon/tasks/logintask.cpp	/^LoginTask::~LoginTask()$/;"	f	class:Papillon::LoginTask
+~Membership	libpapillon/contactlist/sharingservicebinding.cpp	/^Membership::~Membership()$/;"	f	class:Papillon::Internal::Membership
+~MessengerAccount	messengeraccount.cpp	/^MessengerAccount::~MessengerAccount()$/;"	f	class:MessengerAccount
+~MessengerAccountPrivate	messengeraccount.cpp	/^		~MessengerAccountPrivate()$/;"	f	class:MessengerAccountPrivate
+~MessengerAddContactPage	ui/messengeraddcontactpage.cpp	/^MessengerAddContactPage::~MessengerAddContactPage()$/;"	f	class:MessengerAddContactPage
+~MessengerContactInfo	messengercontactinfo.cpp	/^MessengerContactInfo::~MessengerContactInfo()$/;"	f	class:MessengerContactInfo
+~MessengerCoreProtocol	libpapillon/messengercoreprotocol.cpp	/^MessengerCoreProtocol::~MessengerCoreProtocol()$/;"	f	class:Papillon::MessengerCoreProtocol
+~MessengerEditAccountWidget	ui/messengereditaccountwidget.cpp	/^MessengerEditAccountWidget::~MessengerEditAccountWidget()$/;"	f	class:MessengerEditAccountWidget
+~MessengerUserInfoWidget	ui/messengeruserinfowidget.cpp	/^MessengerUserInfoWidget::~MessengerUserInfoWidget()$/;"	f	class:MessengerUserInfoWidget
+~MimeHeader	libpapillon/mimeheader.cpp	/^MimeHeader::~MimeHeader()$/;"	f	class:Papillon::MimeHeader
+~NotifyMessageTask	libpapillon/tasks/notifymessagetask.cpp	/^NotifyMessageTask::~NotifyMessageTask()$/;"	f	class:Papillon::NotifyMessageTask
+~NotifyPresenceTask	libpapillon/tasks/notifypresencetask.cpp	/^NotifyPresenceTask::~NotifyPresenceTask()$/;"	f	class:Papillon::NotifyPresenceTask
+~NotifyStatusMessageTask	libpapillon/tasks/notifystatusmessagetask.cpp	/^NotifyStatusMessageTask::~NotifyStatusMessageTask()$/;"	f	class:Papillon::NotifyStatusMessageTask
+~PapillonConsole	libpapillon/tests/papillon_console.cpp	/^PapillonConsole::~PapillonConsole()$/;"	f	class:PapillonConsole::PapillonConsole
+~Private	libpapillon/connection.cpp	/^	~Private()$/;"	f	class:Papillon::Connection::Private
+~Private	libpapillon/contactlist.cpp	/^	~Private()$/;"	f	class:Papillon::ContactList::Private
+~Private	libpapillon/http/httpconnection.cpp	/^	~Private()$/;"	f	class:Papillon::HttpConnection::Private
+~Private	libpapillon/http/httptransfer.cpp	/^	~Private()$/;"	f	class:Papillon::HttpTransfer::Private
+~Private	libpapillon/http/securestream.cpp	/^	~Private()$/;"	f	class:Papillon::SecureStream::Private
+~Private	libpapillon/http/tweenerhandler.cpp	/^	~Private()$/;"	f	class:Papillon::TweenerHandler::Private
+~Private	libpapillon/messengercoreprotocol.cpp	/^	~Private()$/;"	f	class:Papillon::MessengerCoreProtocol::Private
+~Private	libpapillon/papillonclientstream.cpp	/^	~Private()$/;"	f	class:Papillon::ClientStream::Private
+~Private	libpapillon/tests/papillon_console.cpp	/^	~Private()$/;"	f	class:PapillonConsole::PapillonConsole::Private
+~QtByteStream	libpapillon/qtbytestream.cpp	/^QtByteStream::~QtByteStream()$/;"	f	class:Papillon::QtByteStream
+~QtConnector	libpapillon/qtconnector.cpp	/^QtConnector::~QtConnector()$/;"	f	class:Papillon::QtConnector
+~SafeDelete	libpapillon/base/safedelete.cpp	/^SafeDelete::~SafeDelete()$/;"	f	class:SafeDelete
+~SafeDeleteLater	libpapillon/base/safedelete.cpp	/^SafeDeleteLater::~SafeDeleteLater()$/;"	f	class:SafeDeleteLater
+~SafeDeleteLock	libpapillon/base/safedelete.cpp	/^SafeDeleteLock::~SafeDeleteLock()$/;"	f	class:SafeDeleteLock
+~SecureStream	libpapillon/http/securestream.cpp	/^SecureStream::~SecureStream()$/;"	f	class:Papillon::SecureStream
+~Service	libpapillon/contactlist/sharingservicebinding.cpp	/^Service::~Service()$/;"	f	class:Papillon::Internal::Service
+~SetPersonalInformationTask	libpapillon/tasks/setpersonalinformationtask.cpp	/^SetPersonalInformationTask::~SetPersonalInformationTask()$/;"	f	class:Papillon::SetPersonalInformationTask
+~SetPresenceTask	libpapillon/tasks/setpresencetask.cpp	/^SetPresenceTask::~SetPresenceTask()$/;"	f	class:Papillon::SetPresenceTask
+~SetStatusMessageTask	libpapillon/tasks/setstatusmessagetask.cpp	/^SetStatusMessageTask::~SetStatusMessageTask()$/;"	f	class:Papillon::SetStatusMessageTask
+~SharingServiceBinding	libpapillon/contactlist/sharingservicebinding.cpp	/^SharingServiceBinding::~SharingServiceBinding()$/;"	f	class:Papillon::Internal::SharingServiceBinding
+~StatusMessage	libpapillon/papillonstatusmessage.cpp	/^StatusMessage::~StatusMessage()$/;"	f	class:Papillon::StatusMessage
+~Stream	libpapillon/base/stream.cpp	/^Stream::~Stream()$/;"	f	class:Papillon::Stream
+~Task	libpapillon/task.cpp	/^Task::~Task()$/;"	f	class:Papillon::Task
+~Transfer	libpapillon/transfer.cpp	/^Transfer::~Transfer()$/;"	f	class:Papillon::Transfer
+~TweenerHandler	libpapillon/http/tweenerhandler.cpp	/^TweenerHandler::~TweenerHandler()$/;"	f	class:Papillon::TweenerHandler
+~UserContact	libpapillon/usercontact.cpp	/^UserContact::~UserContact()$/;"	f	class:Papillon::UserContact
