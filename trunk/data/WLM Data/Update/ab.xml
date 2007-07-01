@@ -1,0 +1,31 @@
+https://by6.omega.contacts.msn.com/abservice/abservice.asmx
+------
+POST /abservice/abservice.asmx HTTP/1.1
+Accept: text/*
+SOAPAction: http://www.msn.com/webservices/AddressBook/ABFindAll
+Content-Type: text/xml; charset=utf-8
+User-Agent: MSN Explorer/9.0 (MSN 8.0; TmstmpExt)
+Host: by6.omega.contacts.msn.com
+Content-Length: 1879
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"><soap:Header><ABApplicationHeader xmlns="http://www.msn.com/webservices/AddressBook"><ApplicationId>996CDE1E-AA53-4477-B943-2BE802EA6166</ApplicationId><IsMigration>false</IsMigration><PartnerScenario>Initial</PartnerScenario><CacheKey>12r3:oor7v1zvsCWKJuVkuHVD/V55/HcIjzfc4Z5yujljk7X2iRmabuQZYoRj05nUyeUKxPMHJQe1OXEU7U/edeCmIcjQJ37EZJ/JyZkPbybDES3l68dsD4hWc5jGU6Xi9yd2dbPusrpDvDG0FOD3LYKUlYdQf4xs3Txlo4btPDbIUr4=</CacheKey></ABApplicationHeader><ABAuthHeader xmlns="http://www.msn.com/webservices/AddressBook"><ManagedGroupRequest>false</ManagedGroupRequest><TicketToken>t=EwDIAcBdAAAU7/9PdvvYJ23zPPtor/FYp6zOOb+AADdyfmtG1Zfw3oZDJ9HJgwJPGj+T5TmFHq9dgM6yVb1dt0MjtExekAvS4CgCSaVHQ7T54IcDAR5ywVZBLHGfQGV2+5SdsxSLAno+pekdJhrGwZIl9ChG77ZHrSsuc4vlh+FWIHDHb4o2yf2oUvd2n+txQppFBRaA+xpGI5mbQnJ1A2YAAAjKdNXlOwo7fRgBKHz4aHLM5JRT7iju6yI0WbtlsFAcdXoFk4zPcfLzZ2+CNqUlIjgZNJ9zHMLGl5CCEa4phV1IvhLaCzx2/s+R0tgxNgJXwRc9rdfNDn7ifioWCoB1tr8z6yVaWWvT3mI5lMVXBLHWsh0shO2sJkSNl6QAYyFTDgdeve3X0/x9fzBIbKWqokupYqhFJErUhg7bS7ftdtVNz5+CPaVpDjE/6VP/7xy1Fjisq1vnRgtHalqQgSWhPotUXU0Ucs9y4WInAWDblStrWNSonD6tEsoo8VmwnC35af+r4iBLL/X5g2tA8Bll+5n4fGnwD5vJaRKy9ncg3YF3nr8NmsVjkZ7eYp1DW6NrH4qpSeM40eaz5ymYyR24fZyKezAB&amp;p=</TicketToken></ABAuthHeader></soap:Header><soap:Body><ABFindAll xmlns="http://www.msn.com/webservices/AddressBook"><abId>00000000-0000-0000-0000-000000000000</abId><abView>Full</abView><deltasOnly>true</deltasOnly><lastChange>2007-06-06T10:15:28.373-07:00</lastChange><dynamicItemView>Gleam</dynamicItemView><dynamicItemLastChange>2007-06-06T10:14:29.357-07:00</dynamicItemLastChange></ABFindAll></soap:Body></soap:Envelope>
+======
+HTTP/1.1 200 OK
+Date: Thu, 07 Jun 2007 17:23:32 GMT
+Server: Microsoft-IIS/6.0
+P3P:CP="BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo"
+X-Powered-By: ASP.NET
+X-MSNSERVER: BY2ABCHWB123
+X-AspNet-Version: 2.0.50727
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Content-Length: 2098
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Header><ServiceHeader xmlns="http://www.msn.com/webservices/AddressBook"><Version>12.03.1527.0001
+</Version><CacheKeyChanged>false</CacheKeyChanged><PreferredHostName>by6.omega.contacts.msn.com</PreferredHostName></ServiceHeader></soap:Header><soap:Body><ABFindAllResponse xmlns="http://www.msn.com/webservices/AddressBook"><ABFindAllResult><CircleResult><CircleTicket>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SignedTicket xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ver="1" keyVer="1"&gt;
+  &lt;Data&gt;PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTE2Ij8+DQo8VGlja2V0IHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiPg0KICA8VFM+MjAwNy0wNi0wN1QxNzoyMzozMi41MTM2ODJaPC9UUz4NCiAgPENJRD44NjYwNjY2NzAxOTE5MzE0MjQ8L0NJRD4NCjwvVGlja2V0Pg==&lt;/Data&gt;
+  &lt;Sig&gt;JRxsOjjVoMVEHsUFLGJ55dDDzaaRL8T/OTNytwRNp+rd+eaNdJSLNdLRKsWsRHFcZqLO0V4lKOrXnJxizWCAXKHtP27UqS9zQwRDnnbkrl6Lp52hDt04eIgzdaYWD3kyXIUWm7yAHvQeLjH/rIPjLHppUcaZhVMcuhY7O4JCh4U=&lt;/Sig&gt;
+&lt;/SignedTicket&gt;</CircleTicket></CircleResult><ab><abId>00000000-0000-0000-0000-000000000000</abId><abInfo><ownerPuid>0</ownerPuid><OwnerCID>866066670191931424</OwnerCID><ownerEmail>kopetesoc@hotmail.com</ownerEmail><fDefault>true</fDefault><joinedNamespace>false</joinedNamespace><IsBot>false</IsBot><IsParentManaged>false</IsParentManaged><SubscribeExternalPartner>false</SubscribeExternalPartner><NotifyExternalPartner>false</NotifyExternalPartner><AddressBookType>Individual</AddressBookType></abInfo><lastChange>2007-06-06T10:15:28.373-07:00</lastChange><DynamicItemLastChanged>2007-06-06T10:14:29.357-07:00</DynamicItemLastChanged><createDate>2007-03-10T00:09:11.543-08:00</createDate><propertiesChanged /></ab></ABFindAllResult></ABFindAllResponse></soap:Body></soap:Envelope>
